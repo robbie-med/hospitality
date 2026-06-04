@@ -1,0 +1,676 @@
+{
+  "lang": "en",
+  "dir": "ltr",
+  "nav": {
+    "brand": "The Gracious Home",
+    "home": "Home",
+    "competencies": "The Calling",
+    "manifesto": "Manifesto",
+    "thinkers": "Voices",
+    "planner": "Planner",
+    "menuAriaLabel": "Toggle menu"
+  },
+  "landing": {
+    "eyebrow": "A Biblical Vision for the Home",
+    "title": "Welcome Home,\nWelcome Others",
+    "subtitle": "A four-part guide to the art and calling of homemaking — grounded in Scripture, shaped by Reformed thought, expressed through hospitality.",
+    "ctaPrimary": "Begin with the Calling",
+    "ctaPrimaryHref": "competencies.html",
+    "cards": [
+      {
+        "icon": "❤",
+        "title": "The Calling",
+        "desc": "Ten core competencies of the faithful homemaker — spiritual, domestic, relational, and creative — each grounded in Scripture.",
+        "link": "competencies.html",
+        "linkText": "Explore →"
+      },
+      {
+        "icon": "📜",
+        "title": "The Manifesto",
+        "desc": "A seven-pillar theology of hospitality drawn from Scripture — from Hebrews 13 to Luke 14 to Matthew 25.",
+        "link": "manifesto.html",
+        "linkText": "Read →"
+      },
+      {
+        "icon": "📚",
+        "title": "Voices from History",
+        "desc": "How Puritan, Reformed, and 20th-century thinkers articulated the theology of home — from William Gouge to Edith Schaeffer.",
+        "link": "thinkers.html",
+        "linkText": "Explore →"
+      },
+      {
+        "icon": "📋",
+        "title": "Hospitality Planner",
+        "desc": "A six-step interactive tool: Who, Why, When, Where, What, and How — for your next intentional act of hospitality.",
+        "link": "planner.html",
+        "linkText": "Open →"
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "A Biblical Vision",
+    "title": "Welcome Home,\nWelcome Others",
+    "subtitle": "A guide to the art and calling of homemaking — grounded in Scripture, shaped by love, expressed through hospitality.",
+    "ctaPrimary": "Explore the Calling",
+    "ctaSecondary": "Open the Planner",
+    "verse": "\"She opens her hand to the poor and reaches out her hands to the needy.\"",
+    "verseRef": "Proverbs 31:20"
+  },
+  "competencies": {
+    "sectionLabel": "Section One",
+    "title": "Core Competencies of a Homemaker & Wife",
+    "intro": "These are not burdens imposed from outside, but gifts cultivated from within — each one an expression of love, wisdom, and faithful stewardship of the home God entrusts to her care.",
+    "practicesTitle": "Expressions",
+    "items": [
+      {
+        "icon": "✡",
+        "title": "Spiritual Anchor",
+        "description": "She roots her home in prayer, Scripture, and worship. Her fear of the Lord is the foundation on which all other competencies rest (Prov. 31:30).",
+        "practices": ["Daily personal devotion & prayer", "Leading family in Scripture and worship", "Cultivating a home atmosphere of peace and faith", "Modeling repentance, grace, and forgiveness"]
+      },
+      {
+        "icon": "⌂",
+        "title": "Household Stewardship",
+        "description": "She watches over the affairs of her household with diligence — managing time, resources, and space with intentionality (Prov. 31:27).",
+        "practices": ["Maintaining order, cleanliness, and beauty", "Budgeting and financial stewardship", "Meal planning and provisioning", "Seasonal rhythms and household routines"]
+      },
+      {
+        "icon": "☕",
+        "title": "Nourishment & Culinary Art",
+        "description": "She provides food for her household and guests with skill and generosity — the table is her instrument of love (Prov. 31:15).",
+        "practices": ["Cooking wholesome, nourishing meals", "Baking and preserving seasonal foods", "Setting a welcoming table", "Adapting to dietary needs of guests"]
+      },
+      {
+        "icon": "❤",
+        "title": "Nurturing & Caregiving",
+        "description": "She pours herself into the emotional, physical, and spiritual wellbeing of her husband, children, and household (Titus 2:4–5).",
+        "practices": ["Attentive presence with husband and children", "Recognizing and meeting emotional needs", "Caring for the sick, elderly, or weak", "Teaching and discipling her children"]
+      },
+      {
+        "icon": "☷",
+        "title": "Hospitality & Welcome",
+        "description": "Her home is a refuge for family, friends, strangers, and the lonely. She makes people feel seen, safe, and celebrated (1 Pet. 4:9; Heb. 13:2).",
+        "practices": ["Keeping a home prepared to receive guests", "Hosting meals, gatherings, and overnight guests", "Welcoming the stranger and the marginalized", "Creating warmth and belonging"]
+      },
+      {
+        "icon": "✎",
+        "title": "Creative Excellence",
+        "description": "She brings beauty, craft, and creativity into the home — from décor to handcraft to aesthetics that reflect dignity and delight (Prov. 31:22).",
+        "practices": ["Decorating with intention and beauty", "Sewing, crafting, or artisan skills", "Cultivating a home that reflects care", "Seasonal and celebratory adornment"]
+      },
+      {
+        "icon": "💬",
+        "title": "Wise Communication",
+        "description": "She speaks with wisdom and kindness — her tongue builds up rather than tears down (Prov. 31:26; Eph. 4:29).",
+        "practices": ["Speaking words of affirmation and encouragement", "Listening with empathy and without judgment", "Navigating conflict with grace and truth", "Teaching others through her words and example"]
+      },
+      {
+        "icon": "⚒",
+        "title": "Industry & Enterprise",
+        "description": "She is not idle — she works with eager hands, contributing to the prosperity of her household (Prov. 31:17–18, 24).",
+        "practices": ["Managing or contributing to household income", "Time management and productivity", "Planning and executing long-term goals", "Learning and growing new skills"]
+      },
+      {
+        "icon": "🌿",
+        "title": "Community & Friendship",
+        "description": "She is embedded in community — giving generously, supporting other women, and building relational networks of care (Gal. 6:2; Titus 2:3–5).",
+        "practices": ["Investing in friendships and neighborly relationships", "Mentoring younger women", "Serving and giving to those in need", "Being an active member of her church family"]
+      },
+      {
+        "icon": "★",
+        "title": "Physical & Emotional Wellness",
+        "description": "She attends to her own strength — she cannot pour from an empty vessel. Sabbath rest is an act of faithfulness (Prov. 31:17).",
+        "practices": ["Maintaining physical health and energy", "Practicing Sabbath and restorative rest", "Emotional self-awareness and boundaries", "Seeking help and support when needed"]
+      }
+    ]
+  },
+  "manifesto": {
+    "sectionLabel": "Section Two",
+    "title": "A Biblical Manifesto for Hospitality",
+    "intro": "Hospitality is not a personality trait or a lifestyle aesthetic. It is a command, a calling, and a participation in the very welcome God extends to us through the gospel.",
+    "preamble": {
+      "title": "Preamble: The God Who Welcomes",
+      "body": "Before we can understand the call to hospitality, we must understand the God who models it. From the beginning, God prepared a garden-home for humanity — a place of provision, beauty, rest, and communion. When humanity broke fellowship with Him through sin, God did not abandon the project of welcome. He set in motion a plan to bring His exiled children home, culminating in the person of Jesus Christ, who \"came to seek and save the lost\" (Luke 19:10) and who promises that in His Father's house are \"many rooms\" prepared for those who love Him (John 14:2). Hospitality, then, is not an invented virtue. It is an <em>imitation of God</em>."
+    },
+    "pillars": [
+      {
+        "number": "I",
+        "title": "We Believe Hospitality Is a Command, Not a Suggestion",
+        "scriptures": [
+          {"verse": "\"Contribute to the needs of the saints and seek to show hospitality.\"", "ref": "Romans 12:13"},
+          {"verse": "\"Show hospitality to one another without grumbling.\"", "ref": "1 Peter 4:9"}
+        ],
+        "body": "Scripture does not suggest we be hospitable when it is convenient or comfortable. It commands it — plainly, repeatedly, and alongside other moral imperatives like love, generosity, and truth-telling. The hospitable home is not optional obedience. It is the norm of Christian life.",
+        "charge": null
+      },
+      {
+        "number": "II",
+        "title": "We Believe the Stranger Is to Be Welcomed, Not Feared",
+        "scriptures": [
+          {"verse": "\"Do not neglect to show hospitality to strangers, for thereby some have entertained angels unawares.\"", "ref": "Hebrews 13:2"},
+          {"verse": "\"The stranger who sojourns with you shall be to you as the native among you, and you shall love him as yourself.\"", "ref": "Leviticus 19:34"}
+        ],
+        "body": "The biblical vision of hospitality extends far beyond the familiar. The Greek word <em>philoxenia</em> — translated \"hospitality\" — literally means \"love of the stranger.\" Israel was commanded to remember they were once strangers in Egypt (Deut. 10:19). We extend welcome because we were welcomed when we were aliens and outsiders (Eph. 2:12–13).",
+        "charge": null
+      },
+      {
+        "number": "III",
+        "title": "We Believe the Table Is a Theological Act",
+        "scriptures": [
+          {"verse": "\"When you give a dinner or a banquet, do not invite your friends or your relatives or rich neighbors... But when you give a feast, invite the poor, the crippled, the lame, the blind.\"", "ref": "Luke 14:12–13"}
+        ],
+        "body": "Jesus redefined the guest list. The table is not for social reciprocity — it is for grace. It is a foretaste of the great wedding supper of the Lamb, where people will come from east and west, from north and south (Luke 13:29). Every meal shared in love is a small eschatological sign of that coming feast. The home table is a sanctuary of grace.",
+        "charge": null
+      },
+      {
+        "number": "IV",
+        "title": "We Believe Hospitality Requires Presence, Not Perfection",
+        "scriptures": [
+          {"verse": "\"Martha, Martha, you are anxious and troubled about many things, but one thing is necessary. Mary has chosen the good portion.\"", "ref": "Luke 10:41–42"}
+        ],
+        "body": "The story of Mary and Martha is not a rejection of Martha's service — it is a rebuke of her anxiety. Hospitality is not about performance. It is about presence. The goal is not an impressive table; the goal is that your guest encounters love. A simple meal offered with full attention surpasses a feast offered with distraction and stress.",
+        "charge": null
+      },
+      {
+        "number": "V",
+        "title": "We Believe Hospitality Ministers to Christ Himself",
+        "scriptures": [
+          {"verse": "\"For I was hungry and you gave me food, I was thirsty and you gave me drink, I was a stranger and you welcomed me... as you did it to one of the least of these my brothers, you did it to me.\"", "ref": "Matthew 25:35, 40"}
+        ],
+        "body": "The most radical truth about Christian hospitality is this: in welcoming others, we welcome Christ. He meets us in the face of the stranger, the widow, the lonely neighbor, the grieving friend. To close the door to them is to close the door to Him. To open the door is to open it to our Lord.",
+        "charge": null
+      },
+      {
+        "number": "VI",
+        "title": "We Believe the Hospitable Woman Reflects the Heart of the Church",
+        "scriptures": [
+          {"verse": "\"She opens her hand to the poor and reaches out her hands to the needy... She is not afraid of snow for her household, for all her household are clothed in scarlet.\"", "ref": "Proverbs 31:20–21"},
+          {"verse": "\"She has been hospitable... She has devoted herself to every good work.\"", "ref": "1 Timothy 5:10"}
+        ],
+        "body": "The Proverbs 31 woman is generous, prepared, and forward-thinking in her care for others. The widow Paul commends is remembered for her hospitality. The godly woman does not merely manage a household for herself — she opens it for others. Her home becomes a microcosm of the church: a community of welcome, service, and love.",
+        "charge": null
+      },
+      {
+        "number": "VII",
+        "title": "We Commit to a Household of Open Doors",
+        "scriptures": [],
+        "body": "Therefore, we commit to keeping our home as a place of welcome. We will hold our space, time, food, and comfort loosely — as gifts from God to be shared with others. We will not allow busyness, perfectionism, or fear to become excuses for a closed door. We will pray for eyes to see who needs welcome, hands ready to serve, and a table always prepared to receive.",
+        "charge": "We do this not to be seen, not to be repaid, and not to impress — but because we have been welcomed by a God of infinite grace, and we are compelled by love to pass that welcome on."
+      }
+    ]
+  },
+  "planner": {
+    "sectionLabel": "Section Three",
+    "title": "The Hospitality Planner",
+    "intro": "Answer the six questions — Who, What, How, When, Where, and Why — to build a complete, intentional plan for your next act of hospitality.",
+    "progressLabels": ["Who", "Why", "When", "Where", "What", "How", "Plan"],
+    "steps": {
+      "who": {
+        "stepLabel": "Step 1 of 6",
+        "title": "Who will you welcome?",
+        "description": "Identify the person or group you feel called to invite. Choose a category, then describe them more specifically below.",
+        "guestCategory": {
+          "label": "Category of Guest",
+          "options": [
+            {"value": "family", "label": "Family"},
+            {"value": "friends", "label": "Close Friends"},
+            {"value": "neighbors", "label": "Neighbors"},
+            {"value": "strangers", "label": "Strangers / New Acquaintances"},
+            {"value": "lonely", "label": "The Lonely / Isolated"},
+            {"value": "grieving", "label": "The Grieving"},
+            {"value": "new-believers", "label": "New Believers"},
+            {"value": "unbelievers", "label": "Unbelieving Friends"},
+            {"value": "church", "label": "Church Community"},
+            {"value": "poor", "label": "The Poor / Marginalized"}
+          ]
+        },
+        "guestName": {
+          "label": "Who specifically? (name, group, or description)",
+          "placeholder": "e.g., The new family from church, my neighbor Lisa, college students..."
+        },
+        "guestNeeds": {
+          "label": "What do you know about their needs or current situation?",
+          "placeholder": "e.g., Recently moved to town, going through a difficult season, don't have many local connections..."
+        },
+        "groupSize": {
+          "label": "Approximate group size",
+          "options": [
+            {"value": "1", "label": "1 person"},
+            {"value": "2-4", "label": "2–4 people"},
+            {"value": "5-8", "label": "5–8 people"},
+            {"value": "9-15", "label": "9–15 people"},
+            {"value": "16+", "label": "16+ people"}
+          ]
+        },
+        "scripture": "\"Do not forget to show hospitality to strangers, for by so doing some have shown hospitality to angels without knowing it.\" — Hebrews 13:2"
+      },
+      "why": {
+        "stepLabel": "Step 2 of 6",
+        "title": "Why are you extending this hospitality?",
+        "description": "Clarity of purpose shapes everything — from the tone of the gathering to how you prepare your heart.",
+        "motivation": {
+          "label": "Primary motivation (choose all that apply)",
+          "options": [
+            {"value": "obedience", "label": "Obedience to Scripture"},
+            {"value": "love", "label": "Love for this person / people"},
+            {"value": "evangelism", "label": "Share the gospel / point to Jesus"},
+            {"value": "community", "label": "Build community & belonging"},
+            {"value": "comfort", "label": "Comfort someone in pain"},
+            {"value": "celebrate", "label": "Celebrate a milestone or blessing"},
+            {"value": "serve", "label": "Practical service / meet a need"},
+            {"value": "disciple", "label": "Disciple or mentor"},
+            {"value": "welcome", "label": "Help someone feel welcomed / seen"}
+          ]
+        },
+        "whyStatement": {
+          "label": "Write your \"why\" in one or two sentences",
+          "placeholder": "e.g., I want Sarah to know she is not alone after her miscarriage, and that our home is a safe place for her grief..."
+        },
+        "prayerIntent": {
+          "label": "What do you want to pray for this person/gathering?",
+          "placeholder": "e.g., That they would feel the love of God through our home, that conversation would open doors to their heart..."
+        },
+        "scripture": "\"We love because he first loved us.\" — 1 John 4:19"
+      },
+      "when": {
+        "stepLabel": "Step 3 of 6",
+        "title": "When will you extend this welcome?",
+        "description": "Choose a time that is intentional and doable — then guard it as you would any other commitment.",
+        "eventDate": {
+          "label": "Target date or timeframe",
+          "placeholder": "e.g., This Saturday, within the next two weeks, the first Sunday of the month..."
+        },
+        "mealSlot": {
+          "label": "Time of day / meal slot",
+          "options": [
+            {"value": "breakfast", "label": "Breakfast / Morning"},
+            {"value": "brunch", "label": "Brunch"},
+            {"value": "lunch", "label": "Lunch"},
+            {"value": "afternoon", "label": "Afternoon / Tea"},
+            {"value": "dinner", "label": "Dinner"},
+            {"value": "overnight", "label": "Overnight / Weekend"},
+            {"value": "flexible", "label": "Flexible / Drop-in"}
+          ]
+        },
+        "duration": {
+          "label": "Estimated duration",
+          "placeholder": "e.g., 2 hours, all afternoon, the whole weekend..."
+        },
+        "prepTime": {
+          "label": "Preparation lead time available",
+          "placeholder": "e.g., 3 days, 1 week..."
+        },
+        "scripture": "\"She gets up while it is still night; she provides food for her family and portions for her female servants.\" — Proverbs 31:15"
+      },
+      "where": {
+        "stepLabel": "Step 4 of 6",
+        "title": "Where will you host?",
+        "description": "The setting shapes the experience. Choose the location that best serves your guests and your purpose.",
+        "location": {
+          "label": "Primary location",
+          "options": [
+            {"value": "home-inside", "label": "My home (indoors)"},
+            {"value": "home-outside", "label": "My home (backyard / patio)"},
+            {"value": "their-home", "label": "Their home (I bring the food/care)"},
+            {"value": "church", "label": "Church building or gathering space"},
+            {"value": "park", "label": "Park or outdoor space"},
+            {"value": "restaurant", "label": "Restaurant or café"},
+            {"value": "hospital", "label": "Hospital or care facility"},
+            {"value": "neighborhood", "label": "Neighborhood or street"}
+          ]
+        },
+        "spaceNotes": {
+          "label": "Any notes on space preparation or accessibility?",
+          "placeholder": "e.g., Need to set up the guest room, borrow extra chairs, consider wheelchair access..."
+        },
+        "atmosphere": {
+          "label": "Atmosphere goal",
+          "options": [
+            {"value": "warm", "label": "Warm & cozy"},
+            {"value": "joyful", "label": "Joyful & celebratory"},
+            {"value": "peaceful", "label": "Quiet & restful"},
+            {"value": "safe", "label": "Safe & unhurried"},
+            {"value": "energetic", "label": "Lively & energetic"},
+            {"value": "formal", "label": "Dignified & special"}
+          ]
+        },
+        "scripture": "\"Better is a dinner of herbs where love is than a fattened ox and hatred with it.\" — Proverbs 15:17"
+      },
+      "what": {
+        "stepLabel": "Step 5 of 6",
+        "title": "What will you offer?",
+        "description": "Think through the practical gifts of food, activity, and provision you will bring to your guests.",
+        "foodType": {
+          "label": "Type of food / meal",
+          "options": [
+            {"value": "full-meal", "label": "Full home-cooked meal"},
+            {"value": "simple-meal", "label": "Simple / easy meal"},
+            {"value": "baked-goods", "label": "Baked goods / treat"},
+            {"value": "snacks", "label": "Snacks & beverages"},
+            {"value": "potluck", "label": "Potluck / everyone brings something"},
+            {"value": "catered", "label": "Ordered / catered food"},
+            {"value": "meal-delivery", "label": "Meal delivered to them"},
+            {"value": "no-food", "label": "No food — presence only"}
+          ]
+        },
+        "menuIdeas": {
+          "label": "Menu ideas or specific dishes",
+          "placeholder": "e.g., Pot roast, salad, sourdough bread, apple pie; or simple pasta with salad and garlic bread..."
+        },
+        "activities": {
+          "label": "Activities or experiences to offer",
+          "options": [
+            {"value": "conversation", "label": "Deep conversation"},
+            {"value": "games", "label": "Games or fun"},
+            {"value": "prayer", "label": "Prayer together"},
+            {"value": "bible", "label": "Bible study or devotion"},
+            {"value": "worship", "label": "Worship / music"},
+            {"value": "children", "label": "Child-friendly activities"},
+            {"value": "creative", "label": "Craft or creative activity"},
+            {"value": "rest", "label": "Rest & quiet"},
+            {"value": "outdoors", "label": "Outdoor activity"}
+          ]
+        },
+        "specialNeeds": {
+          "label": "Any dietary restrictions or special needs to accommodate?",
+          "placeholder": "e.g., Gluten-free, nut allergy, vegetarian, young children present..."
+        },
+        "scripture": "\"She looks well to the ways of her household and does not eat the bread of idleness.\" — Proverbs 31:27"
+      },
+      "how": {
+        "stepLabel": "Step 6 of 6",
+        "title": "How will you prepare — practically and spiritually?",
+        "description": "Great hospitality flows from preparation of both the home and the heart.",
+        "prepChecklist": {
+          "label": "Practical preparation checklist",
+          "options": [
+            {"value": "invite", "label": "Send invitation or personally reach out"},
+            {"value": "plan-menu", "label": "Plan and shop for the menu"},
+            {"value": "clean", "label": "Clean and prepare the home space"},
+            {"value": "set-table", "label": "Set a welcoming table"},
+            {"value": "guest-room", "label": "Prepare guest room / sleeping arrangements"},
+            {"value": "activities-ready", "label": "Prepare activities or conversation starters"},
+            {"value": "confirm", "label": "Confirm time/details with guests beforehand"},
+            {"value": "childcare", "label": "Arrange childcare or include children in plans"}
+          ]
+        },
+        "heartChecklist": {
+          "label": "Heart preparation",
+          "options": [
+            {"value": "pray-for-guest", "label": "Pray specifically for each guest by name"},
+            {"value": "pray-for-self", "label": "Ask God for love, patience, and presence"},
+            {"value": "release-perfection", "label": "Release the need for perfection"},
+            {"value": "remember-why", "label": "Re-read your \"why\" statement before they arrive"},
+            {"value": "be-present", "label": "Commit to being fully present, not distracted"},
+            {"value": "serve-joyfully", "label": "Choose to serve joyfully, without resentment"}
+          ]
+        },
+        "helpNeeded": {
+          "label": "Who can help you prepare? (delegate something)",
+          "placeholder": "e.g., Husband picks up groceries, kids set the table, friend brings dessert..."
+        },
+        "extraNotes": {
+          "label": "Any other notes or intentions for this gathering",
+          "placeholder": "e.g., I want to make sure to ask Sarah about her job search. I want to end the evening with prayer together..."
+        },
+        "scripture": "\"Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.\" — Colossians 3:23"
+      }
+    },
+    "plan": {
+      "stepLabel": "Your Hospitality Plan",
+      "title": "Your Plan Is Ready",
+      "description": "Here is your complete hospitality plan. Print it, save it, or simply carry it in your heart.",
+      "printBtn": "Print / Save as PDF",
+      "startOverBtn": "Start a New Plan",
+      "planTitle": "Hospitality Plan",
+      "sections": {
+        "who": "Who",
+        "why": "Why",
+        "when": "When",
+        "where": "Where",
+        "what": "What",
+        "how": "How — Preparation"
+      },
+      "labels": {
+        "guests": "Guest(s):",
+        "situation": "Their situation:",
+        "myWhy": "My why:",
+        "prayer": "Prayer intention:",
+        "dateTime": "Date/Time:",
+        "duration": "Duration:",
+        "prepWindow": "Prep window:",
+        "atmosphere": "Atmosphere:",
+        "spaceNotes": "Space notes:",
+        "food": "Food:",
+        "menuIdeas": "Menu ideas:",
+        "activities": "Activities:",
+        "specialNeeds": "Special needs:",
+        "practicalTasks": "Practical tasks:",
+        "heartPrep": "Heart preparation:",
+        "helpers": "Helpers:",
+        "notes": "Additional notes:",
+        "notSpecified": "Not specified",
+        "noneSelected": "None selected"
+      },
+      "closingVerse": "\"When you give a feast, invite the poor, the crippled, the lame, the blind, and you will be blessed, because they cannot repay you.\"",
+      "closingRef": "— Luke 14:13–14",
+      "createdOn": "Created on"
+    }
+  },
+  "schaeffer": {
+    "navLabel": "Edith Schaeffer",
+    "sectionLabel": "A Voice from History",
+    "eyebrow": "Edith Schaeffer · 1914–2013",
+    "title": "The Hidden Art of Homemaking",
+    "intro": "Few voices in the twentieth century spoke with more theological depth and practical beauty about homemaking than Edith Schaeffer — missionary, author, artist, hostess, and co-founder of L'Abri Fellowship. Her work gives the calling of homemaker a richly grounded, beautifully articulated vision that still speaks today.",
+    "bioTitle": "Who Was Edith Schaeffer?",
+    "bio": "Born in China in 1914 to missionary parents (her Chinese name, Mei Fuh, means \"beautiful happiness\"), Edith married Francis Schaeffer in 1935. Together they co-founded L'Abri Fellowship in Switzerland in 1955 — a community of radical hospitality where seekers, skeptics, and the spiritually wounded could come with honest questions. She authored or co-authored more than 20 books and was listed among 100 Christian Women Who Changed the Twentieth Century. Her signature work, The Hidden Art of Homemaking (1971), remains the most theologically rich treatment of domestic creativity in evangelical literature.",
+    "themes": [
+      {
+        "icon": "✦",
+        "title": "The First Artist: Imago Dei as Foundation",
+        "body": "Schaeffer's entire vision of homemaking rests on one premise: because God is the first and supreme Artist — who made a world of beauty, variety, and design — human beings made in His image carry a creative impulse that must be expressed, not suppressed. Creativity in the home is not a luxury. It is an expression of bearing the divine image.",
+        "quote": "If you have been afraid that your love of beautiful flowers and the flickering flame of the candle is somehow less spiritual than living in starkness and ugliness, remember that He who created you to be creative gave you the things with which to make beauty.",
+        "quoteSource": "The Hidden Art of Homemaking"
+      },
+      {
+        "icon": "🎨",
+        "title": "The Hidden Art: Domestic Life as Artistic Expression",
+        "body": "\"Hidden\" is deliberate: these are arts hidden in plain sight, embedded in cooking, decorating, gardening, flower arranging, writing letters, setting a table. She argued that every person has an unfulfilled creative talent waiting to be expressed in their own sphere — and that the home is the most immediate canvas available.",
+        "quote": "I would define 'hidden art' as the art found in the ordinary areas of everyday life. Each person has, I believe, some talent which is unfulfilled in some hidden area of his being — a talent which could be expressed and developed.",
+        "quoteSource": "The Hidden Art of Homemaking"
+      },
+      {
+        "icon": "🕯",
+        "title": "No Sacred/Secular Divide: All of Life Before God",
+        "body": "Rooted in the Reformed conviction that all of life is lived coram Deo — before the face of God — Schaeffer insisted there is no divide between the spiritual life and what she did as a wife and mother. Cooking a meal, sewing curtains, setting a welcoming table — all could be acts of worship as genuine as any prayer.",
+        "quote": "There is no occasion when meals should become totally unimportant. Meals can be very small indeed, very inexpensive — but they should always be more than just food.",
+        "quoteSource": "The Hidden Art of Homemaking"
+      },
+      {
+        "icon": "🏡",
+        "title": "The Apologetics of Beauty: Hospitality as Witness",
+        "body": "Schaeffer argued that beauty itself functions apologetically. A warm home, a beautiful table, a fragrant meal do not merely comfort the body — they make Christianity plausible and desirable to the searching soul. Nancy Pearcey, who encountered L'Abri as a young agnostic, described \"an apologetics of beauty that made me want Christianity to be true.\"",
+        "quote": "We are as concerned for living as we are for thinking. From the beginning, the concern has been that the truth is as much exhibited in everyday life as it is defended in discussion.",
+        "quoteSource": "On L'Abri Fellowship"
+      },
+      {
+        "icon": "📖",
+        "title": "What Is a Family? — The Home as Many Things at Once",
+        "body": "In her 1975 book, Schaeffer defines the family through a series of rich metaphors: a museum of memories, a perpetual relay of truth, a shelter in time of storm, a door with hinges and a lock, an ever-changing mobile, a formation center for human relationships, and a birthplace of creativity. Each metaphor unlocks a different dimension of what the home is called to be.",
+        "quote": "There needs to be a homemaker exercising some measure of skill, imagination, creativity, desire to fulfill needs and give pleasure to others in the family. How precious a thing is the human family. Is it not worth some sacrifice in time, energy, safety, discomfort, work?",
+        "quoteSource": "What Is a Family?"
+      }
+    ],
+    "labriTitle": "L'Abri: A Living Model of Hospitality",
+    "labriBody": "In 1955, the Schaeffers opened their chalet in Huémoz, Switzerland, to anyone who came with honest questions. L'Abri — French for \"the shelter\" — began with afternoon teas for neighborhood girls and grew, by 1960, into a community so remarkable that Time magazine took notice. Edith's Sunday evening High Tea hosted upwards of 50 visitors from around the world each week. She ran it on faith-based finances with no missions budget, sometimes managing unannounced busloads of young people — and as those who were there remember, \"inexpensive and homemade did not mean ugly.\"",
+    "labriPrinciples": [
+      "No formal fundraising — the community ran entirely on prayer",
+      "Guests welcomed for an afternoon or up to three months",
+      "Daily life integrated: study, shared chores, communal meals",
+      "Beauty cultivated on a missionary budget — candles, linens, cut flowers",
+      "Biblical grounding: Matthew 25:31–40 — welcoming the stranger as welcoming Christ"
+    ],
+    "labriQuote": "\"I have never met anyone with such a passion for God, combined with a passion for people, combined with a passion for truth.\"",
+    "labriQuoteAuthor": "— Os Guinness, on Edith Schaeffer",
+    "pullQuotesTitle": "Words Worth Keeping",
+    "pullQuotes": [
+      {"quote": "If you have two loaves of bread, sell one and buy a lily. The bread becomes a different thing when eaten at a table with the lily in the center.", "source": "The Hidden Art of Homemaking"},
+      {"quote": "Your home is not something for a misty future — TODAY is your life.", "source": "The Hidden Art of Homemaking"},
+      {"quote": "It is not a waste to write beautiful prose or poetry for one person's eyes alone.", "source": "The Hidden Art of Homemaking"},
+      {"quote": "People throw away what they could have by insisting on perfection, which they cannot have, and looking for it where they will never find it.", "source": "Edith Schaeffer"}
+    ],
+    "booksTitle": "Her Key Books",
+    "books": [
+      {"title": "The Hidden Art of Homemaking", "year": "1971", "desc": "Her masterwork. Fourteen chapters on creativity in domestic life — music, cooking, decorating, gardening, writing — all grounded in the theology of Imago Dei."},
+      {"title": "What Is a Family?", "year": "1975", "desc": "Defines the family through eight creative metaphors. Covers the full arc of family life without flinching at hardship, aging, or loss."},
+      {"title": "L'Abri", "year": "1969", "desc": "The first-person account of how L'Abri began — part memoir, part theology of hospitality, entirely compelling."}
+    ]
+  },
+  "thinkers": {
+    "sectionLabel": "A Cloud of Witnesses",
+    "title": "Voices Across the Centuries",
+    "intro": "From Luther's theology of vocation to Kuyper's \"not a square inch\" — Reformed and Puritan thinkers have consistently grounded homemaking and hospitality in the deepest convictions of the faith.",
+    "voices": [
+      {
+        "name": "Martin Luther",
+        "dates": "1483–1546",
+        "tradition": "Lutheran Reformation",
+        "bio": "Luther shattered the medieval sacred/secular hierarchy. Before the Reformation, only monks and priests had \"vocations.\" Luther's doctrine of the priesthood of all believers declared every honest station in life — including the mother at the cradle — a divine calling through which God works in the world.",
+        "themes": [
+          {
+            "title": "The Domestic Calling as Sacred Labor",
+            "body": "In The Estate of Marriage (1522), Luther describes a father washing his infant's diapers as an act God Himself smiles upon — not because the task is impressive, but because it is done in faith. Domestic work is \"adorned with divine approval as with the costliest gold and jewels.\"",
+            "quote": "God, with all His angels and creatures, is smiling — not because that father is washing diapers, but because he is doing so in Christian faith.",
+            "source": "The Estate of Marriage, 1522"
+          },
+          {
+            "title": "Parents as the First Apostles",
+            "body": "The home is the primary school of faith. The parents' calling to form children in the gospel is not secondary to the pastoral office — it is its own sacred vocation.",
+            "quote": "Most certainly father and mother are apostles, bishops, and priests to their children, for it is they who make them acquainted with the gospel.",
+            "source": "The Estate of Marriage, 1522"
+          }
+        ]
+      },
+      {
+        "name": "William Perkins",
+        "dates": "1558–1602",
+        "tradition": "English Puritanism",
+        "bio": "The most influential Puritan theologian at Cambridge, Perkins built a systematic Reformed theology of calling that placed every person — man or woman, rich or poor — in a God-assigned post for the common good. His Treatise of the Vocations (1603) gave Puritan domestic theology its systematic foundation.",
+        "themes": [
+          {
+            "title": "Every Person, Every Station",
+            "body": "God appoints each person to a particular calling as surely as a general assigns soldiers to their posts. The homemaker's station is not a lesser calling — it is a divine appointment for the benefit of others.",
+            "quote": "Every one, rich or poor, man or woman, is bound to have a personal calling, in which they must perform some duties for the common good, according to the measure of the gifts God hath bestowed on them.",
+            "source": "A Treatise of the Vocations, 1603"
+          },
+          {
+            "title": "Serving God by Serving Others",
+            "body": "The purpose of every calling — including domestic life — is to render service to others as an act of service to God. Vocation is never merely self-expression or self-provision.",
+            "quote": "The main end of our lives is to serve God in the serving of men in the works of our callings.",
+            "source": "A Treatise of the Vocations, 1603"
+          }
+        ]
+      },
+      {
+        "name": "William Gouge",
+        "dates": "1575–1653",
+        "tradition": "English Puritanism",
+        "bio": "Gouge's Of Domesticall Duties (1622) — 693 pages, expanded through three editions — was the most comprehensive Puritan manual on the Christian home and a standard wedding gift from Puritan pastors. Joel Beeke has modernized it as Building a Godly Home (Reformation Heritage Books, 3 vols.).",
+        "themes": [
+          {
+            "title": "The Home as Little Church and Little Nation",
+            "body": "The family is not merely a private arrangement but the foundational institution of both church and society. A well-ordered home produces well-formed church members and citizens. The homemaker's work is therefore an act of both ecclesial and civic formation.",
+            "quote": "A family is a little church and a little nation; or rather, a little church and a little commonwealth, at least, a lively representation thereof.",
+            "source": "Of Domesticall Duties, 1622"
+          },
+          {
+            "title": "The Wife as Joint Governor",
+            "body": "Against any view of the wife as a passive subordinate, Gouge argued from Scripture that the husband ought to make his wife a \"joint governor\" of the household, entrusting much of its order and flourishing to her discretion.",
+            "quote": "He ought to make her a joint governor of the family with himself and refer the ordering of many things to her discretion.",
+            "source": "Of Domesticall Duties, Epistle Dedicatory"
+          }
+        ]
+      },
+      {
+        "name": "Abraham Kuyper",
+        "dates": "1837–1920",
+        "tradition": "Dutch Reformed / Neo-Calvinism",
+        "bio": "Theologian, journalist, educator, and Prime Minister of the Netherlands, Kuyper built a comprehensive Calvinist philosophy of culture. His doctrine of sphere sovereignty declares the family one of God's primordial spheres of authority — directly accountable to God, not subordinate to church or state.",
+        "themes": [
+          {
+            "title": "Not a Square Inch",
+            "body": "In his 1880 inaugural address at the Free University of Amsterdam, Kuyper declared that no corner of human existence — including the domestic sphere — stands outside Christ's claim. Every kitchen, every nursery, every table is claimed by Christ: \"Mine!\" This gives homemaking and hospitality the highest possible theological dignity.",
+            "quote": "There is not a square inch in the whole domain of our human existence over which Christ, who is Sovereign over all, does not cry: Mine!",
+            "source": "Free University Inaugural Address, Amsterdam, 1880"
+          },
+          {
+            "title": "The Family as the Primordial Sphere",
+            "body": "The family is the first and most foundational of God's ordered spheres. It precedes and underlies all other social institutions. Undermining marriage and family is not progress — it attacks the primordial sphere on which everything else is built.",
+            "quote": "Marriage remains the foundation of human society and the family retains its position as the primordial sphere in sociology.",
+            "source": "Lectures on Calvinism, Princeton, 1898"
+          }
+        ]
+      },
+      {
+        "name": "Jonathan Edwards",
+        "dates": "1703–1758",
+        "tradition": "New England Reformed",
+        "bio": "America's greatest theologian developed a theology of beauty rooted in God as Trinity — mutual love is primary beauty; its reflection in creation is secondary beauty. His aesthetics provide the deepest Reformed foundation for Edith Schaeffer's vision of beauty in the home, and his theology of affections shows that holiness itself is beautiful.",
+        "themes": [
+          {
+            "title": "Holy Beauty in Words and Actions",
+            "body": "Edwards argued that genuine conversion reorders all the affections, including the sense of beauty. The regenerate person perceives holiness as beautiful and naturally expresses that beauty in all conduct — including the words and actions of domestic life.",
+            "quote": "There is a holy beauty and sweetness in words and actions, as well as a natural beauty in countenances and sounds.",
+            "source": "Religious Affections, 1746"
+          },
+          {
+            "title": "All Beauty Reflects God",
+            "body": "Nothing beautiful in creation is self-sourced. Every beautiful thing — a well-set table, a welcoming room, a meal made with love — is a reflection of the One who is Himself infinitely beautiful. Homemaking that pursues beauty is implicitly theological.",
+            "quote": "All the beauty to be found throughout the whole creation is the reflection of the diffused beams of that being who hath an infinite fullness of brightness and glory.",
+            "source": "Dissertation Concerning the Nature of True Virtue, 1765"
+          }
+        ]
+      },
+      {
+        "name": "Rosaria Butterfield",
+        "dates": "b. 1962",
+        "tradition": "Reformed Presbyterian (RPCNA)",
+        "bio": "Former tenured professor at Syracuse University, Butterfield came to Christ through years of dinner-table friendship with a Reformed Presbyterian pastor. Her own conversion became the seed of her convictions on hospitality as gospel proclamation — a daily discipline, not an occasional event.",
+        "themes": [
+          {
+            "title": "Radically Ordinary Hospitality",
+            "body": "Butterfield distinguishes Christian hospitality from entertaining. Entertaining is event-based, impression-driven, perfectionist. Hospitality is daily, inconvenient, genuine — it shares what there is. It is the basic unit of Christian witness in a post-Christian world.",
+            "quote": "Radically ordinary hospitality is this: using your Christian home in a daily way that seeks to make strangers neighbors, and neighbors family of God.",
+            "source": "The Gospel Comes with a House Key, 2018"
+          }
+        ]
+      },
+      {
+        "name": "Gloria Furman",
+        "dates": "b. 1982",
+        "tradition": "Reformed / Acts 29",
+        "bio": "Wife of a church-planting pastor in Dubai, Furman writes from the context of motherhood and cross-cultural domestic life. She traces the arc of the missio Dei through Scripture to show that the homemaker's daily work is situated within God's grand plan to unite all things in Christ.",
+        "themes": [
+          {
+            "title": "Theology for Homemakers",
+            "body": "Doctrine is not academic theory — it is the indispensable equipment for women who need to know who God is, who they are, and what their mundane daily work means. Theology transforms the ordinary.",
+            "quote": "Theology is for homemakers who need to know who God is, who they are, and what this mundane life is all about.",
+            "source": "Glimpses of Grace, 2013"
+          },
+          {
+            "title": "Domestic Work in the Grand Plan of God",
+            "body": "Motherhood and homemaking are not marginal to redemptive history — they are the arenas where discipleship happens most persistently. The ordinary daily care of children and household is a privileged participation in God's work.",
+            "quote": "Her work in nurturing children in the fear of the Lord is her privileged participation in God's work in uniting all things in Jesus.",
+            "source": "Treasuring Christ When Your Hands Are Full, 2014"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "verse": "\"She is clothed with strength and dignity; she can laugh at the days to come. She speaks with wisdom, and faithful instruction is on her tongue.\"",
+    "verseRef": "— Proverbs 31:25–26",
+    "tagline": "The Gracious Home — A tool for the faithful homemaker"
+  }
+}

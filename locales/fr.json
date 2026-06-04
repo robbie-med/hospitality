@@ -1,0 +1,676 @@
+{
+  "lang": "fr",
+  "dir": "ltr",
+  "nav": {
+    "brand": "La Maison Accueillante",
+    "home": "Accueil",
+    "competencies": "L'Appel",
+    "manifesto": "Manifeste",
+    "thinkers": "Voix",
+    "planner": "Planificateur",
+    "menuAriaLabel": "Ouvrir le menu"
+  },
+  "landing": {
+    "eyebrow": "Une Vision Biblique pour le Foyer",
+    "title": "Bienvenue chez vous,\nBienvenue aux autres",
+    "subtitle": "Un guide en quatre parties sur l'art et l'appel du foyer — ancré dans les Écritures, façonné par la pensée réformée, exprimé par l'hospitalité.",
+    "ctaPrimary": "Commencer par l'Appel",
+    "ctaPrimaryHref": "competencies.html",
+    "cards": [
+      {
+        "icon": "❤",
+        "title": "L'Appel",
+        "desc": "Dix compétences fondamentales de la maîtresse de maison fidèle — spirituelles, domestiques, relationnelles et créatives — chacune ancrée dans les Écritures.",
+        "link": "competencies.html",
+        "linkText": "Explorer →"
+      },
+      {
+        "icon": "📜",
+        "title": "Le Manifeste",
+        "desc": "Une théologie en sept piliers de l'hospitalité tirée des Écritures — d'Hébreux 13 à Luc 14 à Matthieu 25.",
+        "link": "manifesto.html",
+        "linkText": "Lire →"
+      },
+      {
+        "icon": "📚",
+        "title": "Voix de l'Histoire",
+        "desc": "Comment les penseurs puritains, réformés et du XXe siècle ont articulé la théologie du foyer — de William Gouge à Edith Schaeffer.",
+        "link": "thinkers.html",
+        "linkText": "Explorer →"
+      },
+      {
+        "icon": "📋",
+        "title": "Planificateur d'Hospitalité",
+        "desc": "Un outil interactif en six étapes : Qui, Pourquoi, Quand, Où, Quoi et Comment — pour votre prochain acte d'hospitalité.",
+        "link": "planner.html",
+        "linkText": "Ouvrir →"
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Une Vision Biblique",
+    "title": "Bienvenue chez vous,\nBienvenue aux autres",
+    "subtitle": "Un guide pour l'art et l'appel du foyer — ancré dans les Écritures, façonné par l'amour, exprimé par l'hospitalité.",
+    "ctaPrimary": "Explorer l'Appel",
+    "ctaSecondary": "Ouvrir le Planificateur",
+    "verse": "« Elle tend la main au pauvre, et tend les mains à l'indigent. »",
+    "verseRef": "Proverbes 31:20"
+  },
+  "competencies": {
+    "sectionLabel": "Section Un",
+    "title": "Compétences Fondamentales de la Maîtresse de Maison et Épouse",
+    "intro": "Ce ne sont pas des fardeaux imposés de l'extérieur, mais des dons cultivés de l'intérieur — chacun une expression d'amour, de sagesse et d'une gestion fidèle du foyer que Dieu lui confie.",
+    "practicesTitle": "Expressions",
+    "items": [
+      {
+        "icon": "✡",
+        "title": "Ancre Spirituelle",
+        "description": "Elle enracine son foyer dans la prière, les Écritures et le culte. La crainte du Seigneur est le fondement sur lequel reposent toutes les autres compétences (Prov. 31:30).",
+        "practices": ["Dévotion personnelle quotidienne et prière", "Guider la famille dans les Écritures et le culte", "Cultiver une atmosphère de paix et de foi au foyer", "Modeler le repentir, la grâce et le pardon"]
+      },
+      {
+        "icon": "⌂",
+        "title": "Intendance du Foyer",
+        "description": "Elle surveille les affaires de sa maison avec diligence — gérant le temps, les ressources et l'espace avec intentionnalité (Prov. 31:27).",
+        "practices": ["Maintenir l'ordre, la propreté et la beauté", "Budgétiser et gérer les finances", "Planification des repas et approvisionnement", "Rythmes saisonniers et routines du foyer"]
+      },
+      {
+        "icon": "☕",
+        "title": "Nourriture et Art Culinaire",
+        "description": "Elle pourvoit aux besoins alimentaires de sa maison et de ses invités avec habileté et générosité — la table est son instrument d'amour (Prov. 31:15).",
+        "practices": ["Cuisiner des repas sains et nourrissants", "Pâtisserie et conservation des aliments de saison", "Dresser une table accueillante", "S'adapter aux besoins alimentaires des invités"]
+      },
+      {
+        "icon": "❤",
+        "title": "Soin et Bienveillance",
+        "description": "Elle se déverse dans le bien-être émotionnel, physique et spirituel de son mari, de ses enfants et de ceux de son foyer (Tite 2:4–5).",
+        "practices": ["Présence attentive avec le mari et les enfants", "Reconnaître et satisfaire les besoins émotionnels", "Prendre soin des malades, des personnes âgées ou des faibles", "Enseigner et former ses enfants dans la foi"]
+      },
+      {
+        "icon": "☷",
+        "title": "Hospitalité et Accueil",
+        "description": "Son foyer est un refuge pour la famille, les amis, les étrangers et les solitaires. Elle fait que les gens se sentent vus, en sécurité et célébrés (1 Pi. 4:9 ; Hé. 13:2).",
+        "practices": ["Maintenir un foyer prêt à recevoir des invités", "Accueillir pour des repas, des réunions et des hébergements", "Accueillir l'étranger et la personne marginalisée", "Créer de la chaleur et un sentiment d'appartenance"]
+      },
+      {
+        "icon": "✎",
+        "title": "Excellence Créative",
+        "description": "Elle apporte beauté, artisanat et créativité dans le foyer — de la décoration aux travaux manuels aux esthétiques qui reflètent dignité et délice (Prov. 31:22).",
+        "practices": ["Décorer avec intention et beauté", "Couture, artisanat ou compétences artisanales", "Cultiver un foyer qui reflète le soin", "Décoration saisonnière et festive"]
+      },
+      {
+        "icon": "💬",
+        "title": "Communication Sage",
+        "description": "Elle parle avec sagesse et bonté — sa langue édifie plutôt qu'elle ne détruit (Prov. 31:26 ; Éph. 4:29).",
+        "practices": ["Parler des mots d'affirmation et d'encouragement", "Écouter avec empathie et sans jugement", "Naviguer le conflit avec grâce et vérité", "Enseigner les autres par ses paroles et son exemple"]
+      },
+      {
+        "icon": "⚒",
+        "title": "Industrie et Entreprise",
+        "description": "Elle n'est pas oisive — elle travaille avec des mains diligentes, contribuant à la prospérité de son foyer (Prov. 31:17–18, 24).",
+        "practices": ["Gérer ou contribuer aux revenus du foyer", "Gestion du temps et productivité", "Planifier et exécuter des objectifs à long terme", "Apprendre et développer de nouvelles compétences"]
+      },
+      {
+        "icon": "🌿",
+        "title": "Communauté et Amitié",
+        "description": "Elle est ancrée dans une communauté — donnant généreusement, soutenant d'autres femmes et construisant des réseaux relationnels de soin (Gal. 6:2 ; Tite 2:3–5).",
+        "practices": ["Investir dans les amitiés et les relations de voisinage", "Mentorer les femmes plus jeunes", "Servir et donner à ceux qui sont dans le besoin", "Être membre actif de sa famille ecclésiale"]
+      },
+      {
+        "icon": "★",
+        "title": "Bien-être Physique et Émotionnel",
+        "description": "Elle veille à sa propre force — elle ne peut pas donner d'un vase vide. Le repos du sabbat est un acte de fidélité (Prov. 31:17).",
+        "practices": ["Maintenir la santé physique et l'énergie", "Pratiquer le sabbat et le repos restaurateur", "Conscience émotionnelle de soi et limites saines", "Chercher de l'aide et du soutien quand nécessaire"]
+      }
+    ]
+  },
+  "manifesto": {
+    "sectionLabel": "Section Deux",
+    "title": "Un Manifeste Biblique pour l'Hospitalité",
+    "intro": "L'hospitalité n'est pas un trait de personnalité ni une esthétique de style de vie. C'est un commandement, un appel et une participation à l'accueil même que Dieu nous accorde à travers l'Évangile.",
+    "preamble": {
+      "title": "Préambule : Le Dieu qui Accueille",
+      "body": "Avant de pouvoir comprendre l'appel à l'hospitalité, nous devons comprendre le Dieu qui en est le modèle. Dès le commencement, Dieu a préparé un foyer-jardin pour l'humanité — un lieu de provision, de beauté, de repos et de communion. Lorsque l'humanité a rompu sa communion avec Lui par le péché, Dieu n'a pas abandonné le projet de l'accueil. Il a mis en mouvement un plan pour ramener ses enfants exilés à la maison, culminant dans la personne de Jésus-Christ, qui « est venu chercher et sauver ce qui était perdu » (Luc 19:10) et qui promet que dans la maison de Son Père, il y a « beaucoup de demeures » préparées pour ceux qui L'aiment (Jean 14:2). L'hospitalité, donc, n'est pas une vertu inventée. C'est une <em>imitation de Dieu</em>."
+    },
+    "pillars": [
+      {
+        "number": "I",
+        "title": "Nous Croyons que l'Hospitalité est un Commandement, pas une Suggestion",
+        "scriptures": [
+          {"verse": "« Contribuez aux besoins des saints, exercez l'hospitalité. »", "ref": "Romains 12:13"},
+          {"verse": "« Exercez l'hospitalité les uns envers les autres, sans murmures. »", "ref": "1 Pierre 4:9"}
+        ],
+        "body": "Les Écritures ne suggèrent pas d'être hospitalier lorsque c'est pratique ou confortable. Elles le commandent — clairement, de manière répétée, avec d'autres impératifs moraux comme l'amour, la générosité et la vérité. Le foyer hospitalier n'est pas une obéissance optionnelle. C'est la norme de la vie chrétienne.",
+        "charge": null
+      },
+      {
+        "number": "II",
+        "title": "Nous Croyons que l'Étranger doit être Accueilli, pas Craint",
+        "scriptures": [
+          {"verse": "« N'oubliez pas l'hospitalité, car c'est en la pratiquant que quelques-uns ont logé des anges sans le savoir. »", "ref": "Hébreux 13:2"},
+          {"verse": "« L'étranger qui séjourne parmi vous sera pour vous comme un indigène, comme l'un d'entre vous ; tu l'aimeras comme toi-même. »", "ref": "Lévitique 19:34"}
+        ],
+        "body": "La vision biblique de l'hospitalité s'étend bien au-delà du familier. Le mot grec <em>philoxénia</em> — traduit par « hospitalité » — signifie littéralement « amour de l'étranger ». Israël était commandé de se souvenir qu'il avait été étranger en Égypte (Deut. 10:19). Nous étendons l'accueil parce que nous avons été accueillis quand nous étions étrangers et exclus (Éph. 2:12–13).",
+        "charge": null
+      },
+      {
+        "number": "III",
+        "title": "Nous Croyons que la Table est un Acte Théologique",
+        "scriptures": [
+          {"verse": "« Lorsque tu fais un dîner ou un souper, n'invite pas tes amis, ni tes frères, ni tes parents... Mais lorsque tu fais un festin, invite des pauvres, des estropiés, des boiteux, des aveugles. »", "ref": "Luc 14:12–13"}
+        ],
+        "body": "Jésus a redéfini la liste des invités. La table n'est pas pour la réciprocité sociale — c'est pour la grâce. C'est un avant-goût du grand festin des noces de l'Agneau, où des gens viendront de l'est et de l'ouest, du nord et du sud (Luc 13:29). Chaque repas partagé dans l'amour est un petit signe eschatologique de ce festin à venir. La table du foyer est un sanctuaire de grâce.",
+        "charge": null
+      },
+      {
+        "number": "IV",
+        "title": "Nous Croyons que l'Hospitalité Requiert la Présence, pas la Perfection",
+        "scriptures": [
+          {"verse": "« Marthe, Marthe, tu t'inquiètes et tu t'agites pour beaucoup de choses. Une seule chose est nécessaire. Marie a choisi la bonne part. »", "ref": "Luc 10:41–42"}
+        ],
+        "body": "L'histoire de Marie et Marthe n'est pas un rejet du service de Marthe — c'est une réprimande de son anxiété. L'hospitalité ne concerne pas la performance. Elle concerne la présence. L'objectif n'est pas une table impressionnante ; l'objectif est que votre invité rencontre l'amour. Un repas simple offert avec une pleine attention surpasse un festin offert avec distraction et stress.",
+        "charge": null
+      },
+      {
+        "number": "V",
+        "title": "Nous Croyons que l'Hospitalité Sert le Christ Lui-même",
+        "scriptures": [
+          {"verse": "« Car j'ai eu faim, et vous m'avez donné à manger ; j'ai eu soif, et vous m'avez donné à boire ; j'étais étranger, et vous m'avez recueilli... c'est à moi que vous l'avez fait. »", "ref": "Matthieu 25:35, 40"}
+        ],
+        "body": "La vérité la plus radicale sur l'hospitalité chrétienne est celle-ci : en accueillant les autres, nous accueillons le Christ. Il nous rejoint dans le visage de l'étranger, de la veuve, du voisin solitaire, de l'ami en deuil. Fermer la porte à eux, c'est fermer la porte à Lui. Ouvrir la porte, c'est l'ouvrir à notre Seigneur.",
+        "charge": null
+      },
+      {
+        "number": "VI",
+        "title": "Nous Croyons que la Femme Hospitalière Reflète le Cœur de l'Église",
+        "scriptures": [
+          {"verse": "« Elle tend la main au pauvre, et tend les mains à l'indigent... Elle n'a pas peur de la neige pour sa maison, car toute sa maison est vêtue de cramoisi. »", "ref": "Proverbes 31:20–21"},
+          {"verse": "« Elle a exercé l'hospitalité... elle s'est consacrée à toutes sortes de bonnes œuvres. »", "ref": "1 Timothée 5:10"}
+        ],
+        "body": "La femme de Proverbes 31 est généreuse, préparée et prévoyante dans son soin des autres. La veuve que Paul recommande est rappelée pour son hospitalité. La femme pieuse ne gère pas simplement un foyer pour elle-même — elle l'ouvre aux autres. Son foyer devient un microcosme de l'église : une communauté d'accueil, de service et d'amour.",
+        "charge": null
+      },
+      {
+        "number": "VII",
+        "title": "Nous Nous Engageons à un Foyer aux Portes Ouvertes",
+        "scriptures": [],
+        "body": "C'est pourquoi nous nous engageons à maintenir notre foyer comme un lieu d'accueil. Nous tiendrons notre espace, notre temps, notre nourriture et notre confort avec des mains ouvertes — comme des dons de Dieu à partager avec les autres. Nous ne laisserons pas l'agitation, le perfectionnisme ou la peur devenir des excuses pour une porte fermée. Nous prierons pour avoir des yeux qui voient qui a besoin d'accueil, des mains prêtes à servir et une table toujours prête à recevoir.",
+        "charge": "Nous faisons cela non pour être vus, non pour être récompensés et non pour impressionner — mais parce que nous avons été accueillis par un Dieu de grâce infinie, et l'amour nous pousse à transmettre cet accueil aux autres."
+      }
+    ]
+  },
+  "planner": {
+    "sectionLabel": "Section Trois",
+    "title": "Le Planificateur d'Hospitalité",
+    "intro": "Répondez aux six questions — Qui, Quoi, Comment, Quand, Où et Pourquoi — pour construire un plan complet et intentionnel pour votre prochain acte d'hospitalité.",
+    "progressLabels": ["Qui", "Pourquoi", "Quand", "Où", "Quoi", "Comment", "Plan"],
+    "steps": {
+      "who": {
+        "stepLabel": "Étape 1 sur 6",
+        "title": "Qui allez-vous accueillir ?",
+        "description": "Identifiez la personne ou le groupe que vous vous sentez appelée à inviter. Choisissez une catégorie, puis décrivez-les plus précisément ci-dessous.",
+        "guestCategory": {
+          "label": "Catégorie d'Invité",
+          "options": [
+            {"value": "family", "label": "Famille"},
+            {"value": "friends", "label": "Amis proches"},
+            {"value": "neighbors", "label": "Voisins"},
+            {"value": "strangers", "label": "Étrangers / Nouvelles connaissances"},
+            {"value": "lonely", "label": "Les solitaires / isolés"},
+            {"value": "grieving", "label": "Ceux qui sont en deuil"},
+            {"value": "new-believers", "label": "Nouveaux croyants"},
+            {"value": "unbelievers", "label": "Amis non-croyants"},
+            {"value": "church", "label": "Communauté de l'église"},
+            {"value": "poor", "label": "Les pauvres / marginalisés"}
+          ]
+        },
+        "guestName": {
+          "label": "Qui spécifiquement ? (nom, groupe ou description)",
+          "placeholder": "ex., La nouvelle famille de l'église, ma voisine Marie, des étudiants universitaires..."
+        },
+        "guestNeeds": {
+          "label": "Que savez-vous de leurs besoins ou de leur situation actuelle ?",
+          "placeholder": "ex., Vient d'arriver en ville, traverse une saison difficile, n'a pas beaucoup de liens locaux..."
+        },
+        "groupSize": {
+          "label": "Taille approximative du groupe",
+          "options": [
+            {"value": "1", "label": "1 personne"},
+            {"value": "2-4", "label": "2–4 personnes"},
+            {"value": "5-8", "label": "5–8 personnes"},
+            {"value": "9-15", "label": "9–15 personnes"},
+            {"value": "16+", "label": "16+ personnes"}
+          ]
+        },
+        "scripture": "« N'oubliez pas l'hospitalité, car c'est en la pratiquant que quelques-uns ont logé des anges sans le savoir. » — Hébreux 13:2"
+      },
+      "why": {
+        "stepLabel": "Étape 2 sur 6",
+        "title": "Pourquoi étendez-vous cette hospitalité ?",
+        "description": "La clarté de l'intention façonne tout — du ton de la réunion à la façon dont vous préparez votre cœur.",
+        "motivation": {
+          "label": "Motivation principale (choisissez tout ce qui s'applique)",
+          "options": [
+            {"value": "obedience", "label": "Obéissance aux Écritures"},
+            {"value": "love", "label": "Amour pour cette personne / ces personnes"},
+            {"value": "evangelism", "label": "Partager l'Évangile / montrer vers Jésus"},
+            {"value": "community", "label": "Construire la communauté et l'appartenance"},
+            {"value": "comfort", "label": "Réconforter quelqu'un dans la douleur"},
+            {"value": "celebrate", "label": "Célébrer une étape ou une bénédiction"},
+            {"value": "serve", "label": "Service pratique / répondre à un besoin"},
+            {"value": "disciple", "label": "Discipuler ou mentorer"},
+            {"value": "welcome", "label": "Aider quelqu'un à se sentir accueilli / vu"}
+          ]
+        },
+        "whyStatement": {
+          "label": "Écrivez votre « pourquoi » en une ou deux phrases",
+          "placeholder": "ex., Je veux que Sophie sache qu'elle n'est pas seule après sa fausse couche, et que notre maison est un endroit sûr pour son deuil..."
+        },
+        "prayerIntent": {
+          "label": "Pour quoi voulez-vous prier pour cette personne/réunion ?",
+          "placeholder": "ex., Qu'ils ressentent l'amour de Dieu à travers notre foyer, que la conversation ouvre des portes à leur cœur..."
+        },
+        "scripture": "« Pour nous, nous l'aimons, parce qu'il nous a aimés le premier. » — 1 Jean 4:19"
+      },
+      "when": {
+        "stepLabel": "Étape 3 sur 6",
+        "title": "Quand étendrez-vous cet accueil ?",
+        "description": "Choisissez un moment qui est intentionnel et faisable — puis gardez-le comme tout autre engagement.",
+        "eventDate": {
+          "label": "Date ou délai cible",
+          "placeholder": "ex., Ce samedi, dans les deux prochaines semaines, le premier dimanche du mois..."
+        },
+        "mealSlot": {
+          "label": "Moment de la journée / repas",
+          "options": [
+            {"value": "breakfast", "label": "Petit-déjeuner / Matin"},
+            {"value": "brunch", "label": "Brunch"},
+            {"value": "lunch", "label": "Déjeuner"},
+            {"value": "afternoon", "label": "Après-midi / Thé"},
+            {"value": "dinner", "label": "Dîner"},
+            {"value": "overnight", "label": "Nuit / Week-end"},
+            {"value": "flexible", "label": "Flexible / Visite informelle"}
+          ]
+        },
+        "duration": {
+          "label": "Durée estimée",
+          "placeholder": "ex., 2 heures, tout l'après-midi, tout le week-end..."
+        },
+        "prepTime": {
+          "label": "Temps de préparation disponible",
+          "placeholder": "ex., 3 jours, 1 semaine..."
+        },
+        "scripture": "« Elle se lève lorsqu'il est encore nuit, elle donne la nourriture à sa maison, et la tâche à ses servantes. » — Proverbes 31:15"
+      },
+      "where": {
+        "stepLabel": "Étape 4 sur 6",
+        "title": "Où allez-vous accueillir ?",
+        "description": "Le cadre façonne l'expérience. Choisissez l'endroit qui sert le mieux vos invités et votre but.",
+        "location": {
+          "label": "Lieu principal",
+          "options": [
+            {"value": "home-inside", "label": "Chez moi (intérieur)"},
+            {"value": "home-outside", "label": "Chez moi (jardin / terrasse)"},
+            {"value": "their-home", "label": "Chez eux (j'apporte la nourriture/les soins)"},
+            {"value": "church", "label": "Bâtiment ou salle de réunion de l'église"},
+            {"value": "park", "label": "Parc ou espace extérieur"},
+            {"value": "restaurant", "label": "Restaurant ou café"},
+            {"value": "hospital", "label": "Hôpital ou établissement de soins"},
+            {"value": "neighborhood", "label": "Quartier ou rue"}
+          ]
+        },
+        "spaceNotes": {
+          "label": "Notes sur la préparation de l'espace ou l'accessibilité ?",
+          "placeholder": "ex., Besoin d'installer la chambre d'amis, emprunter des chaises supplémentaires, considérer l'accès pour fauteuils roulants..."
+        },
+        "atmosphere": {
+          "label": "Objectif d'atmosphère",
+          "options": [
+            {"value": "warm", "label": "Chaud et douillet"},
+            {"value": "joyful", "label": "Joyeux et festif"},
+            {"value": "peaceful", "label": "Calme et reposant"},
+            {"value": "safe", "label": "Sûr et sans hâte"},
+            {"value": "energetic", "label": "Vivant et énergique"},
+            {"value": "formal", "label": "Digne et spécial"}
+          ]
+        },
+        "scripture": "« Mieux vaut un repas de légumes où règne l'amour, qu'un bœuf gras accompagné de haine. » — Proverbes 15:17"
+      },
+      "what": {
+        "stepLabel": "Étape 5 sur 6",
+        "title": "Que proposerez-vous ?",
+        "description": "Réfléchissez aux dons pratiques de nourriture, d'activité et de provision que vous apporterez à vos invités.",
+        "foodType": {
+          "label": "Type de nourriture / repas",
+          "options": [
+            {"value": "full-meal", "label": "Repas complet fait maison"},
+            {"value": "simple-meal", "label": "Repas simple / facile"},
+            {"value": "baked-goods", "label": "Pâtisseries / gâteaux"},
+            {"value": "snacks", "label": "Collations et boissons"},
+            {"value": "potluck", "label": "Potluck / chacun apporte quelque chose"},
+            {"value": "catered", "label": "Repas commandé / traiteur"},
+            {"value": "meal-delivery", "label": "Repas livré chez eux"},
+            {"value": "no-food", "label": "Pas de nourriture — présence seulement"}
+          ]
+        },
+        "menuIdeas": {
+          "label": "Idées de menu ou plats spécifiques",
+          "placeholder": "ex., Pot-au-feu, salade, pain artisanal, tarte aux pommes ; ou pâtes simples avec salade et pain à l'ail..."
+        },
+        "activities": {
+          "label": "Activités ou expériences à proposer",
+          "options": [
+            {"value": "conversation", "label": "Conversation profonde"},
+            {"value": "games", "label": "Jeux ou amusement"},
+            {"value": "prayer", "label": "Prière ensemble"},
+            {"value": "bible", "label": "Étude biblique ou dévotion"},
+            {"value": "worship", "label": "Adoration / musique"},
+            {"value": "children", "label": "Activités pour enfants"},
+            {"value": "creative", "label": "Activité manuelle ou créative"},
+            {"value": "rest", "label": "Repos et tranquillité"},
+            {"value": "outdoors", "label": "Activité en plein air"}
+          ]
+        },
+        "specialNeeds": {
+          "label": "Restrictions alimentaires ou besoins spéciaux à prendre en compte ?",
+          "placeholder": "ex., Sans gluten, allergie aux noix, végétarien, jeunes enfants présents..."
+        },
+        "scripture": "« Elle surveille la marche de sa maison, et ne mange pas le pain de la paresse. » — Proverbes 31:27"
+      },
+      "how": {
+        "stepLabel": "Étape 6 sur 6",
+        "title": "Comment vous préparerez-vous — pratiquement et spirituellement ?",
+        "description": "Une grande hospitalité découle de la préparation du foyer et du cœur.",
+        "prepChecklist": {
+          "label": "Liste de préparation pratique",
+          "options": [
+            {"value": "invite", "label": "Envoyer une invitation ou contacter personnellement"},
+            {"value": "plan-menu", "label": "Planifier le menu et faire les courses"},
+            {"value": "clean", "label": "Nettoyer et préparer l'espace du foyer"},
+            {"value": "set-table", "label": "Dresser une table accueillante"},
+            {"value": "guest-room", "label": "Préparer la chambre d'amis / arrangements de couchage"},
+            {"value": "activities-ready", "label": "Préparer des activités ou sujets de conversation"},
+            {"value": "confirm", "label": "Confirmer les détails avec les invités à l'avance"},
+            {"value": "childcare", "label": "Organiser la garde d'enfants ou les inclure dans les plans"}
+          ]
+        },
+        "heartChecklist": {
+          "label": "Préparation du cœur",
+          "options": [
+            {"value": "pray-for-guest", "label": "Prier spécifiquement pour chaque invité par son nom"},
+            {"value": "pray-for-self", "label": "Demander à Dieu amour, patience et présence"},
+            {"value": "release-perfection", "label": "Lâcher prise sur le besoin de perfection"},
+            {"value": "remember-why", "label": "Relire votre déclaration de « pourquoi » avant qu'ils arrivent"},
+            {"value": "be-present", "label": "S'engager à être pleinement présente, sans distraction"},
+            {"value": "serve-joyfully", "label": "Choisir de servir joyeusement, sans ressentiment"}
+          ]
+        },
+        "helpNeeded": {
+          "label": "Qui peut vous aider à préparer ? (déléguez quelque chose)",
+          "placeholder": "ex., Mari fait les courses, enfants mettent la table, amie apporte le dessert..."
+        },
+        "extraNotes": {
+          "label": "Autres notes ou intentions pour cette réunion",
+          "placeholder": "ex., Je veux m'assurer de demander à Sophie comment va sa recherche d'emploi. Je veux terminer la soirée par une prière ensemble..."
+        },
+        "scripture": "« Quoi que vous fassiez, faites-le de bon cœur, comme pour le Seigneur et non pour des hommes. » — Colossiens 3:23"
+      }
+    },
+    "plan": {
+      "stepLabel": "Votre Plan d'Hospitalité",
+      "title": "Votre Plan est Prêt",
+      "description": "Voici votre plan d'hospitalité complet. Imprimez-le, sauvegardez-le ou portez-le simplement dans votre cœur.",
+      "printBtn": "Imprimer / Enregistrer en PDF",
+      "startOverBtn": "Commencer un Nouveau Plan",
+      "planTitle": "Plan d'Hospitalité",
+      "sections": {
+        "who": "Qui",
+        "why": "Pourquoi",
+        "when": "Quand",
+        "where": "Où",
+        "what": "Quoi",
+        "how": "Comment — Préparation"
+      },
+      "labels": {
+        "guests": "Invité(s) :",
+        "situation": "Leur situation :",
+        "myWhy": "Mon pourquoi :",
+        "prayer": "Intention de prière :",
+        "dateTime": "Date/Heure :",
+        "duration": "Durée :",
+        "prepWindow": "Délai de préparation :",
+        "atmosphere": "Atmosphère :",
+        "spaceNotes": "Notes sur l'espace :",
+        "food": "Nourriture :",
+        "menuIdeas": "Idées de menu :",
+        "activities": "Activités :",
+        "specialNeeds": "Besoins spéciaux :",
+        "practicalTasks": "Tâches pratiques :",
+        "heartPrep": "Préparation du cœur :",
+        "helpers": "Assistants :",
+        "notes": "Notes supplémentaires :",
+        "notSpecified": "Non spécifié",
+        "noneSelected": "Aucun sélectionné"
+      },
+      "closingVerse": "« Lorsque tu feras un festin, invite des pauvres, des estropiés, des boiteux, des aveugles. Et tu seras heureux de ce qu'ils n'ont pas de quoi te rendre la pareille. »",
+      "closingRef": "— Luc 14:13–14",
+      "createdOn": "Créé le"
+    }
+  },
+  "schaeffer": {
+    "navLabel": "Edith Schaeffer",
+    "sectionLabel": "Une Voix de l'Histoire",
+    "eyebrow": "Edith Schaeffer · 1914–2013",
+    "title": "L'Art Caché du Foyer",
+    "intro": "Peu de voix au vingtième siècle ont parlé avec plus de profondeur théologique et de beauté pratique sur le foyer qu'Edith Schaeffer — missionnaire, auteure, artiste, hôtesse et cofondatrice de L'Abri Fellowship. Son œuvre offre à l'appel de maîtresse de maison une vision richement fondée et magnifiquement articulée qui parle encore aujourd'hui.",
+    "bioTitle": "Qui était Edith Schaeffer ?",
+    "bio": "Née en Chine en 1914 de parents missionnaires (son nom chinois, Mei Fuh, signifie « bonheur beau »), Edith a épousé Francis Schaeffer en 1935. Ensemble, ils ont cofondé L'Abri Fellowship en Suisse en 1955 — une communauté d'hospitalité radicale où les chercheurs, les sceptiques et les blessés spirituels pouvaient venir avec des questions sincères. Elle a écrit ou coécrit plus de 20 livres et a été classée parmi les 100 femmes chrétiennes qui ont changé le vingtième siècle. Son œuvre maîtresse, L'Art caché du foyer (1971), reste le traitement le plus riche sur le plan théologique de la créativité domestique dans la littérature évangélique.",
+    "themes": [
+      {
+        "icon": "✦",
+        "title": "Le Premier Artiste : L'Imago Dei comme Fondement",
+        "body": "Toute la vision de Schaeffer sur le foyer repose sur une seule prémisse : parce que Dieu est le premier et suprême Artiste — qui a fait un monde de beauté, de variété et de design — les êtres humains faits à Son image portent une impulsion créatrice qui doit s'exprimer, pas se réprimer. La créativité dans le foyer n'est pas un luxe. C'est une expression du fait de porter l'image divine.",
+        "quote": "Si vous avez eu peur que votre amour des belles fleurs et de la flamme vacillante de la bougie soit d'une certaine façon moins spirituel que de vivre dans la rigueur et la laideur, souvenez-vous que Celui qui vous a créée pour être créative vous a donné les choses avec lesquelles faire de la beauté.",
+        "quoteSource": "L'Art caché du foyer"
+      },
+      {
+        "icon": "🎨",
+        "title": "L'Art Caché : La Vie Domestique comme Expression Artistique",
+        "body": "« Caché » est délibéré : ce sont des arts cachés à la vue de tous, intégrés dans la cuisine, la décoration, le jardinage, l'arrangement floral, l'écriture de lettres, la mise de table. Elle soutenait que toute personne possède un talent créatif inexploité qui attend d'être exprimé dans sa propre sphère — et que le foyer est le canvas le plus immédiat disponible.",
+        "quote": "Je définirais l'« art caché » comme l'art que l'on trouve dans les domaines ordinaires de la vie quotidienne. Chaque personne a, je crois, un talent inexprimé dans quelque partie cachée de son être — un talent qui pourrait être exprimé et développé.",
+        "quoteSource": "L'Art caché du foyer"
+      },
+      {
+        "icon": "🕯",
+        "title": "Pas de Division Sacré/Séculier : Toute la Vie devant Dieu",
+        "body": "Enracinée dans la conviction réformée que toute la vie est vécue coram Deo — devant la face de Dieu — Schaeffer insistait sur l'absence de division entre la vie spirituelle et ce qu'elle faisait en tant qu'épouse et mère. Cuisiner un repas, coudre des rideaux, dresser une table accueillante — tout pouvait être des actes de culte aussi authentiques que n'importe quelle prière.",
+        "quote": "Il n'y a pas d'occasion où les repas devraient devenir totalement sans importance. Les repas peuvent être très petits, très peu coûteux — mais ils devraient toujours être plus que de la simple nourriture.",
+        "quoteSource": "L'Art caché du foyer"
+      },
+      {
+        "icon": "🏡",
+        "title": "L'Apologétique de la Beauté : L'Hospitalité comme Témoignage",
+        "body": "Schaeffer soutenait que la beauté elle-même fonctionne de manière apologétique. Un foyer chaleureux, une belle table, un repas parfumé ne réconfortent pas seulement le corps — ils rendent le christianisme plausible et désirable pour l'âme qui cherche. Nancy Pearcey, qui a découvert L'Abri en tant que jeune agnostique, décrit « une apologétique de la beauté qui m'a donné envie que le christianisme soit vrai ».",
+        "quote": "Nous nous soucions autant de vivre que de penser. Depuis le début, la préoccupation a été que la vérité est autant montrée dans la vie quotidienne qu'elle est défendue dans la discussion.",
+        "quoteSource": "Sur L'Abri Fellowship"
+      },
+      {
+        "icon": "📖",
+        "title": "Qu'est-ce qu'une Famille ? — Le Foyer comme Plusieurs Choses à la Fois",
+        "body": "Dans son livre de 1975, Schaeffer définit la famille à travers une série de métaphores riches : un musée de souvenirs, un relais perpétuel de vérité, un abri par temps de tempête, une porte avec charnières et serrure, un mobile en perpétuel changement, un centre de formation pour les relations humaines et un lieu de naissance de la créativité.",
+        "quote": "Il faut qu'il y ait une maîtresse de maison qui exerce un certain degré de compétence, d'imagination, de créativité, de désir de répondre aux besoins et de faire plaisir aux autres dans la famille. Quelle chose précieuse que la famille humaine ! Cela ne vaut-il pas quelque sacrifice de temps, d'énergie, de sécurité, d'inconfort, de travail ?",
+        "quoteSource": "Qu'est-ce qu'une famille ?"
+      }
+    ],
+    "labriTitle": "L'Abri : Un Modèle Vivant d'Hospitalité",
+    "labriBody": "En 1955, les Schaeffer ont ouvert leur chalet à Huémoz, en Suisse, à quiconque venait avec des questions sincères. L'Abri a commencé par des thés l'après-midi pour des filles du quartier et a grandi, en 1960, en une communauté si remarquable que le magazine Time l'a remarquée. Le High Tea dominical d'Edith accueillait chaque semaine plus de 50 visiteurs du monde entier. Elle le gérait avec des finances basées sur la foi, sans budget missionnaire, et comme s'en souviennent ceux qui étaient là, « peu coûteux et fait maison ne signifiait pas laid ».",
+    "labriPrinciples": [
+      "Pas de levée de fonds formelle — la communauté fonctionnait entièrement par la prière",
+      "Invités bienvenus pour un après-midi ou jusqu'à trois mois",
+      "Vie quotidienne intégrée : étude, tâches partagées, repas communautaires",
+      "Beauté cultivée avec un budget missionnaire — bougies, nappes, fleurs fraîches",
+      "Fondement biblique : Matthieu 25:31–40 — accueillir l'étranger comme accueillir le Christ"
+    ],
+    "labriQuote": "« Je n'ai jamais rencontré quelqu'un avec une telle passion pour Dieu, combinée à une passion pour les gens, combinée à une passion pour la vérité. »",
+    "labriQuoteAuthor": "— Os Guinness, sur Edith Schaeffer",
+    "pullQuotesTitle": "Des Mots à Garder",
+    "pullQuotes": [
+      {"quote": "Si vous avez deux miches de pain, vendez-en une et achetez un lys. Le pain devient quelque chose de différent quand on le mange à une table avec le lys en son centre.", "source": "L'Art caché du foyer"},
+      {"quote": "Votre foyer n'est pas quelque chose pour un futur brumeux — AUJOURD'HUI est votre vie.", "source": "L'Art caché du foyer"},
+      {"quote": "Ce n'est pas du gaspillage d'écrire de la belle prose ou de la poésie pour les yeux d'une seule personne.", "source": "L'Art caché du foyer"},
+      {"quote": "Les gens jettent ce qu'ils pourraient avoir en insistant sur la perfection, qu'ils ne peuvent pas avoir, et en la cherchant là où ils ne la trouveront jamais.", "source": "Edith Schaeffer"}
+    ],
+    "booksTitle": "Ses Livres Essentiels",
+    "books": [
+      {"title": "The Hidden Art of Homemaking", "year": "1971", "desc": "Son œuvre maîtresse. Quatorze chapitres sur la créativité dans la vie domestique — musique, cuisine, décoration, jardinage, écriture — le tout ancré dans la théologie de l'Imago Dei."},
+      {"title": "What Is a Family?", "year": "1975", "desc": "Définit la famille à travers huit métaphores créatives. Couvre l'arc complet de la vie familiale sans esquiver la souffrance, le vieillissement ou la perte."},
+      {"title": "L'Abri", "year": "1969", "desc": "Le récit à la première personne de la fondation de L'Abri — mi-mémoires, mi-théologie de l'hospitalité, entièrement convaincant."}
+    ]
+  },
+  "thinkers": {
+    "sectionLabel": "Une Nuée de Témoins",
+    "title": "Voix à Travers les Siècles",
+    "intro": "De la théologie de la vocation de Luther au «pas un centimètre carré» de Kuyper, les penseurs réformés et puritains ont constamment ancré la vie domestique et l'hospitalité dans les convictions les plus profondes de la foi.",
+    "voices": [
+      {
+        "name": "Martin Luther",
+        "dates": "1483–1546",
+        "tradition": "Réforme luthérienne",
+        "bio": "Luther a brisé la hiérarchie médiévale entre le sacré et le séculier. Avant la Réforme, seuls les moines et les prêtres avaient des «vocations». Sa doctrine du sacerdoce de tous les croyants a déclaré que toute station honnête dans la vie — y compris la mère au berceau — est un appel divin à travers lequel Dieu agit dans le monde.",
+        "themes": [
+          {
+            "title": "La vocation domestique comme travail sacré",
+            "body": "Dans L'état du mariage (1522), Luther décrit un père lavant les couches de son nourrisson comme un acte devant lequel Dieu lui-même sourit — non parce que la tâche est impressionnante, mais parce qu'elle est accomplie dans la foi. Le travail domestique est «orné de l'approbation divine comme du plus précieux or et des plus belles gemmes».",
+            "quote": "Dieu, avec tous ses anges et ses créatures, sourit — non pas parce que ce père lave des couches, mais parce qu'il le fait dans la foi chrétienne.",
+            "source": "L'état du mariage, 1522"
+          },
+          {
+            "title": "Les parents comme premiers apôtres",
+            "body": "Le foyer est la première école de la foi. La vocation des parents à former leurs enfants dans l'Évangile n'est pas secondaire au ministère pastoral — c'est sa propre vocation sacrée.",
+            "quote": "Assurément, père et mère sont apôtres, évêques et prêtres pour leurs enfants, car ce sont eux qui les font connaître à l'Évangile.",
+            "source": "L'état du mariage, 1522"
+          }
+        ]
+      },
+      {
+        "name": "William Perkins",
+        "dates": "1558–1602",
+        "tradition": "Puritanisme anglais",
+        "bio": "Le théologien puritain le plus influent de Cambridge, Perkins a bâti une théologie réformée systématique de la vocation qui plaçait chaque personne — homme ou femme, riche ou pauvre — dans un poste assigné par Dieu pour le bien commun. Son Traité des vocations (1603) a donné à la théologie domestique puritaine sa fondation systématique.",
+        "themes": [
+          {
+            "title": "Chaque personne, chaque station",
+            "body": "Dieu assigne à chaque personne une vocation particulière aussi sûrement qu'un général assigne des soldats à leurs postes. La station de la maîtresse de maison n'est pas une vocation moindre — c'est une mission divine pour le bénéfice des autres.",
+            "quote": "Chacun, riche ou pauvre, homme ou femme, est tenu d'avoir une vocation personnelle, dans laquelle il doit accomplir certains devoirs pour le bien commun, selon la mesure des dons que Dieu lui a accordés.",
+            "source": "Traité des vocations, 1603"
+          },
+          {
+            "title": "Servir Dieu en servant les autres",
+            "body": "Le but de toute vocation — y compris la vie domestique — est de rendre service aux autres comme acte de service à Dieu. La vocation n'est jamais simplement une expression de soi ou une auto-provision.",
+            "quote": "La fin principale de nos vies est de servir Dieu en servant les hommes dans les œuvres de nos vocations.",
+            "source": "Traité des vocations, 1603"
+          }
+        ]
+      },
+      {
+        "name": "William Gouge",
+        "dates": "1575–1653",
+        "tradition": "Puritanisme anglais",
+        "bio": "Les Devoirs domestiques de Gouge (1622) — 693 pages, développées en trois éditions — était le manuel puritain le plus complet sur le foyer chrétien. Joel Beeke l'a modernisé sous le titre Édifier un foyer pieux (Reformation Heritage Books, 3 vol.).",
+        "themes": [
+          {
+            "title": "Le foyer comme petite église et petite nation",
+            "body": "La famille n'est pas simplement un arrangement privé mais l'institution fondatrice à la fois de l'église et de la société. Un foyer bien ordonné produit de bons membres d'église et de bons citoyens.",
+            "quote": "Une famille est une petite église et une petite nation ; ou plutôt, une petite église et une petite république, du moins une représentation vivante de celles-ci.",
+            "source": "Devoirs domestiques, 1622"
+          },
+          {
+            "title": "L'épouse comme co-gouverneure",
+            "body": "Contre toute vision de l'épouse comme subordonnée passive, Gouge a soutenu que le mari doit faire de son épouse une «co-gouverneure» du foyer, confiant une grande partie de son ordre et de sa prospérité à son discernement.",
+            "quote": "Il doit en faire une co-gouverneure de la famille avec lui-même et confier l'ordonnancement de beaucoup de choses à sa discrétion.",
+            "source": "Devoirs domestiques, Épître dédicatoire"
+          }
+        ]
+      },
+      {
+        "name": "Abraham Kuyper",
+        "dates": "1837–1920",
+        "tradition": "Réforme hollandaise / Néo-calvinisme",
+        "bio": "Théologien, journaliste, éducateur et Premier ministre des Pays-Bas, Kuyper a bâti une philosophie calviniste complète de la culture. Sa doctrine de la souveraineté des sphères déclare la famille comme l'une des sphères primordiales ordonnées par Dieu — directement responsable devant Dieu, non subordonnée à l'église ou à l'État.",
+        "themes": [
+          {
+            "title": "Pas un centimètre carré",
+            "body": "Dans son discours inaugural de 1880 à l'Université libre d'Amsterdam, Kuyper a déclaré qu'aucun coin de l'existence humaine — y compris la sphère domestique — n'échappe à la revendication du Christ. Chaque cuisine, chaque nurserie, chaque table est revendiquée par le Christ : «Mien !»",
+            "quote": "Il n'y a pas un centimètre carré dans tout le domaine de notre existence humaine sur lequel le Christ, qui est Souverain sur tout, ne crie pas : À moi !",
+            "source": "Discours inaugural, Université libre d'Amsterdam, 1880"
+          },
+          {
+            "title": "La famille comme sphère primordiale",
+            "body": "La famille est la première et la plus fondamentale des sphères ordonnées par Dieu. Elle précède et soutient toutes les autres institutions sociales.",
+            "quote": "Le mariage demeure le fondement de la société humaine et la famille conserve sa position de sphère primordiale en sociologie.",
+            "source": "Conférences sur le calvinisme, Princeton, 1898"
+          }
+        ]
+      },
+      {
+        "name": "Jonathan Edwards",
+        "dates": "1703–1758",
+        "tradition": "Réformé de Nouvelle-Angleterre",
+        "bio": "Le plus grand théologien d'Amérique a développé une théologie de la beauté enracinée dans Dieu en tant que Trinité. Son esthétique fournit le fondement réformé le plus profond de la vision d'Edith Schaeffer sur la beauté dans le foyer.",
+        "themes": [
+          {
+            "title": "La sainte beauté dans les paroles et les actions",
+            "body": "La véritable conversion réordonne toutes les affections, y compris le sens de la beauté. La personne régénérée perçoit la sainteté comme belle et exprime naturellement cette beauté dans toute sa conduite — y compris dans les paroles et les actions de la vie domestique.",
+            "quote": "Il y a une sainte beauté et douceur dans les paroles et les actions, tout comme il y a une beauté naturelle dans les physionomies et les sons.",
+            "source": "Affections religieuses, 1746"
+          },
+          {
+            "title": "Toute beauté reflète Dieu",
+            "body": "Rien de beau dans la création n'est auto-source. Chaque chose belle — une table bien dressée, une pièce accueillante, un repas préparé avec amour — est le reflet de Celui qui est Lui-même infiniment beau.",
+            "quote": "Toute la beauté que l'on trouve dans toute la création est le reflet des rayons diffusés de cet Être qui possède une plénitude infinie de splendeur et de gloire.",
+            "source": "Dissertation sur la nature de la vraie vertu, 1765"
+          }
+        ]
+      },
+      {
+        "name": "Rosaria Butterfield",
+        "dates": "née en 1962",
+        "tradition": "Presbytérienne réformée (RPCNA)",
+        "bio": "Ancienne professeure titulaire à l'Université de Syracuse, Butterfield est venue à Christ à travers des années d'amitié à la table d'un pasteur presbytérien réformé. Sa propre conversion est devenue la graine de ses convictions sur l'hospitalité comme proclamation de l'Évangile.",
+        "themes": [
+          {
+            "title": "Hospitalité radicalement ordinaire",
+            "body": "Butterfield distingue l'hospitalité chrétienne du divertissement. Le divertissement est événementiel, axé sur l'impression et perfectionniste. L'hospitalité est quotidienne, inconfortable, genuïne — elle partage ce qu'il y a. C'est l'unité de base du témoignage chrétien dans un monde post-chrétien.",
+            "quote": "L'hospitalité radicalement ordinaire est ceci : utiliser votre foyer chrétien au quotidien en cherchant à faire des étrangers des voisins, et des voisins la famille de Dieu.",
+            "source": "L'Évangile vient avec une clé de maison, 2018"
+          }
+        ]
+      },
+      {
+        "name": "Gloria Furman",
+        "dates": "née en 1982",
+        "tradition": "Réformée / Acts 29",
+        "bio": "Épouse d'un pasteur planteur d'église à Dubaï, Furman écrit dans le contexte de la maternité et de la vie domestique interculturelle. Elle trace l'arc du missio Dei à travers l'Écriture pour montrer que le travail quotidien de la maîtresse de maison s'inscrit dans le grand plan de Dieu d'unir toutes choses en Christ.",
+        "themes": [
+          {
+            "title": "La théologie pour les maîtresses de maison",
+            "body": "La doctrine n'est pas une théorie académique — c'est l'équipement indispensable pour les femmes qui ont besoin de savoir qui est Dieu, qui elles sont et ce que signifie leur travail quotidien ordinaire. La théologie transforme l'ordinaire.",
+            "quote": "La théologie est pour les maîtresses de maison qui ont besoin de savoir qui est Dieu, qui elles sont et de quoi parle cette vie banale.",
+            "source": "Aperçus de grâce, 2013"
+          },
+          {
+            "title": "Le travail domestique dans le grand plan de Dieu",
+            "body": "La maternité et le soin du foyer ne sont pas marginaux à l'histoire rédemptrice — ce sont les arènes où le discipulat se produit le plus durablement.",
+            "quote": "Son travail pour élever des enfants dans la crainte du Seigneur est sa participation privilégiée à l'œuvre de Dieu qui unit toutes choses en Jésus.",
+            "source": "Chérir Christ quand on a les mains pleines, 2014"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "verse": "« Elle est revêtue de force et de dignité, et elle sourit à l'avenir. Elle ouvre la bouche avec sagesse, et des instructions bienveillantes sont sur sa langue. »",
+    "verseRef": "— Proverbes 31:25–26",
+    "tagline": "La Maison Accueillante — Un outil pour la maîtresse de maison fidèle"
+  }
+}

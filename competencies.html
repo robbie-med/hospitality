@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Gracious Home</title>
+  <title>The Calling — The Gracious Home</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body data-page="home">
+<body data-page="competencies">
 
   <header class="site-header">
     <div class="header-inner">
@@ -20,30 +20,26 @@
     </div>
   </header>
 
-  <!-- Hero -->
-  <section class="landing-hero">
-    <div class="landing-hero-inner">
-      <p class="hero-eyebrow" data-i18n="landing.eyebrow"></p>
-      <h1 id="heroTitle"></h1>
-      <p class="hero-sub" data-i18n="landing.subtitle"></p>
-      <a href="competencies.html" class="btn btn-primary" id="landingCta" data-i18n="landing.ctaPrimary"></a>
+  <div class="page-hero page-hero-warm">
+    <div class="container">
+      <p class="section-label" data-i18n="competencies.sectionLabel"></p>
+      <h1 data-i18n="competencies.title"></h1>
+      <p class="page-hero-intro" data-i18n="competencies.intro"></p>
     </div>
-    <div class="landing-verse">
-      <blockquote>
-        <span data-i18n="hero.verse"></span>
-        <cite data-i18n="hero.verseRef"></cite>
-      </blockquote>
+  </div>
+
+  <section class="section section-light">
+    <div class="container">
+      <div class="competency-grid" id="competencyGrid"></div>
     </div>
   </section>
 
-  <!-- Section cards -->
-  <section class="landing-cards-section">
+  <div class="page-nav-footer">
     <div class="container">
-      <div class="landing-cards" id="landingCards">
-        <!-- rendered by app.js -->
-      </div>
+      <a href="index.html" class="btn btn-outline">← Home</a>
+      <a href="manifesto.html" class="btn btn-primary" data-i18n="nav.manifesto"></a>
     </div>
-  </section>
+  </div>
 
   <footer class="site-footer">
     <div class="container">
