@@ -98,6 +98,28 @@ nav a {
 }
 nav a:hover { color: var(--white); }
 
+/* Language Switcher */
+.lang-switcher {
+  display: flex;
+  gap: 0.35rem;
+  margin-left: 1rem;
+}
+
+.lang-btn {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.25);
+  color: var(--warm-tan);
+  border-radius: 4px;
+  padding: 0.25rem 0.55rem;
+  font-family: inherit;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.18s;
+  letter-spacing: 0.02em;
+}
+.lang-btn:hover  { border-color: var(--warm-tan); color: var(--white); }
+.lang-btn.active { background: var(--gold); border-color: var(--gold); color: var(--white); }
+
 .nav-toggle {
   display: none;
   background: none;
@@ -105,6 +127,21 @@ nav a:hover { color: var(--white); }
   color: var(--warm-tan);
   font-size: 1.4rem;
   cursor: pointer;
+}
+
+/* Mobile nav open state */
+#mainNav.mobile-open {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 64px;
+  left: 0;
+  right: 0;
+  background: var(--brown);
+  padding: 1rem 1.5rem 1.25rem;
+  z-index: 200;
+  gap: 1rem;
+  box-shadow: var(--shadow-md);
 }
 
 /* ── HERO ───────────────────────────────────────── */
@@ -764,8 +801,10 @@ nav a:hover { color: var(--white); }
   .hero-cta { justify-content: center; }
   .hero-verse { max-width: 100%; }
 
-  nav { display: none; }
+  #mainNav { display: none; }
+  #mainNav.mobile-open { display: flex; }
   .nav-toggle { display: block; }
+  .lang-switcher { margin-left: auto; }
 
   .pillar { grid-template-columns: 1fr; gap: 0.75rem; }
   .pillar-number { width: 40px; height: 40px; font-size: 0.95rem; }

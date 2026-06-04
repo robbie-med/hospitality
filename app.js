@@ -1,336 +1,417 @@
 /* =====================================================
-   THE GRACIOUS HOME — HOSPITALITY PLANNER
+   THE GRACIOUS HOME — APP
+   Depends on i18n.js being loaded first.
    ===================================================== */
 
 const TOTAL_STEPS = 6;
 let currentStep = 1;
 
-// ── DATA COLLECTION ──────────────────────────────────
-
-const data = {
+// Stores selected chip values as data-value keys (locale-independent)
+const selections = {
   guestCategory: [],
-  guestName: '',
-  guestNeeds: '',
   groupSize: [],
   motivation: [],
-  whyStatement: '',
-  prayerIntent: '',
-  eventDate: '',
   mealSlot: [],
-  duration: '',
-  prepTime: '',
   location: [],
-  spaceNotes: '',
   atmosphere: [],
   foodType: [],
-  menuIdeas: '',
   activities: [],
-  specialNeeds: '',
   prepChecklist: [],
-  heartChecklist: [],
-  helpNeeded: '',
-  extraNotes: ''
+  heartChecklist: []
 };
 
-// ── CHIP SELECTS ─────────────────────────────────────
+// ── RENDER COMPETENCY CARDS ───────────────────────────
 
-function initChipSelects() {
-  document.querySelectorAll('.chip-select').forEach(group => {
-    const isMulti = group.classList.contains('multi');
-    group.querySelectorAll('.chip').forEach(chip => {
-      chip.addEventListener('click', () => {
-        if (isMulti) {
-          chip.classList.toggle('selected');
-        } else {
-          group.querySelectorAll('.chip').forEach(c => c.classList.remove('selected'));
-          chip.classList.add('selected');
-        }
-        collectData();
-      });
-    });
-  });
+function renderCompetencies() {
+  const grid  = document.getElementById('competencyGrid');
+  const items = i18n.t('competencies.items');
+  if (!grid || !Array.isArray(items)) return;
+
+  grid.innerHTML = items.map(item => `
+    <div class="competency-card">
+      <div class="card-icon">${item.icon}</div>
+      <h3>${item.title}</h3>
+      <p>${item.description}</p>
+      <ul class="practices">
+        ${item.practices.map(p => `<li>${p}</li>`).join('')}
+      </ul>
+    </div>
+  `).join('');
 }
 
-// ── TEXT INPUT COLLECTION ────────────────────────────
+// ── RENDER MANIFESTO ──────────────────────────────────
 
-function initTextInputs() {
-  document.querySelectorAll('.text-input, .text-area').forEach(el => {
-    el.addEventListener('input', collectData);
-  });
-  document.querySelectorAll('.check-item input[type="checkbox"]').forEach(el => {
-    el.addEventListener('change', collectData);
-  });
-}
+function renderManifesto() {
+  const preamble = i18n.t('manifesto.preamble');
+  const pillars  = i18n.t('manifesto.pillars');
 
-function collectData() {
-  // Step 1
-  data.guestCategory  = getChipValues('guestCategory');
-  data.guestName      = getVal('guestName');
-  data.guestNeeds     = getVal('guestNeeds');
-  data.groupSize      = getChipValues('groupSize');
-
-  // Step 2
-  data.motivation     = getChipValues('motivation');
-  data.whyStatement   = getVal('whyStatement');
-  data.prayerIntent   = getVal('prayerIntent');
-
-  // Step 3
-  data.eventDate      = getVal('eventDate');
-  data.mealSlot       = getChipValues('mealSlot');
-  data.duration       = getVal('duration');
-  data.prepTime       = getVal('prepTime');
-
-  // Step 4
-  data.location       = getChipValues('location');
-  data.spaceNotes     = getVal('spaceNotes');
-  data.atmosphere     = getChipValues('atmosphere');
-
-  // Step 5
-  data.foodType       = getChipValues('foodType');
-  data.menuIdeas      = getVal('menuIdeas');
-  data.activities     = getChipValues('activities');
-  data.specialNeeds   = getVal('specialNeeds');
-
-  // Step 6
-  data.prepChecklist  = getCheckboxValues('prepChecklist');
-  data.heartChecklist = getCheckboxValues('heartChecklist');
-  data.helpNeeded     = getVal('helpNeeded');
-  data.extraNotes     = getVal('extraNotes');
-}
-
-function getChipValues(id) {
-  const el = document.getElementById(id);
-  if (!el) return [];
-  return [...el.querySelectorAll('.chip.selected')].map(c => c.textContent.trim());
-}
-
-function getVal(id) {
-  const el = document.getElementById(id);
-  return el ? el.value.trim() : '';
-}
-
-function getCheckboxValues(id) {
-  const el = document.getElementById(id);
-  if (!el) return [];
-  return [...el.querySelectorAll('input[type="checkbox"]:checked')]
-    .map(c => c.closest('label').textContent.trim());
-}
-
-// ── STEP NAVIGATION ──────────────────────────────────
-
-function changeStep(direction) {
-  collectData();
-
-  const from = currentStep;
-  const to   = currentStep + direction;
-
-  if (to < 1 || to > TOTAL_STEPS + 1) return;
-
-  document.getElementById(`step-${from}`).classList.remove('active');
-  document.getElementById(`step-${to}`).classList.add('active');
-  currentStep = to;
-
-  updateProgressUI();
-  updateNavButtons();
-
-  if (currentStep === TOTAL_STEPS + 1) {
-    renderPlan();
+  const preambleEl = document.getElementById('manifestoPreamble');
+  if (preambleEl && preamble) {
+    preambleEl.innerHTML = `
+      <h3>${preamble.title}</h3>
+      <p>${preamble.body}</p>
+    `;
   }
 
-  window.scrollTo({ top: document.getElementById('tool').offsetTop - 80, behavior: 'smooth' });
+  const pillarsEl = document.getElementById('manifestoPillars');
+  if (!pillarsEl || !Array.isArray(pillars)) return;
+
+  pillarsEl.innerHTML = pillars.map(p => `
+    <div class="pillar">
+      <div class="pillar-number">${p.number}</div>
+      <div class="pillar-body">
+        <h3>${p.title}</h3>
+        ${p.scriptures.map(s => `
+          <div class="scripture-block">
+            <p class="verse">${s.verse}</p>
+            <p class="ref">${s.ref}</p>
+          </div>`).join('')}
+        <p>${p.body}</p>
+        ${p.charge ? `<p class="manifesto-charge">${p.charge}</p>` : ''}
+      </div>
+    </div>
+  `).join('');
 }
 
-function updateProgressUI() {
-  const steps = document.querySelectorAll('.progress-steps .step');
-  steps.forEach((step, i) => {
+// ── RENDER PROGRESS BAR ───────────────────────────────
+
+function renderProgress() {
+  const labels  = i18n.t('planner.progressLabels');
+  const stepsEl = document.getElementById('progressSteps');
+  if (!stepsEl || !Array.isArray(labels)) return;
+
+  stepsEl.innerHTML = labels.map((label, i) => {
     const num = i + 1;
-    step.classList.remove('active', 'done');
-    if (num === currentStep)       step.classList.add('active');
-    else if (num < currentStep)    step.classList.add('done');
-  });
+    const cls = num === currentStep ? 'active' : num < currentStep ? 'done' : '';
+    const display = num === labels.length ? '✓' : num;
+    return `
+      <div class="step ${cls}" data-step="${num}">
+        <div class="step-circle">${display}</div>
+        <span>${label}</span>
+      </div>`;
+  }).join('');
 
   const pct = Math.min(((currentStep - 1) / TOTAL_STEPS) * 100, 100);
   document.getElementById('progressFill').style.width = pct + '%';
 }
 
-function updateNavButtons() {
+// ── RENDER CHIP SELECTS ───────────────────────────────
+
+function renderChips() {
+  document.querySelectorAll('.chip-select[data-field]').forEach(container => {
+    const field   = container.dataset.field;
+    const step    = container.dataset.step;
+    const isMulti = container.dataset.multi === 'true';
+    const options = i18n.t(`planner.steps.${step}.${field}.options`);
+    if (!Array.isArray(options)) return;
+
+    const current = selections[field] || [];
+
+    container.innerHTML = options.map(opt => `
+      <button type="button"
+              class="chip${current.includes(opt.value) ? ' selected' : ''}"
+              data-value="${opt.value}"
+              data-multi="${isMulti}">
+        ${opt.label}
+      </button>`).join('');
+
+    container.querySelectorAll('.chip').forEach(chip => {
+      chip.addEventListener('click', () => {
+        const val  = chip.dataset.value;
+        const multi = chip.dataset.multi === 'true';
+        if (multi) {
+          chip.classList.toggle('selected');
+          toggleSelection(field, val);
+        } else {
+          container.querySelectorAll('.chip').forEach(c => c.classList.remove('selected'));
+          chip.classList.add('selected');
+          selections[field] = [val];
+        }
+      });
+    });
+  });
+}
+
+function toggleSelection(field, val) {
+  const arr = selections[field];
+  const idx = arr.indexOf(val);
+  if (idx === -1) arr.push(val); else arr.splice(idx, 1);
+}
+
+// ── RENDER CHECKLISTS ─────────────────────────────────
+
+function renderChecklists() {
+  ['prepChecklist', 'heartChecklist'].forEach(field => {
+    const el   = document.getElementById(field);
+    const step = el?.dataset.step;
+    if (!el || !step) return;
+    const options = i18n.t(`planner.steps.${step}.${field}.options`);
+    if (!Array.isArray(options)) return;
+
+    const current = selections[field] || [];
+
+    el.innerHTML = options.map(opt => `
+      <label class="check-item">
+        <input type="checkbox"
+               value="${opt.value}"
+               ${current.includes(opt.value) ? 'checked' : ''} />
+        ${opt.label}
+      </label>`).join('');
+
+    el.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+      cb.addEventListener('change', () => {
+        const val = cb.value;
+        const arr = selections[field];
+        if (cb.checked) { if (!arr.includes(val)) arr.push(val); }
+        else            { const i = arr.indexOf(val); if (i > -1) arr.splice(i, 1); }
+      });
+    });
+  });
+}
+
+// ── HERO TITLE (preserves line break) ─────────────────
+
+function renderHeroTitle() {
+  const raw = i18n.t('hero.title');
+  const el  = document.getElementById('heroTitle');
+  if (el) el.innerHTML = raw.replace('\n', '<br>');
+}
+
+// ── NAV BUTTON LABELS ─────────────────────────────────
+
+function updateNavLabels() {
   const prevBtn = document.getElementById('prevBtn');
   const nextBtn = document.getElementById('nextBtn');
-  const nav     = document.getElementById('plannerNav');
+  const isLast  = currentStep === TOTAL_STEPS;
+  const isSummary = currentStep === TOTAL_STEPS + 1;
 
-  // Hide nav on summary page
-  if (currentStep === TOTAL_STEPS + 1) {
-    nav.style.display = 'none';
-    return;
-  } else {
-    nav.style.display = 'flex';
+  if (prevBtn) prevBtn.textContent = '← ' + i18n.t('planner.steps.' + stepKey(currentStep - 1) + '.stepLabel').split(' ')[0] || '';
+
+  if (nextBtn) {
+    nextBtn.textContent = isLast
+      ? i18n.t('planner.plan.title') + ' ✓'
+      : i18n.t('planner.steps.' + stepKey(currentStep + 1) + '.title').split(' ')[0] + ' →';
   }
 
-  prevBtn.style.display = currentStep > 1 ? 'inline-block' : 'none';
-
-  if (currentStep === TOTAL_STEPS) {
-    nextBtn.textContent = 'Create My Plan ✓';
+  if (isSummary && prevBtn && nextBtn) {
+    prevBtn.style.display = 'none';
+    nextBtn.style.display = 'none';
+    document.getElementById('plannerNav').style.display = 'none';
   } else {
-    nextBtn.textContent = 'Next →';
+    if (prevBtn) prevBtn.style.display = currentStep > 1 ? 'inline-block' : 'none';
+    document.getElementById('plannerNav').style.display = 'flex';
   }
 }
 
-// ── PLAN RENDERER ────────────────────────────────────
+function stepKey(n) {
+  return ['who', 'why', 'when', 'where', 'what', 'how'][n - 1] || '';
+}
+
+// ── STEP NAVIGATION ───────────────────────────────────
+
+function changeStep(direction) {
+  const from = currentStep;
+  const to   = currentStep + direction;
+  if (to < 1 || to > TOTAL_STEPS + 1) return;
+
+  document.getElementById(`step-${from}`)?.classList.remove('active');
+  document.getElementById(`step-${to}`)?.classList.add('active');
+  currentStep = to;
+
+  renderProgress();
+  updateNavLabels();
+
+  if (currentStep === TOTAL_STEPS + 1) renderPlan();
+
+  window.scrollTo({ top: document.getElementById('tool').offsetTop - 80, behavior: 'smooth' });
+}
+
+// ── PLAN OUTPUT ───────────────────────────────────────
+
+function resolveLabels(field, step) {
+  const options = i18n.t(`planner.steps.${step}.${field}.options`);
+  return (selections[field] || [])
+    .map(v => i18n.labelFor(options, v))
+    .filter(Boolean);
+}
+
+function tags(arr) {
+  if (!arr?.length) return `<em style="color:#aaa">${i18n.t('planner.plan.labels.noneSelected')}</em>`;
+  return arr.map(v => `<span class="tag">${v}</span>`).join(' ');
+}
+
+function textVal(id, fallback) {
+  const el = document.getElementById(id);
+  const v  = el?.value?.trim() || '';
+  return v || `<em style="color:#aaa">${fallback || i18n.t('planner.plan.labels.notSpecified')}</em>`;
+}
+
+function listItems(arr) {
+  if (!arr?.length) return `<em style="color:#aaa">${i18n.t('planner.plan.labels.noneSelected')}</em>`;
+  return '<ul style="margin:0.4rem 0 0 1rem; font-size:0.9rem;">'
+    + arr.map(v => `<li style="margin-bottom:0.2rem">${v}</li>`).join('')
+    + '</ul>';
+}
+
+function planRow(label, content) {
+  return `<p><strong>${label}</strong> ${content}</p>`;
+}
 
 function renderPlan() {
-  collectData();
+  const L  = i18n.t('planner.plan.labels');
+  const S  = i18n.t('planner.plan.sections');
+  const P  = i18n.t('planner.plan');
+  const today = new Date().toLocaleDateString(i18n.locale, { year:'numeric', month:'long', day:'numeric' });
 
-  const container = document.getElementById('planOutput');
-  const today = new Date().toLocaleDateString('en-US', { year:'numeric', month:'long', day:'numeric' });
+  const guestCats  = resolveLabels('guestCategory', 'who');
+  const groupSizes = resolveLabels('groupSize',     'who');
+  const motivations= resolveLabels('motivation',    'why');
+  const mealSlots  = resolveLabels('mealSlot',      'when');
+  const locations  = resolveLabels('location',      'where');
+  const atmospheres= resolveLabels('atmosphere',    'where');
+  const foodTypes  = resolveLabels('foodType',      'what');
+  const acts       = resolveLabels('activities',    'what');
+  const prepDone   = resolveLabels('prepChecklist', 'how');
+  const heartDone  = resolveLabels('heartChecklist','how');
 
-  function tags(arr) {
-    if (!arr || arr.length === 0) return '<em style="color:#aaa">Not specified</em>';
-    return arr.map(v => `<span class="tag">${v}</span>`).join(' ');
-  }
-
-  function text(str, fallback) {
-    return str || `<em style="color:#aaa">${fallback || 'Not specified'}</em>`;
-  }
-
-  function list(arr) {
-    if (!arr || arr.length === 0) return '<em style="color:#aaa">None selected</em>';
-    return '<ul style="margin:0.4rem 0 0 1rem; font-size:0.9rem;">' +
-      arr.map(v => `<li style="margin-bottom:0.2rem">${v}</li>`).join('') +
-      '</ul>';
-  }
-
-  container.innerHTML = `
+  document.getElementById('planOutput').innerHTML = `
     <div class="plan-title">
-      <h3>Hospitality Plan</h3>
-      <p>Created on ${today}</p>
+      <h3>${P.planTitle}</h3>
+      <p>${P.createdOn} ${today}</p>
     </div>
 
     <div class="plan-section">
-      <div class="plan-section-title">&#128101; Who</div>
+      <div class="plan-section-title">&#128101; ${S.who}</div>
       <div class="plan-section-content">
-        <div style="margin-bottom:0.5rem">${tags(data.guestCategory)} &nbsp; ${tags(data.groupSize)}</div>
-        <p><strong>Guest(s):</strong> ${text(data.guestName)}</p>
-        ${data.guestNeeds ? `<p><strong>Their situation:</strong> ${data.guestNeeds}</p>` : ''}
+        <div style="margin-bottom:0.5rem">${tags(guestCats)} &nbsp;${tags(groupSizes)}</div>
+        ${planRow(L.guests, textVal('guestName'))}
+        ${document.getElementById('guestNeeds')?.value?.trim()
+          ? planRow(L.situation, document.getElementById('guestNeeds').value.trim())
+          : ''}
       </div>
     </div>
 
     <div class="plan-section">
-      <div class="plan-section-title">&#10084; Why</div>
+      <div class="plan-section-title">&#10084; ${S.why}</div>
       <div class="plan-section-content">
-        <div style="margin-bottom:0.5rem">${tags(data.motivation)}</div>
-        ${data.whyStatement ? `<p><strong>My why:</strong> <em>"${data.whyStatement}"</em></p>` : ''}
-        ${data.prayerIntent ? `<p><strong>Prayer intention:</strong> ${data.prayerIntent}</p>` : ''}
+        <div style="margin-bottom:0.5rem">${tags(motivations)}</div>
+        ${document.getElementById('whyStatement')?.value?.trim()
+          ? planRow(L.myWhy, `<em>&ldquo;${document.getElementById('whyStatement').value.trim()}&rdquo;</em>`)
+          : ''}
+        ${document.getElementById('prayerIntent')?.value?.trim()
+          ? planRow(L.prayer, document.getElementById('prayerIntent').value.trim())
+          : ''}
       </div>
     </div>
 
     <div class="plan-section">
-      <div class="plan-section-title">&#128336; When</div>
+      <div class="plan-section-title">&#128336; ${S.when}</div>
       <div class="plan-section-content">
-        ${tags(data.mealSlot)}
-        ${data.eventDate ? `<p><strong>Date/Time:</strong> ${data.eventDate}</p>` : ''}
-        ${data.duration  ? `<p><strong>Duration:</strong> ${data.duration}</p>` : ''}
-        ${data.prepTime  ? `<p><strong>Prep window:</strong> ${data.prepTime}</p>` : ''}
+        ${tags(mealSlots)}
+        ${document.getElementById('eventDate')?.value?.trim()  ? planRow(L.dateTime,    document.getElementById('eventDate').value.trim())  : ''}
+        ${document.getElementById('duration')?.value?.trim()   ? planRow(L.duration,    document.getElementById('duration').value.trim())   : ''}
+        ${document.getElementById('prepTime')?.value?.trim()   ? planRow(L.prepWindow,  document.getElementById('prepTime').value.trim())   : ''}
       </div>
     </div>
 
     <div class="plan-section">
-      <div class="plan-section-title">&#127968; Where</div>
+      <div class="plan-section-title">&#127968; ${S.where}</div>
       <div class="plan-section-content">
-        ${tags(data.location)}
-        ${data.atmosphere.length ? `<p><strong>Atmosphere:</strong> ${tags(data.atmosphere)}</p>` : ''}
-        ${data.spaceNotes ? `<p><strong>Space notes:</strong> ${data.spaceNotes}</p>` : ''}
+        ${tags(locations)}
+        ${atmospheres.length ? planRow(L.atmosphere, tags(atmospheres)) : ''}
+        ${document.getElementById('spaceNotes')?.value?.trim() ? planRow(L.spaceNotes, document.getElementById('spaceNotes').value.trim()) : ''}
       </div>
     </div>
 
     <div class="plan-section">
-      <div class="plan-section-title">&#9749; What</div>
+      <div class="plan-section-title">&#9749; ${S.what}</div>
       <div class="plan-section-content">
-        <p><strong>Food:</strong> ${tags(data.foodType)}</p>
-        ${data.menuIdeas  ? `<p><strong>Menu ideas:</strong> ${data.menuIdeas}</p>` : ''}
-        ${data.activities.length ? `<p><strong>Activities:</strong> ${tags(data.activities)}</p>` : ''}
-        ${data.specialNeeds ? `<p><strong>Special needs:</strong> ${data.specialNeeds}</p>` : ''}
+        ${planRow(L.food, tags(foodTypes))}
+        ${document.getElementById('menuIdeas')?.value?.trim()    ? planRow(L.menuIdeas,   document.getElementById('menuIdeas').value.trim())    : ''}
+        ${acts.length ? planRow(L.activities, tags(acts)) : ''}
+        ${document.getElementById('specialNeeds')?.value?.trim() ? planRow(L.specialNeeds, document.getElementById('specialNeeds').value.trim()) : ''}
       </div>
     </div>
 
     <div class="plan-section">
-      <div class="plan-section-title">&#9998; How — Preparation</div>
+      <div class="plan-section-title">&#9998; ${S.how}</div>
       <div class="plan-section-content">
-        ${data.prepChecklist.length  ? `<p><strong>Practical tasks:</strong>${list(data.prepChecklist)}</p>` : ''}
-        ${data.heartChecklist.length ? `<p style="margin-top:0.75rem"><strong>Heart preparation:</strong>${list(data.heartChecklist)}</p>` : ''}
-        ${data.helpNeeded  ? `<p style="margin-top:0.75rem"><strong>Helpers:</strong> ${data.helpNeeded}</p>` : ''}
-        ${data.extraNotes  ? `<p style="margin-top:0.75rem"><strong>Additional notes:</strong> ${data.extraNotes}</p>` : ''}
+        ${prepDone.length  ? planRow(L.practicalTasks, listItems(prepDone))  : ''}
+        ${heartDone.length ? `<div style="margin-top:0.75rem">${planRow(L.heartPrep, listItems(heartDone))}</div>` : ''}
+        ${document.getElementById('helpNeeded')?.value?.trim()  ? `<div style="margin-top:0.75rem">${planRow(L.helpers, document.getElementById('helpNeeded').value.trim())}</div>`  : ''}
+        ${document.getElementById('extraNotes')?.value?.trim()  ? `<div style="margin-top:0.75rem">${planRow(L.notes,   document.getElementById('extraNotes').value.trim())}</div>`  : ''}
       </div>
     </div>
 
-    <div class="plan-section" style="background:var(--cream-mid); border-radius:8px; padding:1.25rem; border-bottom:none; margin-top:0.5rem;">
-      <div class="plan-section-title" style="margin-bottom:0.5rem">&#128214; A Word for the Road</div>
+    <div class="plan-section" style="background:var(--cream-mid);border-radius:8px;padding:1.25rem;border-bottom:none;margin-top:0.5rem">
+      <div class="plan-section-title">&#128214;</div>
       <div class="plan-section-content">
-        <p style="font-style:italic; color:var(--brown);">"When you give a feast, invite the poor, the crippled, the lame, the blind, and you will be blessed, because they cannot repay you."</p>
-        <p style="font-size:0.8rem; letter-spacing:0.06em; color:var(--gold); margin-top:0.3rem;">— Luke 14:13–14</p>
+        <p style="font-style:italic;color:var(--brown)">${P.closingVerse}</p>
+        <p style="font-size:0.8rem;letter-spacing:0.06em;color:var(--gold);margin-top:0.3rem">${P.closingRef}</p>
       </div>
     </div>
   `;
 }
 
-// ── START OVER ───────────────────────────────────────
+// ── START OVER ────────────────────────────────────────
 
 function startOver() {
   currentStep = 1;
+  Object.keys(selections).forEach(k => { selections[k] = []; });
 
-  // Clear all inputs
   document.querySelectorAll('.text-input, .text-area').forEach(el => el.value = '');
-  document.querySelectorAll('.chip').forEach(c => c.classList.remove('selected'));
-  document.querySelectorAll('.check-item input[type="checkbox"]').forEach(c => c.checked = false);
-
-  // Show step 1
   document.querySelectorAll('.planner-step').forEach(s => s.classList.remove('active'));
   document.getElementById('step-1').classList.add('active');
 
-  updateProgressUI();
-  updateNavButtons();
+  renderChips();
+  renderChecklists();
+  renderProgress();
+  updateNavLabels();
   document.getElementById('plannerNav').style.display = 'flex';
 
   window.scrollTo({ top: document.getElementById('tool').offsetTop - 80, behavior: 'smooth' });
 }
 
-// ── MOBILE NAV TOGGLE ────────────────────────────────
+// ── RENDER ALL (called on locale change) ──────────────
+
+window.renderAll = function () {
+  renderHeroTitle();
+  renderCompetencies();
+  renderManifesto();
+  renderProgress();
+  renderChips();
+  renderChecklists();
+  updateNavLabels();
+};
+
+// ── MOBILE NAV ────────────────────────────────────────
 
 function initMobileNav() {
-  const toggle = document.querySelector('.nav-toggle');
-  const nav    = document.querySelector('nav');
+  const toggle = document.getElementById('navToggle');
+  const nav    = document.getElementById('mainNav');
   if (!toggle || !nav) return;
-
   toggle.addEventListener('click', () => {
-    const open = nav.style.display === 'flex';
-    nav.style.display = open ? 'none' : 'flex';
-    if (!open) {
-      nav.style.flexDirection = 'column';
-      nav.style.position = 'absolute';
-      nav.style.top = '64px';
-      nav.style.left = '0';
-      nav.style.right = '0';
-      nav.style.background = 'var(--brown)';
-      nav.style.padding = '1rem 1.5rem';
-      nav.style.zIndex = '200';
-      nav.style.gap = '1rem';
-    }
+    const open = nav.classList.toggle('mobile-open');
   });
-
   nav.querySelectorAll('a').forEach(a => {
-    a.addEventListener('click', () => {
-      if (window.innerWidth <= 768) nav.style.display = 'none';
-    });
+    a.addEventListener('click', () => nav.classList.remove('mobile-open'));
   });
 }
 
-// ── INIT ─────────────────────────────────────────────
+// ── BOOT ──────────────────────────────────────────────
 
-document.addEventListener('DOMContentLoaded', () => {
-  initChipSelects();
-  initTextInputs();
-  updateNavButtons();
-  updateProgressUI();
+document.addEventListener('DOMContentLoaded', async () => {
+  await i18n.init();
+
+  window.renderAll();
+  i18n.apply();
+  i18n.buildSwitcher();
+
+  // Nav buttons
+  document.getElementById('prevBtn')?.addEventListener('click',     () => changeStep(-1));
+  document.getElementById('nextBtn')?.addEventListener('click',     () => changeStep(1));
+  document.getElementById('startOverBtn')?.addEventListener('click', startOver);
+  document.getElementById('printBtn')?.addEventListener('click',    () => window.print());
+
   initMobileNav();
-
-  document.getElementById('startOverBtn').addEventListener('click', startOver);
 });

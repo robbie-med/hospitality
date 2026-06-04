@@ -1,674 +1,307 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Gracious Home — A Guide to Hospitality</title>
+  <title>The Gracious Home</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- NAV -->
+  <!-- ── HEADER ─────────────────────────────────────── -->
   <header class="site-header">
     <div class="header-inner">
       <div class="logo">
         <span class="logo-icon">&#9765;</span>
-        <span class="logo-text">The Gracious Home</span>
+        <span class="logo-text" data-i18n="nav.brand">The Gracious Home</span>
       </div>
-      <nav>
-        <a href="#competencies">Competencies</a>
-        <a href="#manifesto">Manifesto</a>
-        <a href="#tool">Hospitality Planner</a>
+      <nav id="mainNav">
+        <a href="#competencies" data-i18n="nav.competencies">Competencies</a>
+        <a href="#manifesto"    data-i18n="nav.manifesto">Manifesto</a>
+        <a href="#tool"         data-i18n="nav.planner">Hospitality Planner</a>
       </nav>
-      <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+      <div id="langSwitcher" class="lang-switcher"></div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
     </div>
   </header>
 
-  <!-- HERO -->
+  <!-- ── HERO ───────────────────────────────────────── -->
   <section class="hero">
     <div class="hero-content">
-      <p class="hero-eyebrow">A Biblical Vision</p>
-      <h1>Welcome Home,<br>Welcome Others</h1>
-      <p class="hero-sub">A guide to the art and calling of homemaking — grounded in Scripture, shaped by love, expressed through hospitality.</p>
+      <p class="hero-eyebrow" data-i18n="hero.eyebrow">A Biblical Vision</p>
+      <h1 id="heroTitle"></h1>
+      <p class="hero-sub" data-i18n="hero.subtitle"></p>
       <div class="hero-cta">
-        <a href="#competencies" class="btn btn-primary">Explore the Calling</a>
-        <a href="#tool" class="btn btn-outline">Open the Planner</a>
+        <a href="#competencies" class="btn btn-primary" data-i18n="hero.ctaPrimary">Explore the Calling</a>
+        <a href="#tool"         class="btn btn-outline"  data-i18n="hero.ctaSecondary">Open the Planner</a>
       </div>
     </div>
     <div class="hero-verse">
       <blockquote>
-        "She opens her hand to the poor and reaches out her hands to the needy."
-        <cite>Proverbs 31:20</cite>
+        <span data-i18n="hero.verse"></span>
+        <cite data-i18n="hero.verseRef"></cite>
       </blockquote>
     </div>
   </section>
 
-  <!-- ================================================================
-       SECTION 1 — CORE COMPETENCIES
-  ================================================================ -->
+  <!-- ── SECTION 1: COMPETENCIES ────────────────────── -->
   <section id="competencies" class="section section-light">
     <div class="container">
       <div class="section-header">
-        <p class="section-label">Section One</p>
-        <h2>Core Competencies of a Homemaker &amp; Wife</h2>
-        <p class="section-intro">These are not burdens imposed from outside, but gifts cultivated from within — each one an expression of love, wisdom, and faithful stewardship of the home God entrusts to her care.</p>
+        <p class="section-label" data-i18n="competencies.sectionLabel">Section One</p>
+        <h2 data-i18n="competencies.title">Core Competencies</h2>
+        <p class="section-intro" data-i18n="competencies.intro"></p>
       </div>
-
-      <div class="competency-grid">
-
-        <div class="competency-card">
-          <div class="card-icon">&#10021;</div>
-          <h3>Spiritual Anchor</h3>
-          <p>She roots her home in prayer, Scripture, and worship. Her fear of the Lord is the foundation on which all other competencies rest (Prov. 31:30).</p>
-          <ul class="practices">
-            <li>Daily personal devotion &amp; prayer</li>
-            <li>Leading family in Scripture and worship</li>
-            <li>Cultivating a home atmosphere of peace and faith</li>
-            <li>Modeling repentance, grace, and forgiveness</li>
-          </ul>
-        </div>
-
-        <div class="competency-card">
-          <div class="card-icon">&#8962;</div>
-          <h3>Household Stewardship</h3>
-          <p>She watches over the affairs of her household with diligence — managing time, resources, and space with intentionality (Prov. 31:27).</p>
-          <ul class="practices">
-            <li>Maintaining order, cleanliness, and beauty</li>
-            <li>Budgeting and financial stewardship</li>
-            <li>Meal planning and provisioning</li>
-            <li>Seasonal rhythms and household routines</li>
-          </ul>
-        </div>
-
-        <div class="competency-card">
-          <div class="card-icon">&#9749;</div>
-          <h3>Nourishment &amp; Culinary Art</h3>
-          <p>She provides food for her household and her guests with skill and generosity — the table is her instrument of love (Prov. 31:15).</p>
-          <ul class="practices">
-            <li>Cooking wholesome, nourishing meals</li>
-            <li>Baking and preserving seasonal foods</li>
-            <li>Setting a welcoming table</li>
-            <li>Adapting to dietary needs of guests</li>
-          </ul>
-        </div>
-
-        <div class="competency-card">
-          <div class="card-icon">&#10084;</div>
-          <h3>Nurturing &amp; Caregiving</h3>
-          <p>She pours herself into the emotional, physical, and spiritual wellbeing of her husband, children, and those in her household (Titus 2:4–5).</p>
-          <ul class="practices">
-            <li>Attentive presence with husband and children</li>
-            <li>Recognizing and meeting emotional needs</li>
-            <li>Caring for the sick, elderly, or weak</li>
-            <li>Teaching and discipling her children</li>
-          </ul>
-        </div>
-
-        <div class="competency-card">
-          <div class="card-icon">&#9775;</div>
-          <h3>Hospitality &amp; Welcome</h3>
-          <p>Her home is a refuge for family, friends, strangers, and the lonely. She makes people feel seen, safe, and celebrated (1 Pet. 4:9; Heb. 13:2).</p>
-          <ul class="practices">
-            <li>Keeping a home prepared to receive guests</li>
-            <li>Hosting meals, gatherings, and overnight guests</li>
-            <li>Welcoming the stranger and the marginalized</li>
-            <li>Creating warmth and belonging</li>
-          </ul>
-        </div>
-
-        <div class="competency-card">
-          <div class="card-icon">&#9998;</div>
-          <h3>Creative Excellence</h3>
-          <p>She brings beauty, craft, and creativity into the home — from décor to handcraft to aesthetics that reflect dignity and delight (Prov. 31:22).</p>
-          <ul class="practices">
-            <li>Decorating with intention and beauty</li>
-            <li>Sewing, crafting, or artisan skills</li>
-            <li>Cultivating a home that reflects care</li>
-            <li>Seasonal and celebratory adornment</li>
-          </ul>
-        </div>
-
-        <div class="competency-card">
-          <div class="card-icon">&#128172;</div>
-          <h3>Wise Communication</h3>
-          <p>She speaks with wisdom and kindness — her tongue builds up rather than tears down (Prov. 31:26; Eph. 4:29).</p>
-          <ul class="practices">
-            <li>Speaking words of affirmation and encouragement</li>
-            <li>Listening with empathy and without judgment</li>
-            <li>Navigating conflict with grace and truth</li>
-            <li>Teaching others through her words and example</li>
-          </ul>
-        </div>
-
-        <div class="competency-card">
-          <div class="card-icon">&#9878;</div>
-          <h3>Industry &amp; Enterprise</h3>
-          <p>She is not idle — she works with eager hands and is not afraid of honest work, contributing to the prosperity of her household (Prov. 31:17–18, 24).</p>
-          <ul class="practices">
-            <li>Managing or contributing to household income</li>
-            <li>Time management and productivity</li>
-            <li>Planning and executing long-term goals</li>
-            <li>Learning and growing new skills</li>
-          </ul>
-        </div>
-
-        <div class="competency-card">
-          <div class="card-icon">&#127807;</div>
-          <h3>Community &amp; Friendship</h3>
-          <p>She is embedded in a community — she gives generously, supports other women, and builds relational networks of care (Gal. 6:2; Titus 2:3–5).</p>
-          <ul class="practices">
-            <li>Investing in friendships and neighborly relationships</li>
-            <li>Mentoring younger women</li>
-            <li>Serving and giving to those in need</li>
-            <li>Being an active member of her church family</li>
-          </ul>
-        </div>
-
-        <div class="competency-card">
-          <div class="card-icon">&#9733;</div>
-          <h3>Physical &amp; Emotional Wellness</h3>
-          <p>She attends to her own strength — she cannot pour from an empty vessel. Sabbath rest and self-care are acts of faithfulness (Prov. 31:17).</p>
-          <ul class="practices">
-            <li>Maintaining physical health and energy</li>
-            <li>Practicing Sabbath and restorative rest</li>
-            <li>Emotional self-awareness and boundaries</li>
-            <li>Seeking help and support when needed</li>
-          </ul>
-        </div>
-
+      <div class="competency-grid" id="competencyGrid">
+        <!-- rendered by app.js -->
       </div>
     </div>
   </section>
 
-  <!-- ================================================================
-       SECTION 2 — BIBLICAL MANIFESTO
-  ================================================================ -->
+  <!-- ── SECTION 2: MANIFESTO ───────────────────────── -->
   <section id="manifesto" class="section section-warm">
     <div class="container">
       <div class="section-header">
-        <p class="section-label">Section Two</p>
-        <h2>A Biblical Manifesto for Hospitality</h2>
-        <p class="section-intro">Hospitality is not a personality trait or a lifestyle aesthetic. It is a command, a calling, and a participation in the very welcome God extends to us through the gospel.</p>
+        <p class="section-label" data-i18n="manifesto.sectionLabel">Section Two</p>
+        <h2 data-i18n="manifesto.title">A Biblical Manifesto</h2>
+        <p class="section-intro" data-i18n="manifesto.intro"></p>
       </div>
-
       <div class="manifesto-content">
-
-        <div class="manifesto-preamble">
-          <h3>Preamble: The God Who Welcomes</h3>
-          <p>Before we can understand the call to hospitality, we must understand the God who models it. From the beginning, God prepared a garden-home for humanity — a place of provision, beauty, rest, and communion. When humanity broke fellowship with Him through sin, God did not abandon the project of welcome. He set in motion a plan to bring His exiled children home, culminating in the person of Jesus Christ, who "came to seek and save the lost" (Luke 19:10) and who promises that in His Father's house are "many rooms" prepared for those who love Him (John 14:2). Hospitality, then, is not an invented virtue. It is an <em>imitation of God</em>.</p>
+        <div class="manifesto-preamble" id="manifestoPreamble">
+          <!-- rendered by app.js -->
         </div>
-
-        <div class="manifesto-pillars">
-
-          <div class="pillar">
-            <div class="pillar-number">I</div>
-            <div class="pillar-body">
-              <h3>We Believe Hospitality Is a Command, Not a Suggestion</h3>
-              <div class="scripture-block">
-                <p class="verse">"Contribute to the needs of the saints and seek to show hospitality."</p>
-                <p class="ref">Romans 12:13</p>
-              </div>
-              <div class="scripture-block">
-                <p class="verse">"Show hospitality to one another without grumbling."</p>
-                <p class="ref">1 Peter 4:9</p>
-              </div>
-              <p>Scripture does not suggest we be hospitable when it is convenient or comfortable. It commands it — plainly, repeatedly, and alongside other moral imperatives like love, generosity, and truth-telling. The hospitable home is not optional obedience. It is the norm of Christian life.</p>
-            </div>
-          </div>
-
-          <div class="pillar">
-            <div class="pillar-number">II</div>
-            <div class="pillar-body">
-              <h3>We Believe the Stranger Is to Be Welcomed, Not Feared</h3>
-              <div class="scripture-block">
-                <p class="verse">"Do not neglect to show hospitality to strangers, for thereby some have entertained angels unawares."</p>
-                <p class="ref">Hebrews 13:2</p>
-              </div>
-              <div class="scripture-block">
-                <p class="verse">"The stranger who sojourns with you shall be to you as the native among you, and you shall love him as yourself."</p>
-                <p class="ref">Leviticus 19:34</p>
-              </div>
-              <p>The biblical vision of hospitality extends far beyond the familiar. The Greek word <em>philoxenia</em> — translated "hospitality" — literally means "love of the stranger." Israel was commanded to remember they were once strangers in Egypt (Deut. 10:19). We extend welcome because we were welcomed when we were aliens and outsiders (Eph. 2:12–13).</p>
-            </div>
-          </div>
-
-          <div class="pillar">
-            <div class="pillar-number">III</div>
-            <div class="pillar-body">
-              <h3>We Believe the Table Is a Theological Act</h3>
-              <div class="scripture-block">
-                <p class="verse">"When you give a dinner or a banquet, do not invite your friends or your brothers or your relatives or rich neighbors, lest they also invite you in return and you be repaid. But when you give a feast, invite the poor, the crippled, the lame, the blind."</p>
-                <p class="ref">Luke 14:12–13</p>
-              </div>
-              <p>Jesus redefined the guest list. The table is not for social reciprocity — it is for grace. It is a foretaste of the great wedding supper of the Lamb, where people will come from east and west, from north and south (Luke 13:29). Every meal shared in love is a small eschatological sign of that coming feast. The home table is a sanctuary of grace.</p>
-            </div>
-          </div>
-
-          <div class="pillar">
-            <div class="pillar-number">IV</div>
-            <div class="pillar-body">
-              <h3>We Believe Hospitality Requires Presence, Not Perfection</h3>
-              <div class="scripture-block">
-                <p class="verse">"Martha, Martha, you are anxious and troubled about many things, but one thing is necessary. Mary has chosen the good portion."</p>
-                <p class="ref">Luke 10:41–42</p>
-              </div>
-              <p>The story of Mary and Martha is not a rejection of Martha's service — it is a rebuke of her anxiety and her resentment of Mary's presence with Jesus. Hospitality is not about performance. It is about presence. The goal is not an impressive table; the goal is that your guest encounters love. A simple meal offered with full attention and genuine warmth surpasses a feast offered with distraction and stress.</p>
-            </div>
-          </div>
-
-          <div class="pillar">
-            <div class="pillar-number">V</div>
-            <div class="pillar-body">
-              <h3>We Believe Hospitality Ministers to Christ Himself</h3>
-              <div class="scripture-block">
-                <p class="verse">"For I was hungry and you gave me food, I was thirsty and you gave me drink, I was a stranger and you welcomed me... Truly, I say to you, as you did it to one of the least of these my brothers, you did it to me."</p>
-                <p class="ref">Matthew 25:35, 40</p>
-              </div>
-              <p>The most radical truth about Christian hospitality is this: in welcoming others, we welcome Christ. He meets us in the face of the stranger, the widow, the lonely neighbor, the grieving friend. To close the door to them is to close the door to Him. To open the door is to open it to our Lord.</p>
-            </div>
-          </div>
-
-          <div class="pillar">
-            <div class="pillar-number">VI</div>
-            <div class="pillar-body">
-              <h3>We Believe the Hospitable Woman Reflects the Heart of the Church</h3>
-              <div class="scripture-block">
-                <p class="verse">"She opens her hand to the poor and reaches out her hands to the needy... She is not afraid of snow for her household, for all her household are clothed in scarlet."</p>
-                <p class="ref">Proverbs 31:20, 21</p>
-              </div>
-              <div class="scripture-block">
-                <p class="verse">"She has been hospitable... She has devoted herself to every good work."</p>
-                <p class="ref">1 Timothy 5:10</p>
-              </div>
-              <p>The Proverbs 31 woman is generous, prepared, and forward-thinking in her care for others. The widow Paul commends is remembered for her hospitality. The godly woman does not merely manage a household for herself — she opens it for others. Her home becomes a microcosm of the church: a community of welcome, service, and love.</p>
-            </div>
-          </div>
-
-          <div class="pillar">
-            <div class="pillar-number">VII</div>
-            <div class="pillar-body">
-              <h3>We Commit to a Household of Open Doors</h3>
-              <p>Therefore, we commit to keeping our home as a place of welcome. We will hold our space, time, food, and comfort loosely — as gifts from God to be shared with others. We will not allow busyness, perfectionism, or fear to become excuses for a closed door. We will pray for eyes to see who needs welcome, hands ready to serve, and a table always prepared to receive.</p>
-              <p class="manifesto-charge">We do this not to be seen, not to be repaid, and not to impress — but because we have been welcomed by a God of infinite grace, and we are compelled by love to pass that welcome on.</p>
-            </div>
-          </div>
-
+        <div class="manifesto-pillars" id="manifestoPillars">
+          <!-- rendered by app.js -->
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ================================================================
-       SECTION 3 — HOSPITALITY PLANNER TOOL
-  ================================================================ -->
+  <!-- ── SECTION 3: PLANNER ─────────────────────────── -->
   <section id="tool" class="section section-light">
     <div class="container">
       <div class="section-header">
-        <p class="section-label">Section Three</p>
-        <h2>The Hospitality Planner</h2>
-        <p class="section-intro">Answer the six questions — Who, What, How, When, Where, and Why — to build a complete, intentional plan for your next act of hospitality.</p>
+        <p class="section-label" data-i18n="planner.sectionLabel">Section Three</p>
+        <h2 data-i18n="planner.title">The Hospitality Planner</h2>
+        <p class="section-intro" data-i18n="planner.intro"></p>
       </div>
 
       <div class="planner-wrapper">
 
-        <!-- Progress Bar -->
+        <!-- Progress -->
         <div class="planner-progress">
-          <div class="progress-steps">
-            <div class="step active" data-step="1">
-              <div class="step-circle">1</div>
-              <span>Who</span>
-            </div>
-            <div class="step" data-step="2">
-              <div class="step-circle">2</div>
-              <span>Why</span>
-            </div>
-            <div class="step" data-step="3">
-              <div class="step-circle">3</div>
-              <span>When</span>
-            </div>
-            <div class="step" data-step="4">
-              <div class="step-circle">4</div>
-              <span>Where</span>
-            </div>
-            <div class="step" data-step="5">
-              <div class="step-circle">5</div>
-              <span>What</span>
-            </div>
-            <div class="step" data-step="6">
-              <div class="step-circle">6</div>
-              <span>How</span>
-            </div>
-            <div class="step" data-step="7">
-              <div class="step-circle">&#10003;</div>
-              <span>Plan</span>
-            </div>
-          </div>
+          <div class="progress-steps" id="progressSteps"></div>
           <div class="progress-bar-track">
             <div class="progress-bar-fill" id="progressFill"></div>
           </div>
         </div>
 
-        <!-- Step Forms -->
+        <!-- Card -->
         <div class="planner-card">
 
-          <!-- STEP 1: WHO -->
+          <!-- Step 1: WHO -->
           <div class="planner-step active" id="step-1">
             <div class="step-header">
-              <span class="step-label">Step 1 of 6</span>
-              <h3>Who will you welcome?</h3>
-              <p>Identify the person or group you feel called to invite. Choose a category, then describe them more specifically below.</p>
+              <span class="step-label" data-i18n="planner.steps.who.stepLabel"></span>
+              <h3 data-i18n="planner.steps.who.title"></h3>
+              <p data-i18n="planner.steps.who.description"></p>
             </div>
-
             <div class="field-group">
-              <label class="field-label">Category of Guest</label>
-              <div class="chip-select" id="guestCategory">
-                <button type="button" class="chip" data-value="family">Family</button>
-                <button type="button" class="chip" data-value="friends">Close Friends</button>
-                <button type="button" class="chip" data-value="neighbors">Neighbors</button>
-                <button type="button" class="chip" data-value="strangers">Strangers / New Acquaintances</button>
-                <button type="button" class="chip" data-value="lonely">The Lonely / Isolated</button>
-                <button type="button" class="chip" data-value="grieving">The Grieving</button>
-                <button type="button" class="chip" data-value="new-believers">New Believers</button>
-                <button type="button" class="chip" data-value="unbelievers">Unbelieving Friends</button>
-                <button type="button" class="chip" data-value="church">Church Community</button>
-                <button type="button" class="chip" data-value="poor">The Poor / Marginalized</button>
-              </div>
+              <label class="field-label" data-i18n="planner.steps.who.guestCategory.label"></label>
+              <div class="chip-select" id="guestCategory" data-field="guestCategory" data-step="who" data-multi="false"></div>
             </div>
-
             <div class="field-group">
-              <label class="field-label" for="guestName">Who specifically? (name, group, or description)</label>
-              <input type="text" id="guestName" class="text-input" placeholder="e.g., The new family from church, my neighbor Lisa, college students..." />
+              <label class="field-label" for="guestName" data-i18n="planner.steps.who.guestName.label"></label>
+              <input type="text" id="guestName" class="text-input" data-i18n-placeholder="planner.steps.who.guestName.placeholder" />
             </div>
-
             <div class="field-group">
-              <label class="field-label" for="guestNeeds">What do you know about their needs or current situation?</label>
-              <textarea id="guestNeeds" class="text-area" rows="3" placeholder="e.g., Recently moved to town, going through a difficult season, don't have many local connections..."></textarea>
+              <label class="field-label" for="guestNeeds" data-i18n="planner.steps.who.guestNeeds.label"></label>
+              <textarea id="guestNeeds" class="text-area" rows="3" data-i18n-placeholder="planner.steps.who.guestNeeds.placeholder"></textarea>
             </div>
-
             <div class="field-group">
-              <label class="field-label">Approximate group size</label>
-              <div class="chip-select" id="groupSize">
-                <button type="button" class="chip" data-value="1">1 person</button>
-                <button type="button" class="chip" data-value="2-4">2–4 people</button>
-                <button type="button" class="chip" data-value="5-8">5–8 people</button>
-                <button type="button" class="chip" data-value="9-15">9–15 people</button>
-                <button type="button" class="chip" data-value="16+">16+ people</button>
-              </div>
+              <label class="field-label" data-i18n="planner.steps.who.groupSize.label"></label>
+              <div class="chip-select" id="groupSize" data-field="groupSize" data-step="who" data-multi="false"></div>
             </div>
-
             <div class="scripture-prompt">
               <span class="sp-icon">&#128214;</span>
-              <p>"Do not forget to show hospitality to strangers, for by so doing some have shown hospitality to angels without knowing it." — Hebrews 13:2</p>
+              <p data-i18n="planner.steps.who.scripture"></p>
             </div>
           </div>
 
-          <!-- STEP 2: WHY -->
+          <!-- Step 2: WHY -->
           <div class="planner-step" id="step-2">
             <div class="step-header">
-              <span class="step-label">Step 2 of 6</span>
-              <h3>Why are you extending this hospitality?</h3>
-              <p>Clarity of purpose shapes everything — from the tone of the gathering to how you prepare your heart.</p>
+              <span class="step-label" data-i18n="planner.steps.why.stepLabel"></span>
+              <h3 data-i18n="planner.steps.why.title"></h3>
+              <p data-i18n="planner.steps.why.description"></p>
             </div>
-
             <div class="field-group">
-              <label class="field-label">Primary motivation (choose all that apply)</label>
-              <div class="chip-select multi" id="motivation">
-                <button type="button" class="chip" data-value="obedience">Obedience to Scripture</button>
-                <button type="button" class="chip" data-value="love">Love for this person / people</button>
-                <button type="button" class="chip" data-value="evangelism">Share the gospel / point to Jesus</button>
-                <button type="button" class="chip" data-value="community">Build community &amp; belonging</button>
-                <button type="button" class="chip" data-value="comfort">Comfort someone in pain</button>
-                <button type="button" class="chip" data-value="celebrate">Celebrate a milestone or blessing</button>
-                <button type="button" class="chip" data-value="serve">Practical service / meet a need</button>
-                <button type="button" class="chip" data-value="disciple">Disciple or mentor</button>
-                <button type="button" class="chip" data-value="welcome">Help someone feel welcomed / seen</button>
-              </div>
+              <label class="field-label" data-i18n="planner.steps.why.motivation.label"></label>
+              <div class="chip-select" id="motivation" data-field="motivation" data-step="why" data-multi="true"></div>
             </div>
-
             <div class="field-group">
-              <label class="field-label" for="whyStatement">Write your "why" in one or two sentences</label>
-              <textarea id="whyStatement" class="text-area" rows="3" placeholder="e.g., I want Sarah to know she is not alone after her miscarriage, and that our home is a safe place for her grief..."></textarea>
+              <label class="field-label" for="whyStatement" data-i18n="planner.steps.why.whyStatement.label"></label>
+              <textarea id="whyStatement" class="text-area" rows="3" data-i18n-placeholder="planner.steps.why.whyStatement.placeholder"></textarea>
             </div>
-
             <div class="field-group">
-              <label class="field-label" for="prayerIntent">What do you want to pray for this person/gathering?</label>
-              <textarea id="prayerIntent" class="text-area" rows="3" placeholder="e.g., That they would feel the love of God through our home, that conversation would open doors to their heart..."></textarea>
+              <label class="field-label" for="prayerIntent" data-i18n="planner.steps.why.prayerIntent.label"></label>
+              <textarea id="prayerIntent" class="text-area" rows="3" data-i18n-placeholder="planner.steps.why.prayerIntent.placeholder"></textarea>
             </div>
-
             <div class="scripture-prompt">
               <span class="sp-icon">&#128214;</span>
-              <p>"We love because he first loved us." — 1 John 4:19</p>
+              <p data-i18n="planner.steps.why.scripture"></p>
             </div>
           </div>
 
-          <!-- STEP 3: WHEN -->
+          <!-- Step 3: WHEN -->
           <div class="planner-step" id="step-3">
             <div class="step-header">
-              <span class="step-label">Step 3 of 6</span>
-              <h3>When will you extend this welcome?</h3>
-              <p>Choose a time that is intentional and doable — then guard it as you would any other commitment.</p>
+              <span class="step-label" data-i18n="planner.steps.when.stepLabel"></span>
+              <h3 data-i18n="planner.steps.when.title"></h3>
+              <p data-i18n="planner.steps.when.description"></p>
             </div>
-
             <div class="field-group">
-              <label class="field-label" for="eventDate">Target date or timeframe</label>
-              <input type="text" id="eventDate" class="text-input" placeholder="e.g., This Saturday, within the next two weeks, the first Sunday of the month..." />
+              <label class="field-label" for="eventDate" data-i18n="planner.steps.when.eventDate.label"></label>
+              <input type="text" id="eventDate" class="text-input" data-i18n-placeholder="planner.steps.when.eventDate.placeholder" />
             </div>
-
             <div class="field-group">
-              <label class="field-label">Time of day / meal slot</label>
-              <div class="chip-select" id="mealSlot">
-                <button type="button" class="chip" data-value="breakfast">Breakfast / Morning</button>
-                <button type="button" class="chip" data-value="brunch">Brunch</button>
-                <button type="button" class="chip" data-value="lunch">Lunch</button>
-                <button type="button" class="chip" data-value="afternoon">Afternoon / Tea</button>
-                <button type="button" class="chip" data-value="dinner">Dinner</button>
-                <button type="button" class="chip" data-value="overnight">Overnight / Weekend</button>
-                <button type="button" class="chip" data-value="flexible">Flexible / Drop-in</button>
-              </div>
+              <label class="field-label" data-i18n="planner.steps.when.mealSlot.label"></label>
+              <div class="chip-select" id="mealSlot" data-field="mealSlot" data-step="when" data-multi="false"></div>
             </div>
-
             <div class="field-group">
-              <label class="field-label" for="duration">Estimated duration</label>
-              <input type="text" id="duration" class="text-input" placeholder="e.g., 2 hours, all afternoon, the whole weekend..." />
+              <label class="field-label" for="duration" data-i18n="planner.steps.when.duration.label"></label>
+              <input type="text" id="duration" class="text-input" data-i18n-placeholder="planner.steps.when.duration.placeholder" />
             </div>
-
             <div class="field-group">
-              <label class="field-label" for="prepTime">Preparation lead time available</label>
-              <input type="text" id="prepTime" class="text-input" placeholder="e.g., 3 days, 1 week..." />
+              <label class="field-label" for="prepTime" data-i18n="planner.steps.when.prepTime.label"></label>
+              <input type="text" id="prepTime" class="text-input" data-i18n-placeholder="planner.steps.when.prepTime.placeholder" />
             </div>
-
             <div class="scripture-prompt">
               <span class="sp-icon">&#128214;</span>
-              <p>"She gets up while it is still night; she provides food for her family and portions for her female servants." — Proverbs 31:15</p>
+              <p data-i18n="planner.steps.when.scripture"></p>
             </div>
           </div>
 
-          <!-- STEP 4: WHERE -->
+          <!-- Step 4: WHERE -->
           <div class="planner-step" id="step-4">
             <div class="step-header">
-              <span class="step-label">Step 4 of 6</span>
-              <h3>Where will you host?</h3>
-              <p>The setting shapes the experience. Choose the location that best serves your guests and your purpose.</p>
+              <span class="step-label" data-i18n="planner.steps.where.stepLabel"></span>
+              <h3 data-i18n="planner.steps.where.title"></h3>
+              <p data-i18n="planner.steps.where.description"></p>
             </div>
-
             <div class="field-group">
-              <label class="field-label">Primary location</label>
-              <div class="chip-select" id="location">
-                <button type="button" class="chip" data-value="home-inside">My home (indoors)</button>
-                <button type="button" class="chip" data-value="home-outside">My home (backyard / patio)</button>
-                <button type="button" class="chip" data-value="their-home">Their home (I bring the food/care)</button>
-                <button type="button" class="chip" data-value="church">Church building or gathering space</button>
-                <button type="button" class="chip" data-value="park">Park or outdoor space</button>
-                <button type="button" class="chip" data-value="restaurant">Restaurant or café</button>
-                <button type="button" class="chip" data-value="hospital">Hospital or care facility</button>
-                <button type="button" class="chip" data-value="neighborhood">Neighborhood or street</button>
-              </div>
+              <label class="field-label" data-i18n="planner.steps.where.location.label"></label>
+              <div class="chip-select" id="location" data-field="location" data-step="where" data-multi="false"></div>
             </div>
-
             <div class="field-group">
-              <label class="field-label" for="spaceNotes">Any notes on space preparation or accessibility?</label>
-              <textarea id="spaceNotes" class="text-area" rows="3" placeholder="e.g., Need to set up the guest room, borrow extra chairs, consider wheelchair access..."></textarea>
+              <label class="field-label" for="spaceNotes" data-i18n="planner.steps.where.spaceNotes.label"></label>
+              <textarea id="spaceNotes" class="text-area" rows="3" data-i18n-placeholder="planner.steps.where.spaceNotes.placeholder"></textarea>
             </div>
-
             <div class="field-group">
-              <label class="field-label">Atmosphere goal</label>
-              <div class="chip-select multi" id="atmosphere">
-                <button type="button" class="chip" data-value="warm">Warm &amp; cozy</button>
-                <button type="button" class="chip" data-value="joyful">Joyful &amp; celebratory</button>
-                <button type="button" class="chip" data-value="peaceful">Quiet &amp; restful</button>
-                <button type="button" class="chip" data-value="safe">Safe &amp; unhurried</button>
-                <button type="button" class="chip" data-value="energetic">Lively &amp; energetic</button>
-                <button type="button" class="chip" data-value="formal">Dignified &amp; special</button>
-              </div>
+              <label class="field-label" data-i18n="planner.steps.where.atmosphere.label"></label>
+              <div class="chip-select" id="atmosphere" data-field="atmosphere" data-step="where" data-multi="true"></div>
             </div>
-
             <div class="scripture-prompt">
               <span class="sp-icon">&#128214;</span>
-              <p>"Better is a dinner of herbs where love is than a fattened ox and hatred with it." — Proverbs 15:17</p>
+              <p data-i18n="planner.steps.where.scripture"></p>
             </div>
           </div>
 
-          <!-- STEP 5: WHAT -->
+          <!-- Step 5: WHAT -->
           <div class="planner-step" id="step-5">
             <div class="step-header">
-              <span class="step-label">Step 5 of 6</span>
-              <h3>What will you offer?</h3>
-              <p>Think through the practical gifts of food, activity, and provision you will bring to your guests.</p>
+              <span class="step-label" data-i18n="planner.steps.what.stepLabel"></span>
+              <h3 data-i18n="planner.steps.what.title"></h3>
+              <p data-i18n="planner.steps.what.description"></p>
             </div>
-
             <div class="field-group">
-              <label class="field-label">Type of food / meal</label>
-              <div class="chip-select multi" id="foodType">
-                <button type="button" class="chip" data-value="full-meal">Full home-cooked meal</button>
-                <button type="button" class="chip" data-value="simple-meal">Simple / easy meal</button>
-                <button type="button" class="chip" data-value="baked-goods">Baked goods / treat</button>
-                <button type="button" class="chip" data-value="snacks">Snacks &amp; beverages</button>
-                <button type="button" class="chip" data-value="potluck">Potluck / everyone brings something</button>
-                <button type="button" class="chip" data-value="catered">Ordered / catered food</button>
-                <button type="button" class="chip" data-value="meal-delivery">Meal delivered to them</button>
-                <button type="button" class="chip" data-value="no-food">No food — presence only</button>
-              </div>
+              <label class="field-label" data-i18n="planner.steps.what.foodType.label"></label>
+              <div class="chip-select" id="foodType" data-field="foodType" data-step="what" data-multi="true"></div>
             </div>
-
             <div class="field-group">
-              <label class="field-label" for="menuIdeas">Menu ideas or specific dishes</label>
-              <textarea id="menuIdeas" class="text-area" rows="3" placeholder="e.g., Pot roast, salad, sourdough bread, apple pie; or simple pasta with salad and garlic bread..."></textarea>
+              <label class="field-label" for="menuIdeas" data-i18n="planner.steps.what.menuIdeas.label"></label>
+              <textarea id="menuIdeas" class="text-area" rows="3" data-i18n-placeholder="planner.steps.what.menuIdeas.placeholder"></textarea>
             </div>
-
             <div class="field-group">
-              <label class="field-label">Activities or experiences to offer</label>
-              <div class="chip-select multi" id="activities">
-                <button type="button" class="chip" data-value="conversation">Deep conversation</button>
-                <button type="button" class="chip" data-value="games">Games or fun</button>
-                <button type="button" class="chip" data-value="prayer">Prayer together</button>
-                <button type="button" class="chip" data-value="bible">Bible study or devotion</button>
-                <button type="button" class="chip" data-value="worship">Worship / music</button>
-                <button type="button" class="chip" data-value="children">Child-friendly activities</button>
-                <button type="button" class="chip" data-value="creative">Craft or creative activity</button>
-                <button type="button" class="chip" data-value="rest">Rest &amp; quiet</button>
-                <button type="button" class="chip" data-value="outdoors">Outdoor activity</button>
-              </div>
+              <label class="field-label" data-i18n="planner.steps.what.activities.label"></label>
+              <div class="chip-select" id="activities" data-field="activities" data-step="what" data-multi="true"></div>
             </div>
-
             <div class="field-group">
-              <label class="field-label" for="specialNeeds">Any dietary restrictions or special needs to accommodate?</label>
-              <input type="text" id="specialNeeds" class="text-input" placeholder="e.g., Gluten-free, nut allergy, vegetarian, young children present..." />
+              <label class="field-label" for="specialNeeds" data-i18n="planner.steps.what.specialNeeds.label"></label>
+              <input type="text" id="specialNeeds" class="text-input" data-i18n-placeholder="planner.steps.what.specialNeeds.placeholder" />
             </div>
-
             <div class="scripture-prompt">
               <span class="sp-icon">&#128214;</span>
-              <p>"She looks well to the ways of her household and does not eat the bread of idleness." — Proverbs 31:27</p>
+              <p data-i18n="planner.steps.what.scripture"></p>
             </div>
           </div>
 
-          <!-- STEP 6: HOW -->
+          <!-- Step 6: HOW -->
           <div class="planner-step" id="step-6">
             <div class="step-header">
-              <span class="step-label">Step 6 of 6</span>
-              <h3>How will you prepare — practically and spiritually?</h3>
-              <p>Great hospitality flows from preparation of both the home and the heart.</p>
+              <span class="step-label" data-i18n="planner.steps.how.stepLabel"></span>
+              <h3 data-i18n="planner.steps.how.title"></h3>
+              <p data-i18n="planner.steps.how.description"></p>
             </div>
-
             <div class="field-group">
-              <label class="field-label">Practical preparation checklist</label>
-              <div class="checklist" id="prepChecklist">
-                <label class="check-item"><input type="checkbox" value="invite" /> Send invitation or personally reach out</label>
-                <label class="check-item"><input type="checkbox" value="plan-menu" /> Plan and shop for the menu</label>
-                <label class="check-item"><input type="checkbox" value="clean" /> Clean and prepare the home space</label>
-                <label class="check-item"><input type="checkbox" value="set-table" /> Set a welcoming table</label>
-                <label class="check-item"><input type="checkbox" value="guest-room" /> Prepare guest room / sleeping arrangements</label>
-                <label class="check-item"><input type="checkbox" value="activities-ready" /> Prepare activities or conversation starters</label>
-                <label class="check-item"><input type="checkbox" value="confirm" /> Confirm time/details with guests beforehand</label>
-                <label class="check-item"><input type="checkbox" value="childcare" /> Arrange childcare or include children in plans</label>
-              </div>
+              <label class="field-label" data-i18n="planner.steps.how.prepChecklist.label"></label>
+              <div class="checklist" id="prepChecklist" data-field="prepChecklist" data-step="how"></div>
             </div>
-
             <div class="field-group">
-              <label class="field-label">Heart preparation</label>
-              <div class="checklist" id="heartChecklist">
-                <label class="check-item"><input type="checkbox" value="pray-for-guest" /> Pray specifically for each guest by name</label>
-                <label class="check-item"><input type="checkbox" value="pray-for-self" /> Ask God for love, patience, and presence</label>
-                <label class="check-item"><input type="checkbox" value="release-perfection" /> Release the need for perfection</label>
-                <label class="check-item"><input type="checkbox" value="remember-why" /> Re-read your "why" statement before they arrive</label>
-                <label class="check-item"><input type="checkbox" value="be-present" /> Commit to being fully present, not distracted</label>
-                <label class="check-item"><input type="checkbox" value="serve-joyfully" /> Choose to serve joyfully, without resentment</label>
-              </div>
+              <label class="field-label" data-i18n="planner.steps.how.heartChecklist.label"></label>
+              <div class="checklist" id="heartChecklist" data-field="heartChecklist" data-step="how"></div>
             </div>
-
             <div class="field-group">
-              <label class="field-label" for="helpNeeded">Who can help you prepare? (delegate something)</label>
-              <input type="text" id="helpNeeded" class="text-input" placeholder="e.g., Husband picks up groceries, kids set the table, friend brings dessert..." />
+              <label class="field-label" for="helpNeeded" data-i18n="planner.steps.how.helpNeeded.label"></label>
+              <input type="text" id="helpNeeded" class="text-input" data-i18n-placeholder="planner.steps.how.helpNeeded.placeholder" />
             </div>
-
             <div class="field-group">
-              <label class="field-label" for="extraNotes">Any other notes or intentions for this gathering</label>
-              <textarea id="extraNotes" class="text-area" rows="3" placeholder="e.g., I want to make sure to ask Sarah about her job search. I want to end the evening with prayer together..."></textarea>
+              <label class="field-label" for="extraNotes" data-i18n="planner.steps.how.extraNotes.label"></label>
+              <textarea id="extraNotes" class="text-area" rows="3" data-i18n-placeholder="planner.steps.how.extraNotes.placeholder"></textarea>
             </div>
-
             <div class="scripture-prompt">
               <span class="sp-icon">&#128214;</span>
-              <p>"Whatever you do, work at it with all your heart, as working for the Lord, not for human masters." — Colossians 3:23</p>
+              <p data-i18n="planner.steps.how.scripture"></p>
             </div>
           </div>
 
-          <!-- STEP 7: SUMMARY PLAN -->
+          <!-- Step 7: SUMMARY -->
           <div class="planner-step" id="step-7">
             <div class="step-header">
-              <span class="step-label">Your Hospitality Plan</span>
-              <h3>Your Plan Is Ready</h3>
-              <p>Here is your complete hospitality plan. Print it, save it, or simply carry it in your heart.</p>
+              <span class="step-label" data-i18n="planner.plan.stepLabel"></span>
+              <h3 data-i18n="planner.plan.title"></h3>
+              <p data-i18n="planner.plan.description"></p>
             </div>
-            <div class="plan-output" id="planOutput">
-              <!-- Generated by JS -->
-            </div>
+            <div class="plan-output" id="planOutput"></div>
             <div class="plan-actions">
-              <button class="btn btn-primary" onclick="window.print()">Print / Save as PDF</button>
-              <button class="btn btn-outline" id="startOverBtn">Start a New Plan</button>
+              <button class="btn btn-primary" id="printBtn" data-i18n="planner.plan.printBtn">Print / Save as PDF</button>
+              <button class="btn btn-outline"  id="startOverBtn" data-i18n="planner.plan.startOverBtn">Start a New Plan</button>
             </div>
           </div>
 
           <!-- Navigation -->
           <div class="planner-nav" id="plannerNav">
-            <button class="btn btn-outline" id="prevBtn" onclick="changeStep(-1)" style="display:none">&#8592; Back</button>
-            <button class="btn btn-primary" id="nextBtn" onclick="changeStep(1)">Next &#8594;</button>
+            <button class="btn btn-outline" id="prevBtn" style="display:none" data-i18n-nav="prev">← Back</button>
+            <button class="btn btn-primary" id="nextBtn" data-i18n-nav="next">Next →</button>
           </div>
 
-        </div>
-      </div>
+        </div><!-- /.planner-card -->
+      </div><!-- /.planner-wrapper -->
     </div>
   </section>
 
-  <!-- FOOTER -->
+  <!-- ── FOOTER ──────────────────────────────────────── -->
   <footer class="site-footer">
     <div class="container">
       <div class="footer-verse">
-        <p>"She is clothed with strength and dignity; she can laugh at the days to come. She speaks with wisdom, and faithful instruction is on her tongue."</p>
-        <cite>— Proverbs 31:25–26</cite>
+        <p data-i18n="footer.verse"></p>
+        <cite data-i18n="footer.verseRef"></cite>
       </div>
-      <p class="footer-tagline">The Gracious Home &mdash; A tool for the faithful homemaker</p>
+      <p class="footer-tagline" data-i18n="footer.tagline"></p>
     </div>
   </footer>
 
+  <script src="i18n.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

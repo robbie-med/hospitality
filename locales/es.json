@@ -1,0 +1,426 @@
+{
+  "lang": "es",
+  "dir": "ltr",
+  "nav": {
+    "brand": "El Hogar Gracioso",
+    "competencies": "Competencias",
+    "manifesto": "Manifiesto",
+    "planner": "Planificador de Hospitalidad",
+    "menuAriaLabel": "Abrir menú"
+  },
+  "hero": {
+    "eyebrow": "Una Visión Bíblica",
+    "title": "Bienvenida a Casa,\nBienvenidos Otros",
+    "subtitle": "Una guía para el arte y el llamado del hogar — fundamentada en las Escrituras, moldeada por el amor, expresada a través de la hospitalidad.",
+    "ctaPrimary": "Explorar el Llamado",
+    "ctaSecondary": "Abrir el Planificador",
+    "verse": "\"Extiende su mano al pobre, y sus manos al menesteroso.\"",
+    "verseRef": "Proverbios 31:20"
+  },
+  "competencies": {
+    "sectionLabel": "Sección Uno",
+    "title": "Competencias Fundamentales de la Ama de Casa y Esposa",
+    "intro": "Estas no son cargas impuestas desde afuera, sino dones cultivados desde adentro — cada uno una expresión de amor, sabiduría y fiel mayordomía del hogar que Dios le confía.",
+    "practicesTitle": "Expresiones",
+    "items": [
+      {
+        "icon": "✡",
+        "title": "Ancla Espiritual",
+        "description": "Arraiga su hogar en la oración, las Escrituras y la adoración. El temor al Señor es el fundamento sobre el cual descansan todas las demás competencias (Prov. 31:30).",
+        "practices": ["Devoción personal diaria y oración", "Guiar a la familia en las Escrituras y la adoración", "Cultivar un ambiente hogareño de paz y fe", "Modelar el arrepentimiento, la gracia y el perdón"]
+      },
+      {
+        "icon": "⌂",
+        "title": "Mayordomía del Hogar",
+        "description": "Vigila los asuntos de su casa con diligencia — administrando el tiempo, los recursos y el espacio con intencionalidad (Prov. 31:27).",
+        "practices": ["Mantener el orden, la limpieza y la belleza", "Presupuestar y administrar las finanzas", "Planificación de comidas y provisión del hogar", "Ritmos estacionales y rutinas hogareñas"]
+      },
+      {
+        "icon": "☕",
+        "title": "Nutrición y Arte Culinario",
+        "description": "Provee alimento para su hogar y sus invitados con destreza y generosidad — la mesa es su instrumento de amor (Prov. 31:15).",
+        "practices": ["Cocinar comidas nutritivas y saludables", "Hornear y preservar alimentos de temporada", "Poner una mesa acogedora", "Adaptarse a las necesidades dietéticas de los invitados"]
+      },
+      {
+        "icon": "❤",
+        "title": "Crianza y Cuidado",
+        "description": "Se vuelca en el bienestar emocional, físico y espiritual de su esposo, sus hijos y quienes forman parte de su hogar (Tito 2:4–5).",
+        "practices": ["Presencia atenta con el esposo y los hijos", "Reconocer y satisfacer las necesidades emocionales", "Cuidar a los enfermos, los ancianos o los débiles", "Enseñar y discipular a sus hijos"]
+      },
+      {
+        "icon": "☷",
+        "title": "Hospitalidad y Bienvenida",
+        "description": "Su hogar es un refugio para la familia, los amigos, los extraños y los solitarios. Hace que las personas se sientan vistas, seguras y celebradas (1 Ped. 4:9; Heb. 13:2).",
+        "practices": ["Mantener un hogar preparado para recibir invitados", "Anfitriona de comidas, reuniones e invitados que se quedan a dormir", "Dar la bienvenida al extraño y al marginado", "Crear calidez y sentido de pertenencia"]
+      },
+      {
+        "icon": "✎",
+        "title": "Excelencia Creativa",
+        "description": "Trae belleza, artesanía y creatividad al hogar — desde la decoración hasta el trabajo manual y la estética que refleja dignidad y deleite (Prov. 31:22).",
+        "practices": ["Decorar con intención y belleza", "Costura, artesanía o habilidades artesanales", "Cultivar un hogar que refleje cuidado", "Adorno estacional y festivo"]
+      },
+      {
+        "icon": "💬",
+        "title": "Comunicación Sabia",
+        "description": "Habla con sabiduría y bondad — su lengua edifica en lugar de derribar (Prov. 31:26; Ef. 4:29).",
+        "practices": ["Hablar palabras de afirmación y aliento", "Escuchar con empatía y sin juzgar", "Navegar el conflicto con gracia y verdad", "Enseñar a otros a través de sus palabras y ejemplo"]
+      },
+      {
+        "icon": "⚒",
+        "title": "Laboriosidad y Empresa",
+        "description": "No está ociosa — trabaja con manos diligentes, contribuyendo a la prosperidad de su hogar (Prov. 31:17–18, 24).",
+        "practices": ["Administrar o contribuir a los ingresos del hogar", "Gestión del tiempo y productividad", "Planificar y ejecutar metas a largo plazo", "Aprender y desarrollar nuevas habilidades"]
+      },
+      {
+        "icon": "🌿",
+        "title": "Comunidad y Amistad",
+        "description": "Está integrada en la comunidad — dando generosamente, apoyando a otras mujeres y construyendo redes relacionales de cuidado (Gál. 6:2; Tito 2:3–5).",
+        "practices": ["Invertir en amistades y relaciones vecinales", "Mentorear a mujeres más jóvenes", "Servir y dar a quienes tienen necesidad", "Ser miembro activo de su familia eclesial"]
+      },
+      {
+        "icon": "★",
+        "title": "Bienestar Físico y Emocional",
+        "description": "Atiende su propia fortaleza — no puede dar de una vasija vacía. El reposo sabático es un acto de fidelidad (Prov. 31:17).",
+        "practices": ["Mantener la salud física y la energía", "Practicar el Sábado y el descanso restaurador", "Autoconciencia emocional y límites sanos", "Buscar ayuda y apoyo cuando se necesita"]
+      }
+    ]
+  },
+  "manifesto": {
+    "sectionLabel": "Sección Dos",
+    "title": "Un Manifiesto Bíblico para la Hospitalidad",
+    "intro": "La hospitalidad no es un rasgo de personalidad ni una estética de estilo de vida. Es un mandato, un llamado y una participación en la misma bienvenida que Dios nos extiende a través del evangelio.",
+    "preamble": {
+      "title": "Preámbulo: El Dios que da la Bienvenida",
+      "body": "Antes de poder entender el llamado a la hospitalidad, debemos entender al Dios que la modela. Desde el principio, Dios preparó un hogar-jardín para la humanidad — un lugar de provisión, belleza, descanso y comunión. Cuando la humanidad rompió la comunión con Él por el pecado, Dios no abandonó el proyecto de la bienvenida. Puso en marcha un plan para traer a sus hijos exiliados a casa, culminando en la persona de Jesucristo, quien \"vino a buscar y a salvar lo que se había perdido\" (Lucas 19:10) y quien promete que en la casa de Su Padre hay \"muchas moradas\" preparadas para quienes le aman (Juan 14:2). La hospitalidad, entonces, no es una virtud inventada. Es una <em>imitación de Dios</em>."
+    },
+    "pillars": [
+      {
+        "number": "I",
+        "title": "Creemos que la Hospitalidad es un Mandato, no una Sugerencia",
+        "scriptures": [
+          {"verse": "\"Contribuid a las necesidades de los santos; practicad la hospitalidad.\"", "ref": "Romanos 12:13"},
+          {"verse": "\"Hospedaos los unos a los otros sin murmuraciones.\"", "ref": "1 Pedro 4:9"}
+        ],
+        "body": "Las Escrituras no sugieren que seamos hospitalarios cuando es conveniente o cómodo. Lo mandan — clara, repetidamente, junto a otros imperativos morales como el amor, la generosidad y la verdad. El hogar hospitalario no es obediencia opcional. Es la norma de la vida cristiana.",
+        "charge": null
+      },
+      {
+        "number": "II",
+        "title": "Creemos que el Extraño debe ser Bienvenido, no Temido",
+        "scriptures": [
+          {"verse": "\"No os olvidéis de la hospitalidad, porque por ella algunos, sin saberlo, hospedaron ángeles.\"", "ref": "Hebreos 13:2"},
+          {"verse": "\"El extranjero que habite con vosotros os será como el nativo de entre vosotros, y lo amarás como a ti mismo.\"", "ref": "Levítico 19:34"}
+        ],
+        "body": "La visión bíblica de la hospitalidad se extiende mucho más allá de lo familiar. La palabra griega <em>philoxenia</em> — traducida como \"hospitalidad\" — significa literalmente \"amor al extraño\". Israel fue llamado a recordar que también fue extranjero en Egipto (Deut. 10:19). Extendemos la bienvenida porque fuimos bienvenidos cuando éramos extraños y forasteros (Ef. 2:12–13).",
+        "charge": null
+      },
+      {
+        "number": "III",
+        "title": "Creemos que la Mesa es un Acto Teológico",
+        "scriptures": [
+          {"verse": "\"Cuando hagas una cena, no llames a tus amigos ni a tus hermanos ni a tus parientes ni a vecinos ricos... Pero cuando hagas un banquete, llama a los pobres, los mancos, los cojos y los ciegos.\"", "ref": "Lucas 14:12–13"}
+        ],
+        "body": "Jesús redefinió la lista de invitados. La mesa no es para la reciprocidad social — es para la gracia. Es un anticipo del gran banquete de bodas del Cordero, donde vendrán del oriente y del occidente, del norte y del sur (Lucas 13:29). Cada comida compartida en amor es una pequeña señal escatológica de ese banquete venidero. La mesa del hogar es un santuario de gracia.",
+        "charge": null
+      },
+      {
+        "number": "IV",
+        "title": "Creemos que la Hospitalidad Requiere Presencia, no Perfección",
+        "scriptures": [
+          {"verse": "\"Marta, Marta, afanada y turbada estás con muchas cosas. Pero sólo una cosa es necesaria; y María ha escogido la buena parte.\"", "ref": "Lucas 10:41–42"}
+        ],
+        "body": "La historia de María y Marta no es un rechazo al servicio de Marta — es una reprensión a su ansiedad. La hospitalidad no se trata de actuación. Se trata de presencia. El objetivo no es una mesa impresionante; el objetivo es que tu invitado encuentre amor. Una comida sencilla ofrecida con plena atención supera un banquete ofrecido con distracción y estrés.",
+        "charge": null
+      },
+      {
+        "number": "V",
+        "title": "Creemos que la Hospitalidad Ministra al Propio Cristo",
+        "scriptures": [
+          {"verse": "\"Porque tuve hambre, y me disteis de comer; tuve sed, y me disteis de beber; fui forastero, y me recogisteis... En cuanto lo hicisteis a uno de estos mis hermanos más pequeños, a mí lo hicisteis.\"", "ref": "Mateo 25:35, 40"}
+        ],
+        "body": "La verdad más radical sobre la hospitalidad cristiana es esta: al dar la bienvenida a otros, damos la bienvenida a Cristo. Él nos sale al encuentro en el rostro del extraño, la viuda, el vecino solitario, el amigo que llora. Cerrar la puerta a ellos es cerrarle la puerta a Él. Abrir la puerta es abrirla a nuestro Señor.",
+        "charge": null
+      },
+      {
+        "number": "VI",
+        "title": "Creemos que la Mujer Hospitalaria Refleja el Corazón de la Iglesia",
+        "scriptures": [
+          {"verse": "\"Alarga su mano al pobre, y extiende sus manos al menesteroso... No tiene temor de la nieve por su familia, porque toda su familia está vestida de ropas dobles.\"", "ref": "Proverbios 31:20–21"},
+          {"verse": "\"Ha ejercido la hospitalidad... se ha dedicado a toda buena obra.\"", "ref": "1 Timoteo 5:10"}
+        ],
+        "body": "La mujer de Proverbios 31 es generosa, preparada y tiene visión de futuro en su cuidado de los demás. La viuda que Pablo elogia es recordada por su hospitalidad. La mujer piadosa no solo administra un hogar para sí misma — lo abre para otros. Su hogar se convierte en un microcosmos de la iglesia: una comunidad de bienvenida, servicio y amor.",
+        "charge": null
+      },
+      {
+        "number": "VII",
+        "title": "Nos Comprometemos a un Hogar de Puertas Abiertas",
+        "scriptures": [],
+        "body": "Por lo tanto, nos comprometemos a mantener nuestro hogar como un lugar de bienvenida. Sostendremos nuestro espacio, tiempo, comida y comodidad con manos abiertas — como dones de Dios para ser compartidos con otros. No permitiremos que el ajetreo, el perfeccionismo o el miedo se conviertan en excusas para una puerta cerrada. Oraremos para tener ojos que vean a quién le hace falta bienvenida, manos listas para servir y una mesa siempre preparada para recibir.",
+        "charge": "Lo hacemos no para ser vistos, no para ser recompensados y no para impresionar — sino porque hemos sido bienvenidos por un Dios de gracia infinita, y el amor nos impulsa a pasar esa bienvenida a otros."
+      }
+    ]
+  },
+  "planner": {
+    "sectionLabel": "Sección Tres",
+    "title": "El Planificador de Hospitalidad",
+    "intro": "Responde las seis preguntas — Quién, Qué, Cómo, Cuándo, Dónde y Por qué — para construir un plan completo e intencional para tu próximo acto de hospitalidad.",
+    "progressLabels": ["Quién", "Por qué", "Cuándo", "Dónde", "Qué", "Cómo", "Plan"],
+    "steps": {
+      "who": {
+        "stepLabel": "Paso 1 de 6",
+        "title": "¿A quién vas a recibir?",
+        "description": "Identifica a la persona o grupo a quien sientes llamada a invitar. Elige una categoría y descríbelos con más detalle a continuación.",
+        "guestCategory": {
+          "label": "Categoría del Invitado",
+          "options": [
+            {"value": "family", "label": "Familia"},
+            {"value": "friends", "label": "Amigos cercanos"},
+            {"value": "neighbors", "label": "Vecinos"},
+            {"value": "strangers", "label": "Extraños / Nuevos conocidos"},
+            {"value": "lonely", "label": "Los solitarios / aislados"},
+            {"value": "grieving", "label": "Los que están de luto"},
+            {"value": "new-believers", "label": "Nuevos creyentes"},
+            {"value": "unbelievers", "label": "Amigos no creyentes"},
+            {"value": "church", "label": "Comunidad de la iglesia"},
+            {"value": "poor", "label": "Los pobres / marginados"}
+          ]
+        },
+        "guestName": {
+          "label": "¿Quién específicamente? (nombre, grupo o descripción)",
+          "placeholder": "ej., La nueva familia de la iglesia, mi vecina Ana, estudiantes universitarios..."
+        },
+        "guestNeeds": {
+          "label": "¿Qué sabes sobre sus necesidades o situación actual?",
+          "placeholder": "ej., Recién llegaron a la ciudad, están pasando por una temporada difícil, no tienen muchas conexiones locales..."
+        },
+        "groupSize": {
+          "label": "Tamaño aproximado del grupo",
+          "options": [
+            {"value": "1", "label": "1 persona"},
+            {"value": "2-4", "label": "2–4 personas"},
+            {"value": "5-8", "label": "5–8 personas"},
+            {"value": "9-15", "label": "9–15 personas"},
+            {"value": "16+", "label": "16+ personas"}
+          ]
+        },
+        "scripture": "\"No os olvidéis de la hospitalidad, porque por ella algunos, sin saberlo, hospedaron ángeles.\" — Hebreos 13:2"
+      },
+      "why": {
+        "stepLabel": "Paso 2 de 6",
+        "title": "¿Por qué extiendes esta hospitalidad?",
+        "description": "La claridad de propósito da forma a todo — desde el tono de la reunión hasta cómo preparas tu corazón.",
+        "motivation": {
+          "label": "Motivación principal (elige todas las que apliquen)",
+          "options": [
+            {"value": "obedience", "label": "Obediencia a las Escrituras"},
+            {"value": "love", "label": "Amor por esta persona / personas"},
+            {"value": "evangelism", "label": "Compartir el evangelio / señalar a Jesús"},
+            {"value": "community", "label": "Construir comunidad y sentido de pertenencia"},
+            {"value": "comfort", "label": "Consolar a alguien en dolor"},
+            {"value": "celebrate", "label": "Celebrar un hito o una bendición"},
+            {"value": "serve", "label": "Servicio práctico / satisfacer una necesidad"},
+            {"value": "disciple", "label": "Discipular o mentorear"},
+            {"value": "welcome", "label": "Ayudar a alguien a sentirse bienvenido / visto"}
+          ]
+        },
+        "whyStatement": {
+          "label": "Escribe tu \"por qué\" en una o dos oraciones",
+          "placeholder": "ej., Quiero que Sara sepa que no está sola después de su pérdida, y que nuestro hogar es un lugar seguro para su dolor..."
+        },
+        "prayerIntent": {
+          "label": "¿Por qué quieres orar por esta persona/reunión?",
+          "placeholder": "ej., Que sientan el amor de Dios a través de nuestro hogar, que la conversación abra puertas a su corazón..."
+        },
+        "scripture": "\"Nosotros le amamos a él, porque él nos amó primero.\" — 1 Juan 4:19"
+      },
+      "when": {
+        "stepLabel": "Paso 3 de 6",
+        "title": "¿Cuándo extenderás esta bienvenida?",
+        "description": "Elige un momento que sea intencional y viable — luego guárdalo como cualquier otro compromiso.",
+        "eventDate": {
+          "label": "Fecha o plazo objetivo",
+          "placeholder": "ej., Este sábado, en las próximas dos semanas, el primer domingo del mes..."
+        },
+        "mealSlot": {
+          "label": "Momento del día / turno de comida",
+          "options": [
+            {"value": "breakfast", "label": "Desayuno / Mañana"},
+            {"value": "brunch", "label": "Brunch"},
+            {"value": "lunch", "label": "Almuerzo"},
+            {"value": "afternoon", "label": "Tarde / Merienda"},
+            {"value": "dinner", "label": "Cena"},
+            {"value": "overnight", "label": "Noche / Fin de semana"},
+            {"value": "flexible", "label": "Flexible / Visita informal"}
+          ]
+        },
+        "duration": {
+          "label": "Duración estimada",
+          "placeholder": "ej., 2 horas, toda la tarde, todo el fin de semana..."
+        },
+        "prepTime": {
+          "label": "Tiempo de preparación disponible",
+          "placeholder": "ej., 3 días, 1 semana..."
+        },
+        "scripture": "\"Se levanta aun de noche y da comida a su familia y ración a sus criadas.\" — Proverbios 31:15"
+      },
+      "where": {
+        "stepLabel": "Paso 4 de 6",
+        "title": "¿Dónde vas a recibir?",
+        "description": "El entorno da forma a la experiencia. Elige la ubicación que mejor sirva a tus invitados y a tu propósito.",
+        "location": {
+          "label": "Ubicación principal",
+          "options": [
+            {"value": "home-inside", "label": "Mi casa (interiores)"},
+            {"value": "home-outside", "label": "Mi casa (jardín / terraza)"},
+            {"value": "their-home", "label": "Su casa (yo llevo la comida/cuidado)"},
+            {"value": "church", "label": "Edificio o espacio de reunión de la iglesia"},
+            {"value": "park", "label": "Parque o espacio al aire libre"},
+            {"value": "restaurant", "label": "Restaurante o cafetería"},
+            {"value": "hospital", "label": "Hospital o centro de cuidado"},
+            {"value": "neighborhood", "label": "Vecindario o calle"}
+          ]
+        },
+        "spaceNotes": {
+          "label": "¿Notas sobre preparación del espacio o accesibilidad?",
+          "placeholder": "ej., Necesito armar el cuarto de huéspedes, pedir sillas prestadas, considerar acceso para sillas de ruedas..."
+        },
+        "atmosphere": {
+          "label": "Objetivo de ambiente",
+          "options": [
+            {"value": "warm", "label": "Cálido y acogedor"},
+            {"value": "joyful", "label": "Alegre y festivo"},
+            {"value": "peaceful", "label": "Tranquilo y reparador"},
+            {"value": "safe", "label": "Seguro y sin prisa"},
+            {"value": "energetic", "label": "Animado y enérgico"},
+            {"value": "formal", "label": "Digno y especial"}
+          ]
+        },
+        "scripture": "\"Mejor es la comida de legumbres donde hay amor, que el buey engordado donde hay odio.\" — Proverbios 15:17"
+      },
+      "what": {
+        "stepLabel": "Paso 5 de 6",
+        "title": "¿Qué ofrecerás?",
+        "description": "Piensa en los dones prácticos de comida, actividad y provisión que llevarás a tus invitados.",
+        "foodType": {
+          "label": "Tipo de comida / comida",
+          "options": [
+            {"value": "full-meal", "label": "Comida completa hecha en casa"},
+            {"value": "simple-meal", "label": "Comida sencilla / fácil"},
+            {"value": "baked-goods", "label": "Repostería / dulces"},
+            {"value": "snacks", "label": "Bocadillos y bebidas"},
+            {"value": "potluck", "label": "Potluck / cada uno trae algo"},
+            {"value": "catered", "label": "Comida pedida / catering"},
+            {"value": "meal-delivery", "label": "Comida entregada a su casa"},
+            {"value": "no-food", "label": "Sin comida — solo presencia"}
+          ]
+        },
+        "menuIdeas": {
+          "label": "Ideas de menú o platos específicos",
+          "placeholder": "ej., Estofado, ensalada, pan artesanal, tarta de manzana; o pasta sencilla con ensalada y pan de ajo..."
+        },
+        "activities": {
+          "label": "Actividades o experiencias que ofrecer",
+          "options": [
+            {"value": "conversation", "label": "Conversación profunda"},
+            {"value": "games", "label": "Juegos o diversión"},
+            {"value": "prayer", "label": "Oración juntos"},
+            {"value": "bible", "label": "Estudio bíblico o devoción"},
+            {"value": "worship", "label": "Alabanza / música"},
+            {"value": "children", "label": "Actividades para niños"},
+            {"value": "creative", "label": "Manualidad o actividad creativa"},
+            {"value": "rest", "label": "Descanso y quietud"},
+            {"value": "outdoors", "label": "Actividad al aire libre"}
+          ]
+        },
+        "specialNeeds": {
+          "label": "¿Restricciones dietéticas o necesidades especiales a tener en cuenta?",
+          "placeholder": "ej., Sin gluten, alergia a los frutos secos, vegetariano, niños pequeños presentes..."
+        },
+        "scripture": "\"Considera los caminos de su casa, y no come el pan de balde.\" — Proverbios 31:27"
+      },
+      "how": {
+        "stepLabel": "Paso 6 de 6",
+        "title": "¿Cómo te prepararás — práctica y espiritualmente?",
+        "description": "Una gran hospitalidad fluye de la preparación tanto del hogar como del corazón.",
+        "prepChecklist": {
+          "label": "Lista de preparación práctica",
+          "options": [
+            {"value": "invite", "label": "Enviar invitación o contactar personalmente"},
+            {"value": "plan-menu", "label": "Planificar el menú y hacer las compras"},
+            {"value": "clean", "label": "Limpiar y preparar el espacio del hogar"},
+            {"value": "set-table", "label": "Poner una mesa acogedora"},
+            {"value": "guest-room", "label": "Preparar habitación de huéspedes / acomodaciones"},
+            {"value": "activities-ready", "label": "Preparar actividades o temas de conversación"},
+            {"value": "confirm", "label": "Confirmar hora/detalles con los invitados antes"},
+            {"value": "childcare", "label": "Organizar cuidado de niños o incluirlos en los planes"}
+          ]
+        },
+        "heartChecklist": {
+          "label": "Preparación del corazón",
+          "options": [
+            {"value": "pray-for-guest", "label": "Orar específicamente por cada invitado por nombre"},
+            {"value": "pray-for-self", "label": "Pedir a Dios amor, paciencia y presencia"},
+            {"value": "release-perfection", "label": "Soltar la necesidad de perfección"},
+            {"value": "remember-why", "label": "Releer tu declaración de \"por qué\" antes de que lleguen"},
+            {"value": "be-present", "label": "Comprometerse a estar plenamente presente, sin distracciones"},
+            {"value": "serve-joyfully", "label": "Elegir servir con alegría, sin resentimiento"}
+          ]
+        },
+        "helpNeeded": {
+          "label": "¿Quién puede ayudarte a preparar? (delega algo)",
+          "placeholder": "ej., El esposo trae los víveres, los niños ponen la mesa, una amiga trae el postre..."
+        },
+        "extraNotes": {
+          "label": "Otras notas o intenciones para esta reunión",
+          "placeholder": "ej., Quiero asegurarme de preguntarle a Sara sobre su búsqueda de empleo. Quiero terminar la noche con oración juntos..."
+        },
+        "scripture": "\"Todo lo que hagáis, hacedlo de corazón, como para el Señor y no para los hombres.\" — Colosenses 3:23"
+      }
+    },
+    "plan": {
+      "stepLabel": "Tu Plan de Hospitalidad",
+      "title": "Tu Plan Está Listo",
+      "description": "Aquí está tu plan completo de hospitalidad. Imprímelo, guárdalo o simplemente llévalo en tu corazón.",
+      "printBtn": "Imprimir / Guardar como PDF",
+      "startOverBtn": "Comenzar un Nuevo Plan",
+      "planTitle": "Plan de Hospitalidad",
+      "sections": {
+        "who": "Quién",
+        "why": "Por qué",
+        "when": "Cuándo",
+        "where": "Dónde",
+        "what": "Qué",
+        "how": "Cómo — Preparación"
+      },
+      "labels": {
+        "guests": "Invitado(s):",
+        "situation": "Su situación:",
+        "myWhy": "Mi por qué:",
+        "prayer": "Intención de oración:",
+        "dateTime": "Fecha/Hora:",
+        "duration": "Duración:",
+        "prepWindow": "Tiempo de preparación:",
+        "atmosphere": "Ambiente:",
+        "spaceNotes": "Notas del espacio:",
+        "food": "Comida:",
+        "menuIdeas": "Ideas de menú:",
+        "activities": "Actividades:",
+        "specialNeeds": "Necesidades especiales:",
+        "practicalTasks": "Tareas prácticas:",
+        "heartPrep": "Preparación del corazón:",
+        "helpers": "Ayudantes:",
+        "notes": "Notas adicionales:",
+        "notSpecified": "No especificado",
+        "noneSelected": "Ninguno seleccionado"
+      },
+      "closingVerse": "\"Cuando hagas un banquete, llama a los pobres, los mancos, los cojos y los ciegos; y serás bienaventurado, porque ellos no te pueden recompensar.\"",
+      "closingRef": "— Lucas 14:13–14",
+      "createdOn": "Creado el"
+    }
+  },
+  "footer": {
+    "verse": "\"Fuerza y honor son su vestidura; y se ríe de lo por venir. Abre su boca con sabiduría, y la ley de clemencia está en su lengua.\"",
+    "verseRef": "— Proverbios 31:25–26",
+    "tagline": "El Hogar Gracioso — Una herramienta para la fiel ama de casa"
+  }
+}
