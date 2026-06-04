@@ -3,10 +3,49 @@
   "dir": "ltr",
   "nav": {
     "brand": "The Gracious Home",
-    "competencies": "Competencies",
+    "home": "Home",
+    "competencies": "The Calling",
     "manifesto": "Manifesto",
-    "planner": "Hospitality Planner",
+    "thinkers": "Voices",
+    "planner": "Planner",
     "menuAriaLabel": "Toggle menu"
+  },
+  "landing": {
+    "eyebrow": "A Biblical Vision for the Home",
+    "title": "Welcome Home,\nWelcome Others",
+    "subtitle": "A four-part guide to the art and calling of homemaking — grounded in Scripture, shaped by Reformed thought, expressed through hospitality.",
+    "ctaPrimary": "Begin with the Calling",
+    "ctaPrimaryHref": "competencies.html",
+    "cards": [
+      {
+        "icon": "❤",
+        "title": "The Calling",
+        "desc": "Ten core competencies of the faithful homemaker — spiritual, domestic, relational, and creative — each grounded in Scripture.",
+        "link": "competencies.html",
+        "linkText": "Explore →"
+      },
+      {
+        "icon": "📜",
+        "title": "The Manifesto",
+        "desc": "A seven-pillar theology of hospitality drawn from Scripture — from Hebrews 13 to Luke 14 to Matthew 25.",
+        "link": "manifesto.html",
+        "linkText": "Read →"
+      },
+      {
+        "icon": "📚",
+        "title": "Voices from History",
+        "desc": "How Puritan, Reformed, and 20th-century thinkers articulated the theology of home — from William Gouge to Edith Schaeffer.",
+        "link": "thinkers.html",
+        "linkText": "Explore →"
+      },
+      {
+        "icon": "📋",
+        "title": "Hospitality Planner",
+        "desc": "A six-step interactive tool: Who, Why, When, Where, What, and How — for your next intentional act of hospitality.",
+        "link": "planner.html",
+        "linkText": "Open →"
+      }
+    ]
   },
   "hero": {
     "eyebrow": "A Biblical Vision",
@@ -486,6 +525,147 @@
       {"title": "The Hidden Art of Homemaking", "year": "1971", "desc": "Her masterwork. Fourteen chapters on creativity in domestic life — music, cooking, decorating, gardening, writing — all grounded in the theology of Imago Dei."},
       {"title": "What Is a Family?", "year": "1975", "desc": "Defines the family through eight creative metaphors. Covers the full arc of family life without flinching at hardship, aging, or loss."},
       {"title": "L'Abri", "year": "1969", "desc": "The first-person account of how L'Abri began — part memoir, part theology of hospitality, entirely compelling."}
+    ]
+  },
+  "thinkers": {
+    "sectionLabel": "A Cloud of Witnesses",
+    "title": "Voices Across the Centuries",
+    "intro": "From Luther's theology of vocation to Kuyper's \"not a square inch\" — Reformed and Puritan thinkers have consistently grounded homemaking and hospitality in the deepest convictions of the faith.",
+    "voices": [
+      {
+        "name": "Martin Luther",
+        "dates": "1483–1546",
+        "tradition": "Lutheran Reformation",
+        "bio": "Luther shattered the medieval sacred/secular hierarchy. Before the Reformation, only monks and priests had \"vocations.\" Luther's doctrine of the priesthood of all believers declared every honest station in life — including the mother at the cradle — a divine calling through which God works in the world.",
+        "themes": [
+          {
+            "title": "The Domestic Calling as Sacred Labor",
+            "body": "In The Estate of Marriage (1522), Luther describes a father washing his infant's diapers as an act God Himself smiles upon — not because the task is impressive, but because it is done in faith. Domestic work is \"adorned with divine approval as with the costliest gold and jewels.\"",
+            "quote": "God, with all His angels and creatures, is smiling — not because that father is washing diapers, but because he is doing so in Christian faith.",
+            "source": "The Estate of Marriage, 1522"
+          },
+          {
+            "title": "Parents as the First Apostles",
+            "body": "The home is the primary school of faith. The parents' calling to form children in the gospel is not secondary to the pastoral office — it is its own sacred vocation.",
+            "quote": "Most certainly father and mother are apostles, bishops, and priests to their children, for it is they who make them acquainted with the gospel.",
+            "source": "The Estate of Marriage, 1522"
+          }
+        ]
+      },
+      {
+        "name": "William Perkins",
+        "dates": "1558–1602",
+        "tradition": "English Puritanism",
+        "bio": "The most influential Puritan theologian at Cambridge, Perkins built a systematic Reformed theology of calling that placed every person — man or woman, rich or poor — in a God-assigned post for the common good. His Treatise of the Vocations (1603) gave Puritan domestic theology its systematic foundation.",
+        "themes": [
+          {
+            "title": "Every Person, Every Station",
+            "body": "God appoints each person to a particular calling as surely as a general assigns soldiers to their posts. The homemaker's station is not a lesser calling — it is a divine appointment for the benefit of others.",
+            "quote": "Every one, rich or poor, man or woman, is bound to have a personal calling, in which they must perform some duties for the common good, according to the measure of the gifts God hath bestowed on them.",
+            "source": "A Treatise of the Vocations, 1603"
+          },
+          {
+            "title": "Serving God by Serving Others",
+            "body": "The purpose of every calling — including domestic life — is to render service to others as an act of service to God. Vocation is never merely self-expression or self-provision.",
+            "quote": "The main end of our lives is to serve God in the serving of men in the works of our callings.",
+            "source": "A Treatise of the Vocations, 1603"
+          }
+        ]
+      },
+      {
+        "name": "William Gouge",
+        "dates": "1575–1653",
+        "tradition": "English Puritanism",
+        "bio": "Gouge's Of Domesticall Duties (1622) — 693 pages, expanded through three editions — was the most comprehensive Puritan manual on the Christian home and a standard wedding gift from Puritan pastors. Joel Beeke has modernized it as Building a Godly Home (Reformation Heritage Books, 3 vols.).",
+        "themes": [
+          {
+            "title": "The Home as Little Church and Little Nation",
+            "body": "The family is not merely a private arrangement but the foundational institution of both church and society. A well-ordered home produces well-formed church members and citizens. The homemaker's work is therefore an act of both ecclesial and civic formation.",
+            "quote": "A family is a little church and a little nation; or rather, a little church and a little commonwealth, at least, a lively representation thereof.",
+            "source": "Of Domesticall Duties, 1622"
+          },
+          {
+            "title": "The Wife as Joint Governor",
+            "body": "Against any view of the wife as a passive subordinate, Gouge argued from Scripture that the husband ought to make his wife a \"joint governor\" of the household, entrusting much of its order and flourishing to her discretion.",
+            "quote": "He ought to make her a joint governor of the family with himself and refer the ordering of many things to her discretion.",
+            "source": "Of Domesticall Duties, Epistle Dedicatory"
+          }
+        ]
+      },
+      {
+        "name": "Abraham Kuyper",
+        "dates": "1837–1920",
+        "tradition": "Dutch Reformed / Neo-Calvinism",
+        "bio": "Theologian, journalist, educator, and Prime Minister of the Netherlands, Kuyper built a comprehensive Calvinist philosophy of culture. His doctrine of sphere sovereignty declares the family one of God's primordial spheres of authority — directly accountable to God, not subordinate to church or state.",
+        "themes": [
+          {
+            "title": "Not a Square Inch",
+            "body": "In his 1880 inaugural address at the Free University of Amsterdam, Kuyper declared that no corner of human existence — including the domestic sphere — stands outside Christ's claim. Every kitchen, every nursery, every table is claimed by Christ: \"Mine!\" This gives homemaking and hospitality the highest possible theological dignity.",
+            "quote": "There is not a square inch in the whole domain of our human existence over which Christ, who is Sovereign over all, does not cry: Mine!",
+            "source": "Free University Inaugural Address, Amsterdam, 1880"
+          },
+          {
+            "title": "The Family as the Primordial Sphere",
+            "body": "The family is the first and most foundational of God's ordered spheres. It precedes and underlies all other social institutions. Undermining marriage and family is not progress — it attacks the primordial sphere on which everything else is built.",
+            "quote": "Marriage remains the foundation of human society and the family retains its position as the primordial sphere in sociology.",
+            "source": "Lectures on Calvinism, Princeton, 1898"
+          }
+        ]
+      },
+      {
+        "name": "Jonathan Edwards",
+        "dates": "1703–1758",
+        "tradition": "New England Reformed",
+        "bio": "America's greatest theologian developed a theology of beauty rooted in God as Trinity — mutual love is primary beauty; its reflection in creation is secondary beauty. His aesthetics provide the deepest Reformed foundation for Edith Schaeffer's vision of beauty in the home, and his theology of affections shows that holiness itself is beautiful.",
+        "themes": [
+          {
+            "title": "Holy Beauty in Words and Actions",
+            "body": "Edwards argued that genuine conversion reorders all the affections, including the sense of beauty. The regenerate person perceives holiness as beautiful and naturally expresses that beauty in all conduct — including the words and actions of domestic life.",
+            "quote": "There is a holy beauty and sweetness in words and actions, as well as a natural beauty in countenances and sounds.",
+            "source": "Religious Affections, 1746"
+          },
+          {
+            "title": "All Beauty Reflects God",
+            "body": "Nothing beautiful in creation is self-sourced. Every beautiful thing — a well-set table, a welcoming room, a meal made with love — is a reflection of the One who is Himself infinitely beautiful. Homemaking that pursues beauty is implicitly theological.",
+            "quote": "All the beauty to be found throughout the whole creation is the reflection of the diffused beams of that being who hath an infinite fullness of brightness and glory.",
+            "source": "Dissertation Concerning the Nature of True Virtue, 1765"
+          }
+        ]
+      },
+      {
+        "name": "Rosaria Butterfield",
+        "dates": "b. 1962",
+        "tradition": "Reformed Presbyterian (RPCNA)",
+        "bio": "Former tenured professor at Syracuse University, Butterfield came to Christ through years of dinner-table friendship with a Reformed Presbyterian pastor. Her own conversion became the seed of her convictions on hospitality as gospel proclamation — a daily discipline, not an occasional event.",
+        "themes": [
+          {
+            "title": "Radically Ordinary Hospitality",
+            "body": "Butterfield distinguishes Christian hospitality from entertaining. Entertaining is event-based, impression-driven, perfectionist. Hospitality is daily, inconvenient, genuine — it shares what there is. It is the basic unit of Christian witness in a post-Christian world.",
+            "quote": "Radically ordinary hospitality is this: using your Christian home in a daily way that seeks to make strangers neighbors, and neighbors family of God.",
+            "source": "The Gospel Comes with a House Key, 2018"
+          }
+        ]
+      },
+      {
+        "name": "Gloria Furman",
+        "dates": "b. 1982",
+        "tradition": "Reformed / Acts 29",
+        "bio": "Wife of a church-planting pastor in Dubai, Furman writes from the context of motherhood and cross-cultural domestic life. She traces the arc of the missio Dei through Scripture to show that the homemaker's daily work is situated within God's grand plan to unite all things in Christ.",
+        "themes": [
+          {
+            "title": "Theology for Homemakers",
+            "body": "Doctrine is not academic theory — it is the indispensable equipment for women who need to know who God is, who they are, and what their mundane daily work means. Theology transforms the ordinary.",
+            "quote": "Theology is for homemakers who need to know who God is, who they are, and what this mundane life is all about.",
+            "source": "Glimpses of Grace, 2013"
+          },
+          {
+            "title": "Domestic Work in the Grand Plan of God",
+            "body": "Motherhood and homemaking are not marginal to redemptive history — they are the arenas where discipleship happens most persistently. The ordinary daily care of children and household is a privileged participation in God's work.",
+            "quote": "Her work in nurturing children in the fear of the Lord is her privileged participation in God's work in uniting all things in Jesus.",
+            "source": "Treasuring Christ When Your Hands Are Full, 2014"
+          }
+        ]
+      }
     ]
   },
   "footer": {

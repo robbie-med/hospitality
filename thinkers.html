@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Voices from History — The Gracious Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="thinkers">
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">&#9765;</span>
+        <span class="logo-text" data-i18n="nav.brand"></span>
+      </a>
+      <nav id="mainNav"></nav>
+      <div id="langSwitcher" class="lang-switcher"></div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+    </div>
+  </header>
+
+  <!-- Schaeffer section -->
+  <section id="schaeffer" class="section section-schaeffer">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label schaeffer-label" data-i18n="schaeffer.sectionLabel"></p>
+        <p class="schaeffer-eyebrow" data-i18n="schaeffer.eyebrow"></p>
+        <h2 data-i18n="schaeffer.title"></h2>
+        <p class="section-intro" data-i18n="schaeffer.intro"></p>
+      </div>
+      <div class="schaeffer-bio"    id="schaefferBio"></div>
+      <div class="schaeffer-themes" id="schaefferThemes"></div>
+      <div class="labri-box"        id="labriBox"></div>
+      <div class="pull-quotes-section" id="pullQuotes"></div>
+      <div class="schaeffer-books"  id="schaefferBooks"></div>
+    </div>
+  </section>
+
+  <!-- Reformed / Puritan thinkers — rendered by app.js when locale data is present -->
+  <section id="thinkers" class="section section-warm">
+    <div class="container" id="thinkersContainer">
+      <!-- populated by renderThinkers() once research data is added to locale files -->
+    </div>
+  </section>
+
+  <div class="page-nav-footer">
+    <div class="container">
+      <a href="manifesto.html" class="btn btn-outline">← <span data-i18n="nav.manifesto"></span></a>
+      <a href="planner.html"   class="btn btn-primary" data-i18n="nav.planner"></a>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-verse">
+        <p data-i18n="footer.verse"></p>
+        <cite data-i18n="footer.verseRef"></cite>
+      </div>
+      <p class="footer-tagline" data-i18n="footer.tagline"></p>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

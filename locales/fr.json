@@ -3,10 +3,49 @@
   "dir": "ltr",
   "nav": {
     "brand": "La Maison Accueillante",
-    "competencies": "Compétences",
+    "home": "Accueil",
+    "competencies": "L'Appel",
     "manifesto": "Manifeste",
-    "planner": "Planificateur d'Hospitalité",
+    "thinkers": "Voix",
+    "planner": "Planificateur",
     "menuAriaLabel": "Ouvrir le menu"
+  },
+  "landing": {
+    "eyebrow": "Une Vision Biblique pour le Foyer",
+    "title": "Bienvenue chez vous,\nBienvenue aux autres",
+    "subtitle": "Un guide en quatre parties sur l'art et l'appel du foyer — ancré dans les Écritures, façonné par la pensée réformée, exprimé par l'hospitalité.",
+    "ctaPrimary": "Commencer par l'Appel",
+    "ctaPrimaryHref": "competencies.html",
+    "cards": [
+      {
+        "icon": "❤",
+        "title": "L'Appel",
+        "desc": "Dix compétences fondamentales de la maîtresse de maison fidèle — spirituelles, domestiques, relationnelles et créatives — chacune ancrée dans les Écritures.",
+        "link": "competencies.html",
+        "linkText": "Explorer →"
+      },
+      {
+        "icon": "📜",
+        "title": "Le Manifeste",
+        "desc": "Une théologie en sept piliers de l'hospitalité tirée des Écritures — d'Hébreux 13 à Luc 14 à Matthieu 25.",
+        "link": "manifesto.html",
+        "linkText": "Lire →"
+      },
+      {
+        "icon": "📚",
+        "title": "Voix de l'Histoire",
+        "desc": "Comment les penseurs puritains, réformés et du XXe siècle ont articulé la théologie du foyer — de William Gouge à Edith Schaeffer.",
+        "link": "thinkers.html",
+        "linkText": "Explorer →"
+      },
+      {
+        "icon": "📋",
+        "title": "Planificateur d'Hospitalité",
+        "desc": "Un outil interactif en six étapes : Qui, Pourquoi, Quand, Où, Quoi et Comment — pour votre prochain acte d'hospitalité.",
+        "link": "planner.html",
+        "linkText": "Ouvrir →"
+      }
+    ]
   },
   "hero": {
     "eyebrow": "Une Vision Biblique",
@@ -486,6 +525,147 @@
       {"title": "The Hidden Art of Homemaking", "year": "1971", "desc": "Son œuvre maîtresse. Quatorze chapitres sur la créativité dans la vie domestique — musique, cuisine, décoration, jardinage, écriture — le tout ancré dans la théologie de l'Imago Dei."},
       {"title": "What Is a Family?", "year": "1975", "desc": "Définit la famille à travers huit métaphores créatives. Couvre l'arc complet de la vie familiale sans esquiver la souffrance, le vieillissement ou la perte."},
       {"title": "L'Abri", "year": "1969", "desc": "Le récit à la première personne de la fondation de L'Abri — mi-mémoires, mi-théologie de l'hospitalité, entièrement convaincant."}
+    ]
+  },
+  "thinkers": {
+    "sectionLabel": "Une Nuée de Témoins",
+    "title": "Voix à Travers les Siècles",
+    "intro": "De la théologie de la vocation de Luther au «pas un centimètre carré» de Kuyper, les penseurs réformés et puritains ont constamment ancré la vie domestique et l'hospitalité dans les convictions les plus profondes de la foi.",
+    "voices": [
+      {
+        "name": "Martin Luther",
+        "dates": "1483–1546",
+        "tradition": "Réforme luthérienne",
+        "bio": "Luther a brisé la hiérarchie médiévale entre le sacré et le séculier. Avant la Réforme, seuls les moines et les prêtres avaient des «vocations». Sa doctrine du sacerdoce de tous les croyants a déclaré que toute station honnête dans la vie — y compris la mère au berceau — est un appel divin à travers lequel Dieu agit dans le monde.",
+        "themes": [
+          {
+            "title": "La vocation domestique comme travail sacré",
+            "body": "Dans L'état du mariage (1522), Luther décrit un père lavant les couches de son nourrisson comme un acte devant lequel Dieu lui-même sourit — non parce que la tâche est impressionnante, mais parce qu'elle est accomplie dans la foi. Le travail domestique est «orné de l'approbation divine comme du plus précieux or et des plus belles gemmes».",
+            "quote": "Dieu, avec tous ses anges et ses créatures, sourit — non pas parce que ce père lave des couches, mais parce qu'il le fait dans la foi chrétienne.",
+            "source": "L'état du mariage, 1522"
+          },
+          {
+            "title": "Les parents comme premiers apôtres",
+            "body": "Le foyer est la première école de la foi. La vocation des parents à former leurs enfants dans l'Évangile n'est pas secondaire au ministère pastoral — c'est sa propre vocation sacrée.",
+            "quote": "Assurément, père et mère sont apôtres, évêques et prêtres pour leurs enfants, car ce sont eux qui les font connaître à l'Évangile.",
+            "source": "L'état du mariage, 1522"
+          }
+        ]
+      },
+      {
+        "name": "William Perkins",
+        "dates": "1558–1602",
+        "tradition": "Puritanisme anglais",
+        "bio": "Le théologien puritain le plus influent de Cambridge, Perkins a bâti une théologie réformée systématique de la vocation qui plaçait chaque personne — homme ou femme, riche ou pauvre — dans un poste assigné par Dieu pour le bien commun. Son Traité des vocations (1603) a donné à la théologie domestique puritaine sa fondation systématique.",
+        "themes": [
+          {
+            "title": "Chaque personne, chaque station",
+            "body": "Dieu assigne à chaque personne une vocation particulière aussi sûrement qu'un général assigne des soldats à leurs postes. La station de la maîtresse de maison n'est pas une vocation moindre — c'est une mission divine pour le bénéfice des autres.",
+            "quote": "Chacun, riche ou pauvre, homme ou femme, est tenu d'avoir une vocation personnelle, dans laquelle il doit accomplir certains devoirs pour le bien commun, selon la mesure des dons que Dieu lui a accordés.",
+            "source": "Traité des vocations, 1603"
+          },
+          {
+            "title": "Servir Dieu en servant les autres",
+            "body": "Le but de toute vocation — y compris la vie domestique — est de rendre service aux autres comme acte de service à Dieu. La vocation n'est jamais simplement une expression de soi ou une auto-provision.",
+            "quote": "La fin principale de nos vies est de servir Dieu en servant les hommes dans les œuvres de nos vocations.",
+            "source": "Traité des vocations, 1603"
+          }
+        ]
+      },
+      {
+        "name": "William Gouge",
+        "dates": "1575–1653",
+        "tradition": "Puritanisme anglais",
+        "bio": "Les Devoirs domestiques de Gouge (1622) — 693 pages, développées en trois éditions — était le manuel puritain le plus complet sur le foyer chrétien. Joel Beeke l'a modernisé sous le titre Édifier un foyer pieux (Reformation Heritage Books, 3 vol.).",
+        "themes": [
+          {
+            "title": "Le foyer comme petite église et petite nation",
+            "body": "La famille n'est pas simplement un arrangement privé mais l'institution fondatrice à la fois de l'église et de la société. Un foyer bien ordonné produit de bons membres d'église et de bons citoyens.",
+            "quote": "Une famille est une petite église et une petite nation ; ou plutôt, une petite église et une petite république, du moins une représentation vivante de celles-ci.",
+            "source": "Devoirs domestiques, 1622"
+          },
+          {
+            "title": "L'épouse comme co-gouverneure",
+            "body": "Contre toute vision de l'épouse comme subordonnée passive, Gouge a soutenu que le mari doit faire de son épouse une «co-gouverneure» du foyer, confiant une grande partie de son ordre et de sa prospérité à son discernement.",
+            "quote": "Il doit en faire une co-gouverneure de la famille avec lui-même et confier l'ordonnancement de beaucoup de choses à sa discrétion.",
+            "source": "Devoirs domestiques, Épître dédicatoire"
+          }
+        ]
+      },
+      {
+        "name": "Abraham Kuyper",
+        "dates": "1837–1920",
+        "tradition": "Réforme hollandaise / Néo-calvinisme",
+        "bio": "Théologien, journaliste, éducateur et Premier ministre des Pays-Bas, Kuyper a bâti une philosophie calviniste complète de la culture. Sa doctrine de la souveraineté des sphères déclare la famille comme l'une des sphères primordiales ordonnées par Dieu — directement responsable devant Dieu, non subordonnée à l'église ou à l'État.",
+        "themes": [
+          {
+            "title": "Pas un centimètre carré",
+            "body": "Dans son discours inaugural de 1880 à l'Université libre d'Amsterdam, Kuyper a déclaré qu'aucun coin de l'existence humaine — y compris la sphère domestique — n'échappe à la revendication du Christ. Chaque cuisine, chaque nurserie, chaque table est revendiquée par le Christ : «Mien !»",
+            "quote": "Il n'y a pas un centimètre carré dans tout le domaine de notre existence humaine sur lequel le Christ, qui est Souverain sur tout, ne crie pas : À moi !",
+            "source": "Discours inaugural, Université libre d'Amsterdam, 1880"
+          },
+          {
+            "title": "La famille comme sphère primordiale",
+            "body": "La famille est la première et la plus fondamentale des sphères ordonnées par Dieu. Elle précède et soutient toutes les autres institutions sociales.",
+            "quote": "Le mariage demeure le fondement de la société humaine et la famille conserve sa position de sphère primordiale en sociologie.",
+            "source": "Conférences sur le calvinisme, Princeton, 1898"
+          }
+        ]
+      },
+      {
+        "name": "Jonathan Edwards",
+        "dates": "1703–1758",
+        "tradition": "Réformé de Nouvelle-Angleterre",
+        "bio": "Le plus grand théologien d'Amérique a développé une théologie de la beauté enracinée dans Dieu en tant que Trinité. Son esthétique fournit le fondement réformé le plus profond de la vision d'Edith Schaeffer sur la beauté dans le foyer.",
+        "themes": [
+          {
+            "title": "La sainte beauté dans les paroles et les actions",
+            "body": "La véritable conversion réordonne toutes les affections, y compris le sens de la beauté. La personne régénérée perçoit la sainteté comme belle et exprime naturellement cette beauté dans toute sa conduite — y compris dans les paroles et les actions de la vie domestique.",
+            "quote": "Il y a une sainte beauté et douceur dans les paroles et les actions, tout comme il y a une beauté naturelle dans les physionomies et les sons.",
+            "source": "Affections religieuses, 1746"
+          },
+          {
+            "title": "Toute beauté reflète Dieu",
+            "body": "Rien de beau dans la création n'est auto-source. Chaque chose belle — une table bien dressée, une pièce accueillante, un repas préparé avec amour — est le reflet de Celui qui est Lui-même infiniment beau.",
+            "quote": "Toute la beauté que l'on trouve dans toute la création est le reflet des rayons diffusés de cet Être qui possède une plénitude infinie de splendeur et de gloire.",
+            "source": "Dissertation sur la nature de la vraie vertu, 1765"
+          }
+        ]
+      },
+      {
+        "name": "Rosaria Butterfield",
+        "dates": "née en 1962",
+        "tradition": "Presbytérienne réformée (RPCNA)",
+        "bio": "Ancienne professeure titulaire à l'Université de Syracuse, Butterfield est venue à Christ à travers des années d'amitié à la table d'un pasteur presbytérien réformé. Sa propre conversion est devenue la graine de ses convictions sur l'hospitalité comme proclamation de l'Évangile.",
+        "themes": [
+          {
+            "title": "Hospitalité radicalement ordinaire",
+            "body": "Butterfield distingue l'hospitalité chrétienne du divertissement. Le divertissement est événementiel, axé sur l'impression et perfectionniste. L'hospitalité est quotidienne, inconfortable, genuïne — elle partage ce qu'il y a. C'est l'unité de base du témoignage chrétien dans un monde post-chrétien.",
+            "quote": "L'hospitalité radicalement ordinaire est ceci : utiliser votre foyer chrétien au quotidien en cherchant à faire des étrangers des voisins, et des voisins la famille de Dieu.",
+            "source": "L'Évangile vient avec une clé de maison, 2018"
+          }
+        ]
+      },
+      {
+        "name": "Gloria Furman",
+        "dates": "née en 1982",
+        "tradition": "Réformée / Acts 29",
+        "bio": "Épouse d'un pasteur planteur d'église à Dubaï, Furman écrit dans le contexte de la maternité et de la vie domestique interculturelle. Elle trace l'arc du missio Dei à travers l'Écriture pour montrer que le travail quotidien de la maîtresse de maison s'inscrit dans le grand plan de Dieu d'unir toutes choses en Christ.",
+        "themes": [
+          {
+            "title": "La théologie pour les maîtresses de maison",
+            "body": "La doctrine n'est pas une théorie académique — c'est l'équipement indispensable pour les femmes qui ont besoin de savoir qui est Dieu, qui elles sont et ce que signifie leur travail quotidien ordinaire. La théologie transforme l'ordinaire.",
+            "quote": "La théologie est pour les maîtresses de maison qui ont besoin de savoir qui est Dieu, qui elles sont et de quoi parle cette vie banale.",
+            "source": "Aperçus de grâce, 2013"
+          },
+          {
+            "title": "Le travail domestique dans le grand plan de Dieu",
+            "body": "La maternité et le soin du foyer ne sont pas marginaux à l'histoire rédemptrice — ce sont les arènes où le discipulat se produit le plus durablement.",
+            "quote": "Son travail pour élever des enfants dans la crainte du Seigneur est sa participation privilégiée à l'œuvre de Dieu qui unit toutes choses en Jésus.",
+            "source": "Chérir Christ quand on a les mains pleines, 2014"
+          }
+        ]
+      }
     ]
   },
   "footer": {

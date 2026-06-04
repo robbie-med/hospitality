@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hospitality Planner — The Gracious Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="planner">
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">&#9765;</span>
+        <span class="logo-text" data-i18n="nav.brand"></span>
+      </a>
+      <nav id="mainNav"></nav>
+      <div id="langSwitcher" class="lang-switcher"></div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+    </div>
+  </header>
+
+  <div class="page-hero page-hero-warm">
+    <div class="container">
+      <p class="section-label" data-i18n="planner.sectionLabel"></p>
+      <h1 data-i18n="planner.title"></h1>
+      <p class="page-hero-intro" data-i18n="planner.intro"></p>
+    </div>
+  </div>
+
+  <section class="section section-light">
+    <div class="container">
+      <div class="planner-wrapper">
+
+        <div class="planner-progress">
+          <div class="progress-steps" id="progressSteps"></div>
+          <div class="progress-bar-track">
+            <div class="progress-bar-fill" id="progressFill"></div>
+          </div>
+        </div>
+
+        <div class="planner-card">
+
+          <!-- Step 1: WHO -->
+          <div class="planner-step active" id="step-1">
+            <div class="step-header">
+              <span class="step-label" data-i18n="planner.steps.who.stepLabel"></span>
+              <h3 data-i18n="planner.steps.who.title"></h3>
+              <p data-i18n="planner.steps.who.description"></p>
+            </div>
+            <div class="field-group">
+              <label class="field-label" data-i18n="planner.steps.who.guestCategory.label"></label>
+              <div class="chip-select" id="guestCategory" data-field="guestCategory" data-step="who" data-multi="false"></div>
+            </div>
+            <div class="field-group">
+              <label class="field-label" for="guestName" data-i18n="planner.steps.who.guestName.label"></label>
+              <input type="text" id="guestName" class="text-input" data-i18n-placeholder="planner.steps.who.guestName.placeholder" />
+            </div>
+            <div class="field-group">
+              <label class="field-label" for="guestNeeds" data-i18n="planner.steps.who.guestNeeds.label"></label>
+              <textarea id="guestNeeds" class="text-area" rows="3" data-i18n-placeholder="planner.steps.who.guestNeeds.placeholder"></textarea>
+            </div>
+            <div class="field-group">
+              <label class="field-label" data-i18n="planner.steps.who.groupSize.label"></label>
+              <div class="chip-select" id="groupSize" data-field="groupSize" data-step="who" data-multi="false"></div>
+            </div>
+            <div class="scripture-prompt">
+              <span class="sp-icon">&#128214;</span>
+              <p data-i18n="planner.steps.who.scripture"></p>
+            </div>
+          </div>
+
+          <!-- Step 2: WHY -->
+          <div class="planner-step" id="step-2">
+            <div class="step-header">
+              <span class="step-label" data-i18n="planner.steps.why.stepLabel"></span>
+              <h3 data-i18n="planner.steps.why.title"></h3>
+              <p data-i18n="planner.steps.why.description"></p>
+            </div>
+            <div class="field-group">
+              <label class="field-label" data-i18n="planner.steps.why.motivation.label"></label>
+              <div class="chip-select" id="motivation" data-field="motivation" data-step="why" data-multi="true"></div>
+            </div>
+            <div class="field-group">
+              <label class="field-label" for="whyStatement" data-i18n="planner.steps.why.whyStatement.label"></label>
+              <textarea id="whyStatement" class="text-area" rows="3" data-i18n-placeholder="planner.steps.why.whyStatement.placeholder"></textarea>
+            </div>
+            <div class="field-group">
+              <label class="field-label" for="prayerIntent" data-i18n="planner.steps.why.prayerIntent.label"></label>
+              <textarea id="prayerIntent" class="text-area" rows="3" data-i18n-placeholder="planner.steps.why.prayerIntent.placeholder"></textarea>
+            </div>
+            <div class="scripture-prompt">
+              <span class="sp-icon">&#128214;</span>
+              <p data-i18n="planner.steps.why.scripture"></p>
+            </div>
+          </div>
+
+          <!-- Step 3: WHEN -->
+          <div class="planner-step" id="step-3">
+            <div class="step-header">
+              <span class="step-label" data-i18n="planner.steps.when.stepLabel"></span>
+              <h3 data-i18n="planner.steps.when.title"></h3>
+              <p data-i18n="planner.steps.when.description"></p>
+            </div>
+            <div class="field-group">
+              <label class="field-label" for="eventDate" data-i18n="planner.steps.when.eventDate.label"></label>
+              <input type="text" id="eventDate" class="text-input" data-i18n-placeholder="planner.steps.when.eventDate.placeholder" />
+            </div>
+            <div class="field-group">
+              <label class="field-label" data-i18n="planner.steps.when.mealSlot.label"></label>
+              <div class="chip-select" id="mealSlot" data-field="mealSlot" data-step="when" data-multi="false"></div>
+            </div>
+            <div class="field-group">
+              <label class="field-label" for="duration" data-i18n="planner.steps.when.duration.label"></label>
+              <input type="text" id="duration" class="text-input" data-i18n-placeholder="planner.steps.when.duration.placeholder" />
+            </div>
+            <div class="field-group">
+              <label class="field-label" for="prepTime" data-i18n="planner.steps.when.prepTime.label"></label>
+              <input type="text" id="prepTime" class="text-input" data-i18n-placeholder="planner.steps.when.prepTime.placeholder" />
+            </div>
+            <div class="scripture-prompt">
+              <span class="sp-icon">&#128214;</span>
+              <p data-i18n="planner.steps.when.scripture"></p>
+            </div>
+          </div>
+
+          <!-- Step 4: WHERE -->
+          <div class="planner-step" id="step-4">
+            <div class="step-header">
+              <span class="step-label" data-i18n="planner.steps.where.stepLabel"></span>
+              <h3 data-i18n="planner.steps.where.title"></h3>
+              <p data-i18n="planner.steps.where.description"></p>
+            </div>
+            <div class="field-group">
+              <label class="field-label" data-i18n="planner.steps.where.location.label"></label>
+              <div class="chip-select" id="location" data-field="location" data-step="where" data-multi="false"></div>
+            </div>
+            <div class="field-group">
+              <label class="field-label" for="spaceNotes" data-i18n="planner.steps.where.spaceNotes.label"></label>
+              <textarea id="spaceNotes" class="text-area" rows="3" data-i18n-placeholder="planner.steps.where.spaceNotes.placeholder"></textarea>
+            </div>
+            <div class="field-group">
+              <label class="field-label" data-i18n="planner.steps.where.atmosphere.label"></label>
+              <div class="chip-select" id="atmosphere" data-field="atmosphere" data-step="where" data-multi="true"></div>
+            </div>
+            <div class="scripture-prompt">
+              <span class="sp-icon">&#128214;</span>
+              <p data-i18n="planner.steps.where.scripture"></p>
+            </div>
+          </div>
+
+          <!-- Step 5: WHAT -->
+          <div class="planner-step" id="step-5">
+            <div class="step-header">
+              <span class="step-label" data-i18n="planner.steps.what.stepLabel"></span>
+              <h3 data-i18n="planner.steps.what.title"></h3>
+              <p data-i18n="planner.steps.what.description"></p>
+            </div>
+            <div class="field-group">
+              <label class="field-label" data-i18n="planner.steps.what.foodType.label"></label>
+              <div class="chip-select" id="foodType" data-field="foodType" data-step="what" data-multi="true"></div>
+            </div>
+            <div class="field-group">
+              <label class="field-label" for="menuIdeas" data-i18n="planner.steps.what.menuIdeas.label"></label>
+              <textarea id="menuIdeas" class="text-area" rows="3" data-i18n-placeholder="planner.steps.what.menuIdeas.placeholder"></textarea>
+            </div>
+            <div class="field-group">
+              <label class="field-label" data-i18n="planner.steps.what.activities.label"></label>
+              <div class="chip-select" id="activities" data-field="activities" data-step="what" data-multi="true"></div>
+            </div>
+            <div class="field-group">
+              <label class="field-label" for="specialNeeds" data-i18n="planner.steps.what.specialNeeds.label"></label>
+              <input type="text" id="specialNeeds" class="text-input" data-i18n-placeholder="planner.steps.what.specialNeeds.placeholder" />
+            </div>
+            <div class="scripture-prompt">
+              <span class="sp-icon">&#128214;</span>
+              <p data-i18n="planner.steps.what.scripture"></p>
+            </div>
+          </div>
+
+          <!-- Step 6: HOW -->
+          <div class="planner-step" id="step-6">
+            <div class="step-header">
+              <span class="step-label" data-i18n="planner.steps.how.stepLabel"></span>
+              <h3 data-i18n="planner.steps.how.title"></h3>
+              <p data-i18n="planner.steps.how.description"></p>
+            </div>
+            <div class="field-group">
+              <label class="field-label" data-i18n="planner.steps.how.prepChecklist.label"></label>
+              <div class="checklist" id="prepChecklist" data-field="prepChecklist" data-step="how"></div>
+            </div>
+            <div class="field-group">
+              <label class="field-label" data-i18n="planner.steps.how.heartChecklist.label"></label>
+              <div class="checklist" id="heartChecklist" data-field="heartChecklist" data-step="how"></div>
+            </div>
+            <div class="field-group">
+              <label class="field-label" for="helpNeeded" data-i18n="planner.steps.how.helpNeeded.label"></label>
+              <input type="text" id="helpNeeded" class="text-input" data-i18n-placeholder="planner.steps.how.helpNeeded.placeholder" />
+            </div>
+            <div class="field-group">
+              <label class="field-label" for="extraNotes" data-i18n="planner.steps.how.extraNotes.label"></label>
+              <textarea id="extraNotes" class="text-area" rows="3" data-i18n-placeholder="planner.steps.how.extraNotes.placeholder"></textarea>
+            </div>
+            <div class="scripture-prompt">
+              <span class="sp-icon">&#128214;</span>
+              <p data-i18n="planner.steps.how.scripture"></p>
+            </div>
+          </div>
+
+          <!-- Step 7: PLAN -->
+          <div class="planner-step" id="step-7">
+            <div class="step-header">
+              <span class="step-label" data-i18n="planner.plan.stepLabel"></span>
+              <h3 data-i18n="planner.plan.title"></h3>
+              <p data-i18n="planner.plan.description"></p>
+            </div>
+            <div class="plan-output" id="planOutput"></div>
+            <div class="plan-actions">
+              <button class="btn btn-primary" id="printBtn" data-i18n="planner.plan.printBtn">Print / Save as PDF</button>
+              <button class="btn btn-outline"  id="startOverBtn" data-i18n="planner.plan.startOverBtn">Start a New Plan</button>
+            </div>
+          </div>
+
+          <div class="planner-nav" id="plannerNav">
+            <button class="btn btn-outline" id="prevBtn" style="display:none">← Back</button>
+            <button class="btn btn-primary" id="nextBtn">Next →</button>
+          </div>
+
+        </div><!-- /.planner-card -->
+      </div><!-- /.planner-wrapper -->
+    </div>
+  </section>
+
+  <div class="page-nav-footer">
+    <div class="container">
+      <a href="thinkers.html" class="btn btn-outline">← <span data-i18n="nav.thinkers"></span></a>
+      <a href="index.html"    class="btn btn-outline" data-i18n="nav.home"></a>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-verse">
+        <p data-i18n="footer.verse"></p>
+        <cite data-i18n="footer.verseRef"></cite>
+      </div>
+      <p class="footer-tagline" data-i18n="footer.tagline"></p>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
