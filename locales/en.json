@@ -418,6 +418,76 @@
       "createdOn": "Created on"
     }
   },
+  "schaeffer": {
+    "navLabel": "Edith Schaeffer",
+    "sectionLabel": "A Voice from History",
+    "eyebrow": "Edith Schaeffer · 1914–2013",
+    "title": "The Hidden Art of Homemaking",
+    "intro": "Few voices in the twentieth century spoke with more theological depth and practical beauty about homemaking than Edith Schaeffer — missionary, author, artist, hostess, and co-founder of L'Abri Fellowship. Her work gives the calling of homemaker a richly grounded, beautifully articulated vision that still speaks today.",
+    "bioTitle": "Who Was Edith Schaeffer?",
+    "bio": "Born in China in 1914 to missionary parents (her Chinese name, Mei Fuh, means \"beautiful happiness\"), Edith married Francis Schaeffer in 1935. Together they co-founded L'Abri Fellowship in Switzerland in 1955 — a community of radical hospitality where seekers, skeptics, and the spiritually wounded could come with honest questions. She authored or co-authored more than 20 books and was listed among 100 Christian Women Who Changed the Twentieth Century. Her signature work, The Hidden Art of Homemaking (1971), remains the most theologically rich treatment of domestic creativity in evangelical literature.",
+    "themes": [
+      {
+        "icon": "✦",
+        "title": "The First Artist: Imago Dei as Foundation",
+        "body": "Schaeffer's entire vision of homemaking rests on one premise: because God is the first and supreme Artist — who made a world of beauty, variety, and design — human beings made in His image carry a creative impulse that must be expressed, not suppressed. Creativity in the home is not a luxury. It is an expression of bearing the divine image.",
+        "quote": "If you have been afraid that your love of beautiful flowers and the flickering flame of the candle is somehow less spiritual than living in starkness and ugliness, remember that He who created you to be creative gave you the things with which to make beauty.",
+        "quoteSource": "The Hidden Art of Homemaking"
+      },
+      {
+        "icon": "🎨",
+        "title": "The Hidden Art: Domestic Life as Artistic Expression",
+        "body": "\"Hidden\" is deliberate: these are arts hidden in plain sight, embedded in cooking, decorating, gardening, flower arranging, writing letters, setting a table. She argued that every person has an unfulfilled creative talent waiting to be expressed in their own sphere — and that the home is the most immediate canvas available.",
+        "quote": "I would define 'hidden art' as the art found in the ordinary areas of everyday life. Each person has, I believe, some talent which is unfulfilled in some hidden area of his being — a talent which could be expressed and developed.",
+        "quoteSource": "The Hidden Art of Homemaking"
+      },
+      {
+        "icon": "🕯",
+        "title": "No Sacred/Secular Divide: All of Life Before God",
+        "body": "Rooted in the Reformed conviction that all of life is lived coram Deo — before the face of God — Schaeffer insisted there is no divide between the spiritual life and what she did as a wife and mother. Cooking a meal, sewing curtains, setting a welcoming table — all could be acts of worship as genuine as any prayer.",
+        "quote": "There is no occasion when meals should become totally unimportant. Meals can be very small indeed, very inexpensive — but they should always be more than just food.",
+        "quoteSource": "The Hidden Art of Homemaking"
+      },
+      {
+        "icon": "🏡",
+        "title": "The Apologetics of Beauty: Hospitality as Witness",
+        "body": "Schaeffer argued that beauty itself functions apologetically. A warm home, a beautiful table, a fragrant meal do not merely comfort the body — they make Christianity plausible and desirable to the searching soul. Nancy Pearcey, who encountered L'Abri as a young agnostic, described \"an apologetics of beauty that made me want Christianity to be true.\"",
+        "quote": "We are as concerned for living as we are for thinking. From the beginning, the concern has been that the truth is as much exhibited in everyday life as it is defended in discussion.",
+        "quoteSource": "On L'Abri Fellowship"
+      },
+      {
+        "icon": "📖",
+        "title": "What Is a Family? — The Home as Many Things at Once",
+        "body": "In her 1975 book, Schaeffer defines the family through a series of rich metaphors: a museum of memories, a perpetual relay of truth, a shelter in time of storm, a door with hinges and a lock, an ever-changing mobile, a formation center for human relationships, and a birthplace of creativity. Each metaphor unlocks a different dimension of what the home is called to be.",
+        "quote": "There needs to be a homemaker exercising some measure of skill, imagination, creativity, desire to fulfill needs and give pleasure to others in the family. How precious a thing is the human family. Is it not worth some sacrifice in time, energy, safety, discomfort, work?",
+        "quoteSource": "What Is a Family?"
+      }
+    ],
+    "labriTitle": "L'Abri: A Living Model of Hospitality",
+    "labriBody": "In 1955, the Schaeffers opened their chalet in Huémoz, Switzerland, to anyone who came with honest questions. L'Abri — French for \"the shelter\" — began with afternoon teas for neighborhood girls and grew, by 1960, into a community so remarkable that Time magazine took notice. Edith's Sunday evening High Tea hosted upwards of 50 visitors from around the world each week. She ran it on faith-based finances with no missions budget, sometimes managing unannounced busloads of young people — and as those who were there remember, \"inexpensive and homemade did not mean ugly.\"",
+    "labriPrinciples": [
+      "No formal fundraising — the community ran entirely on prayer",
+      "Guests welcomed for an afternoon or up to three months",
+      "Daily life integrated: study, shared chores, communal meals",
+      "Beauty cultivated on a missionary budget — candles, linens, cut flowers",
+      "Biblical grounding: Matthew 25:31–40 — welcoming the stranger as welcoming Christ"
+    ],
+    "labriQuote": "\"I have never met anyone with such a passion for God, combined with a passion for people, combined with a passion for truth.\"",
+    "labriQuoteAuthor": "— Os Guinness, on Edith Schaeffer",
+    "pullQuotesTitle": "Words Worth Keeping",
+    "pullQuotes": [
+      {"quote": "If you have two loaves of bread, sell one and buy a lily. The bread becomes a different thing when eaten at a table with the lily in the center.", "source": "The Hidden Art of Homemaking"},
+      {"quote": "Your home is not something for a misty future — TODAY is your life.", "source": "The Hidden Art of Homemaking"},
+      {"quote": "It is not a waste to write beautiful prose or poetry for one person's eyes alone.", "source": "The Hidden Art of Homemaking"},
+      {"quote": "People throw away what they could have by insisting on perfection, which they cannot have, and looking for it where they will never find it.", "source": "Edith Schaeffer"}
+    ],
+    "booksTitle": "Her Key Books",
+    "books": [
+      {"title": "The Hidden Art of Homemaking", "year": "1971", "desc": "Her masterwork. Fourteen chapters on creativity in domestic life — music, cooking, decorating, gardening, writing — all grounded in the theology of Imago Dei."},
+      {"title": "What Is a Family?", "year": "1975", "desc": "Defines the family through eight creative metaphors. Covers the full arc of family life without flinching at hardship, aging, or loss."},
+      {"title": "L'Abri", "year": "1969", "desc": "The first-person account of how L'Abri began — part memoir, part theology of hospitality, entirely compelling."}
+    ]
+  },
   "footer": {
     "verse": "\"She is clothed with strength and dignity; she can laugh at the days to come. She speaks with wisdom, and faithful instruction is on her tongue.\"",
     "verseRef": "— Proverbs 31:25–26",

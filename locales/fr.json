@@ -418,6 +418,76 @@
       "createdOn": "Créé le"
     }
   },
+  "schaeffer": {
+    "navLabel": "Edith Schaeffer",
+    "sectionLabel": "Une Voix de l'Histoire",
+    "eyebrow": "Edith Schaeffer · 1914–2013",
+    "title": "L'Art Caché du Foyer",
+    "intro": "Peu de voix au vingtième siècle ont parlé avec plus de profondeur théologique et de beauté pratique sur le foyer qu'Edith Schaeffer — missionnaire, auteure, artiste, hôtesse et cofondatrice de L'Abri Fellowship. Son œuvre offre à l'appel de maîtresse de maison une vision richement fondée et magnifiquement articulée qui parle encore aujourd'hui.",
+    "bioTitle": "Qui était Edith Schaeffer ?",
+    "bio": "Née en Chine en 1914 de parents missionnaires (son nom chinois, Mei Fuh, signifie « bonheur beau »), Edith a épousé Francis Schaeffer en 1935. Ensemble, ils ont cofondé L'Abri Fellowship en Suisse en 1955 — une communauté d'hospitalité radicale où les chercheurs, les sceptiques et les blessés spirituels pouvaient venir avec des questions sincères. Elle a écrit ou coécrit plus de 20 livres et a été classée parmi les 100 femmes chrétiennes qui ont changé le vingtième siècle. Son œuvre maîtresse, L'Art caché du foyer (1971), reste le traitement le plus riche sur le plan théologique de la créativité domestique dans la littérature évangélique.",
+    "themes": [
+      {
+        "icon": "✦",
+        "title": "Le Premier Artiste : L'Imago Dei comme Fondement",
+        "body": "Toute la vision de Schaeffer sur le foyer repose sur une seule prémisse : parce que Dieu est le premier et suprême Artiste — qui a fait un monde de beauté, de variété et de design — les êtres humains faits à Son image portent une impulsion créatrice qui doit s'exprimer, pas se réprimer. La créativité dans le foyer n'est pas un luxe. C'est une expression du fait de porter l'image divine.",
+        "quote": "Si vous avez eu peur que votre amour des belles fleurs et de la flamme vacillante de la bougie soit d'une certaine façon moins spirituel que de vivre dans la rigueur et la laideur, souvenez-vous que Celui qui vous a créée pour être créative vous a donné les choses avec lesquelles faire de la beauté.",
+        "quoteSource": "L'Art caché du foyer"
+      },
+      {
+        "icon": "🎨",
+        "title": "L'Art Caché : La Vie Domestique comme Expression Artistique",
+        "body": "« Caché » est délibéré : ce sont des arts cachés à la vue de tous, intégrés dans la cuisine, la décoration, le jardinage, l'arrangement floral, l'écriture de lettres, la mise de table. Elle soutenait que toute personne possède un talent créatif inexploité qui attend d'être exprimé dans sa propre sphère — et que le foyer est le canvas le plus immédiat disponible.",
+        "quote": "Je définirais l'« art caché » comme l'art que l'on trouve dans les domaines ordinaires de la vie quotidienne. Chaque personne a, je crois, un talent inexprimé dans quelque partie cachée de son être — un talent qui pourrait être exprimé et développé.",
+        "quoteSource": "L'Art caché du foyer"
+      },
+      {
+        "icon": "🕯",
+        "title": "Pas de Division Sacré/Séculier : Toute la Vie devant Dieu",
+        "body": "Enracinée dans la conviction réformée que toute la vie est vécue coram Deo — devant la face de Dieu — Schaeffer insistait sur l'absence de division entre la vie spirituelle et ce qu'elle faisait en tant qu'épouse et mère. Cuisiner un repas, coudre des rideaux, dresser une table accueillante — tout pouvait être des actes de culte aussi authentiques que n'importe quelle prière.",
+        "quote": "Il n'y a pas d'occasion où les repas devraient devenir totalement sans importance. Les repas peuvent être très petits, très peu coûteux — mais ils devraient toujours être plus que de la simple nourriture.",
+        "quoteSource": "L'Art caché du foyer"
+      },
+      {
+        "icon": "🏡",
+        "title": "L'Apologétique de la Beauté : L'Hospitalité comme Témoignage",
+        "body": "Schaeffer soutenait que la beauté elle-même fonctionne de manière apologétique. Un foyer chaleureux, une belle table, un repas parfumé ne réconfortent pas seulement le corps — ils rendent le christianisme plausible et désirable pour l'âme qui cherche. Nancy Pearcey, qui a découvert L'Abri en tant que jeune agnostique, décrit « une apologétique de la beauté qui m'a donné envie que le christianisme soit vrai ».",
+        "quote": "Nous nous soucions autant de vivre que de penser. Depuis le début, la préoccupation a été que la vérité est autant montrée dans la vie quotidienne qu'elle est défendue dans la discussion.",
+        "quoteSource": "Sur L'Abri Fellowship"
+      },
+      {
+        "icon": "📖",
+        "title": "Qu'est-ce qu'une Famille ? — Le Foyer comme Plusieurs Choses à la Fois",
+        "body": "Dans son livre de 1975, Schaeffer définit la famille à travers une série de métaphores riches : un musée de souvenirs, un relais perpétuel de vérité, un abri par temps de tempête, une porte avec charnières et serrure, un mobile en perpétuel changement, un centre de formation pour les relations humaines et un lieu de naissance de la créativité.",
+        "quote": "Il faut qu'il y ait une maîtresse de maison qui exerce un certain degré de compétence, d'imagination, de créativité, de désir de répondre aux besoins et de faire plaisir aux autres dans la famille. Quelle chose précieuse que la famille humaine ! Cela ne vaut-il pas quelque sacrifice de temps, d'énergie, de sécurité, d'inconfort, de travail ?",
+        "quoteSource": "Qu'est-ce qu'une famille ?"
+      }
+    ],
+    "labriTitle": "L'Abri : Un Modèle Vivant d'Hospitalité",
+    "labriBody": "En 1955, les Schaeffer ont ouvert leur chalet à Huémoz, en Suisse, à quiconque venait avec des questions sincères. L'Abri a commencé par des thés l'après-midi pour des filles du quartier et a grandi, en 1960, en une communauté si remarquable que le magazine Time l'a remarquée. Le High Tea dominical d'Edith accueillait chaque semaine plus de 50 visiteurs du monde entier. Elle le gérait avec des finances basées sur la foi, sans budget missionnaire, et comme s'en souviennent ceux qui étaient là, « peu coûteux et fait maison ne signifiait pas laid ».",
+    "labriPrinciples": [
+      "Pas de levée de fonds formelle — la communauté fonctionnait entièrement par la prière",
+      "Invités bienvenus pour un après-midi ou jusqu'à trois mois",
+      "Vie quotidienne intégrée : étude, tâches partagées, repas communautaires",
+      "Beauté cultivée avec un budget missionnaire — bougies, nappes, fleurs fraîches",
+      "Fondement biblique : Matthieu 25:31–40 — accueillir l'étranger comme accueillir le Christ"
+    ],
+    "labriQuote": "« Je n'ai jamais rencontré quelqu'un avec une telle passion pour Dieu, combinée à une passion pour les gens, combinée à une passion pour la vérité. »",
+    "labriQuoteAuthor": "— Os Guinness, sur Edith Schaeffer",
+    "pullQuotesTitle": "Des Mots à Garder",
+    "pullQuotes": [
+      {"quote": "Si vous avez deux miches de pain, vendez-en une et achetez un lys. Le pain devient quelque chose de différent quand on le mange à une table avec le lys en son centre.", "source": "L'Art caché du foyer"},
+      {"quote": "Votre foyer n'est pas quelque chose pour un futur brumeux — AUJOURD'HUI est votre vie.", "source": "L'Art caché du foyer"},
+      {"quote": "Ce n'est pas du gaspillage d'écrire de la belle prose ou de la poésie pour les yeux d'une seule personne.", "source": "L'Art caché du foyer"},
+      {"quote": "Les gens jettent ce qu'ils pourraient avoir en insistant sur la perfection, qu'ils ne peuvent pas avoir, et en la cherchant là où ils ne la trouveront jamais.", "source": "Edith Schaeffer"}
+    ],
+    "booksTitle": "Ses Livres Essentiels",
+    "books": [
+      {"title": "The Hidden Art of Homemaking", "year": "1971", "desc": "Son œuvre maîtresse. Quatorze chapitres sur la créativité dans la vie domestique — musique, cuisine, décoration, jardinage, écriture — le tout ancré dans la théologie de l'Imago Dei."},
+      {"title": "What Is a Family?", "year": "1975", "desc": "Définit la famille à travers huit métaphores créatives. Couvre l'arc complet de la vie familiale sans esquiver la souffrance, le vieillissement ou la perte."},
+      {"title": "L'Abri", "year": "1969", "desc": "Le récit à la première personne de la fondation de L'Abri — mi-mémoires, mi-théologie de l'hospitalité, entièrement convaincant."}
+    ]
+  },
   "footer": {
     "verse": "« Elle est revêtue de force et de dignité, et elle sourit à l'avenir. Elle ouvre la bouche avec sagesse, et des instructions bienveillantes sont sur sa langue. »",
     "verseRef": "— Proverbes 31:25–26",

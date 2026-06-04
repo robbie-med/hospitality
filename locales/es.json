@@ -418,6 +418,76 @@
       "createdOn": "Creado el"
     }
   },
+  "schaeffer": {
+    "navLabel": "Edith Schaeffer",
+    "sectionLabel": "Una Voz de la Historia",
+    "eyebrow": "Edith Schaeffer · 1914–2013",
+    "title": "El Arte Oculto del Hogar",
+    "intro": "Pocas voces en el siglo veinte hablaron con más profundidad teológica y belleza práctica sobre el hogar que Edith Schaeffer — misionera, escritora, artista, anfitriona y cofundadora de L'Abri Fellowship. Su obra ofrece al llamado de ama de casa una visión rica, fundamentada y bellamente articulada que sigue hablando hoy.",
+    "bioTitle": "¿Quién fue Edith Schaeffer?",
+    "bio": "Nacida en China en 1914 de padres misioneros (su nombre chino, Mei Fuh, significa \"felicidad hermosa\"), Edith se casó con Francis Schaeffer en 1935. Juntos cofundaron L'Abri Fellowship en Suiza en 1955 — una comunidad de hospitalidad radical donde buscadores, escépticos y heridos espiritualmente podían venir con preguntas honestas. Escribió o coescribió más de 20 libros y fue incluida entre las 100 Mujeres Cristianas que Cambiaron el Siglo XX. Su obra principal, El Arte Oculto del Hogar (1971), sigue siendo el tratamiento más teológicamente rico de la creatividad doméstica en la literatura evangélica.",
+    "themes": [
+      {
+        "icon": "✦",
+        "title": "El Primer Artista: La Imago Dei como Fundamento",
+        "body": "Toda la visión de Schaeffer sobre el hogar descansa en una premisa: porque Dios es el primer y supremo Artista — quien creó un mundo de belleza, variedad y diseño — los seres humanos hechos a Su imagen llevan un impulso creativo que debe ser expresado, no suprimido. La creatividad en el hogar no es un lujo. Es una expresión de llevar la imagen divina.",
+        "quote": "Si has tenido miedo de que tu amor por las flores hermosas y la llama parpadeante de una vela sea de alguna manera menos espiritual que vivir en austeridad y fealdad, recuerda que Aquel que te creó para ser creativa te dio las cosas con las cuales hacer belleza.",
+        "quoteSource": "El Arte Oculto del Hogar"
+      },
+      {
+        "icon": "🎨",
+        "title": "El Arte Oculto: La Vida Doméstica como Expresión Artística",
+        "body": "\"Oculto\" es deliberado: son artes escondidas a plena vista, incorporadas en cocinar, decorar, cultivar un jardín, arreglar flores, escribir cartas, poner la mesa. Argumentó que toda persona tiene un talento creativo sin expresar esperando ser desarrollado en su propia esfera — y que el hogar es el lienzo más inmediato disponible.",
+        "quote": "Definiría el 'arte oculto' como el arte que se encuentra en las áreas ordinarias de la vida cotidiana. Cada persona tiene, creo, algún talento sin desarrollar en algún área oculta de su ser — un talento que podría expresarse y desarrollarse.",
+        "quoteSource": "El Arte Oculto del Hogar"
+      },
+      {
+        "icon": "🕯",
+        "title": "Sin División Sagrado/Secular: Toda la Vida ante Dios",
+        "body": "Arraigada en la convicción reformada de que toda la vida se vive coram Deo — ante la faz de Dios — Schaeffer insistía en que no hay división entre la vida espiritual y lo que hacía como esposa y madre. Cocinar una comida, coser cortinas, poner una mesa acogedora — todo podía ser actos de adoración tan genuinos como cualquier oración.",
+        "quote": "No hay ocasión en que las comidas deban volverse completamente sin importancia. Las comidas pueden ser muy pequeñas, muy económicas — pero siempre deben ser más que solo alimento.",
+        "quoteSource": "El Arte Oculto del Hogar"
+      },
+      {
+        "icon": "🏡",
+        "title": "La Apologética de la Belleza: La Hospitalidad como Testimonio",
+        "body": "Schaeffer argumentó que la belleza misma funciona apologéticamente. Un hogar cálido, una mesa hermosa, una comida fragante no solo confortan el cuerpo — hacen que el Cristianismo sea plausible y deseable para el alma que busca. Nancy Pearcey, quien conoció L'Abri siendo una joven agnóstica, describió \"una apologética de la belleza que me hizo querer que el Cristianismo fuera verdad\".",
+        "quote": "Nos preocupamos tanto por vivir como por pensar. Desde el principio, la preocupación ha sido que la verdad se exhibe tanto en la vida cotidiana como se defiende en la discusión.",
+        "quoteSource": "Sobre L'Abri Fellowship"
+      },
+      {
+        "icon": "📖",
+        "title": "¿Qué Es una Familia? — El Hogar como Muchas Cosas a la Vez",
+        "body": "En su libro de 1975, Schaeffer define la familia a través de una serie de metáforas ricas: un museo de recuerdos, un relevo perpetuo de la verdad, un refugio en tiempos de tormenta, una puerta con bisagras y cerradura, un móvil siempre cambiante, un centro de formación para las relaciones humanas, y un lugar de nacimiento de la creatividad.",
+        "quote": "Necesita haber una ama de casa que ejerza alguna medida de habilidad, imaginación, creatividad, deseo de satisfacer necesidades y dar placer a otros en la familia. ¡Qué cosa tan preciosa es la familia humana! ¿No vale algún sacrificio de tiempo, energía, comodidad, trabajo?",
+        "quoteSource": "¿Qué Es una Familia?"
+      }
+    ],
+    "labriTitle": "L'Abri: Un Modelo Vivo de Hospitalidad",
+    "labriBody": "En 1955, los Schaeffer abrieron su chalet en Huémoz, Suiza, a cualquiera que llegara con preguntas honestas. L'Abri — francés para \"el refugio\" — comenzó con tés por la tarde para niñas del vecindario y creció, para 1960, en una comunidad tan notable que la revista Time lo notó. El High Tea dominical de Edith recibía más de 50 visitantes de todo el mundo cada semana. Lo administraba con finanzas basadas en la fe sin presupuesto misional, y como recuerdan quienes estuvieron allí, \"lo hecho en casa y económico no significaba feo\".",
+    "labriPrinciples": [
+      "Sin recaudación de fondos formal — la comunidad funcionaba enteramente con oración",
+      "Huéspedes bienvenidos por una tarde o hasta tres meses",
+      "Vida diaria integrada: estudio, tareas compartidas, comidas comunitarias",
+      "Belleza cultivada con presupuesto misionero — velas, manteles, flores frescas",
+      "Fundamento bíblico: Mateo 25:31–40 — recibir al extraño como recibir a Cristo"
+    ],
+    "labriQuote": "«Nunca he conocido a nadie con tal pasión por Dios, combinada con una pasión por las personas, combinada con una pasión por la verdad.»",
+    "labriQuoteAuthor": "— Os Guinness, sobre Edith Schaeffer",
+    "pullQuotesTitle": "Palabras que Vale la Pena Guardar",
+    "pullQuotes": [
+      {"quote": "Si tienes dos panes, vende uno y compra un lirio. El pan se convierte en algo diferente cuando se come en una mesa con el lirio en el centro.", "source": "El Arte Oculto del Hogar"},
+      {"quote": "Tu hogar no es algo para un futuro nebuloso — HOY es tu vida.", "source": "El Arte Oculto del Hogar"},
+      {"quote": "No es un desperdicio escribir prosa o poesía hermosa solo para los ojos de una persona.", "source": "El Arte Oculto del Hogar"},
+      {"quote": "Las personas desperdician lo que podrían tener insistiendo en la perfección, que no pueden tener, y buscándola donde nunca la encontrarán.", "source": "Edith Schaeffer"}
+    ],
+    "booksTitle": "Sus Libros Principales",
+    "books": [
+      {"title": "The Hidden Art of Homemaking", "year": "1971", "desc": "Su obra maestra. Catorce capítulos sobre la creatividad en la vida doméstica — música, cocina, decoración, jardinería, escritura — todo fundamentado en la teología de la Imago Dei."},
+      {"title": "What Is a Family?", "year": "1975", "desc": "Define la familia a través de ocho metáforas creativas. Abarca el arco completo de la vida familiar sin esquivar el sufrimiento, el envejecimiento o la pérdida."},
+      {"title": "L'Abri", "year": "1969", "desc": "El relato en primera persona de cómo comenzó L'Abri — parte memorias, parte teología de la hospitalidad, enteramente convincente."}
+    ]
+  },
   "footer": {
     "verse": "\"Fuerza y honor son su vestidura; y se ríe de lo por venir. Abre su boca con sabiduría, y la ley de clemencia está en su lengua.\"",
     "verseRef": "— Proverbios 31:25–26",

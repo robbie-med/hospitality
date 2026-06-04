@@ -775,6 +775,147 @@ nav a:hover { color: var(--white); }
   letter-spacing: 0.1em;
 }
 
+/* ── EDITH SCHAEFFER SECTION ────────────────────────── */
+
+.section-schaeffer { background: #2a1c0e; }
+
+.section-schaeffer .section-label,
+.schaeffer-label { color: var(--gold-light); }
+
+.schaeffer-eyebrow {
+  font-size: 0.82rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--warm-tan);
+  margin-bottom: 0.4rem;
+}
+
+.section-schaeffer h2 { color: var(--cream); }
+.section-schaeffer .section-intro { color: var(--warm-tan); }
+
+.schaeffer-bio { max-width: 800px; margin: 0 auto 3rem; }
+
+.schaeffer-bio-inner {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: var(--radius);
+  padding: 2rem 2.25rem;
+}
+
+.schaeffer-bio-inner h3 {
+  color: var(--gold-light);
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.75rem;
+}
+
+.schaeffer-bio-inner p { color: var(--warm-tan); font-size: 0.95rem; line-height: 1.85; }
+
+.schaeffer-themes { display: flex; flex-direction: column; gap: 2rem; margin-bottom: 3.5rem; }
+
+.schaeffer-theme-card {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.10);
+  border-radius: var(--radius);
+  padding: 1.75rem;
+  transition: background 0.2s;
+}
+.schaeffer-theme-card:hover { background: rgba(255,255,255,0.07); }
+
+.st-icon { font-size: 1.6rem; line-height: 1; padding-top: 0.2rem; color: var(--gold-light); }
+.st-body h3 { color: var(--cream); font-size: 1.05rem; margin-bottom: 0.6rem; }
+.st-body > p { color: var(--warm-tan); font-size: 0.93rem; line-height: 1.8; margin-bottom: 1rem; }
+
+.st-quote {
+  border-left: 3px solid var(--gold);
+  padding: 0.85rem 1.1rem;
+  margin: 0;
+  background: rgba(184,134,11,0.08);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+.st-quote p { font-style: italic; color: var(--cream); font-size: 0.92rem; line-height: 1.75; margin-bottom: 0.4rem; }
+.st-quote cite { font-size: 0.75rem; font-style: normal; letter-spacing: 0.08em; color: var(--gold-light); text-transform: uppercase; }
+
+.labri-box { background: var(--brown); border-radius: var(--radius); margin-bottom: 3.5rem; overflow: hidden; }
+
+.labri-inner { display: grid; grid-template-columns: 1fr 300px; }
+
+.labri-text { padding: 2.25rem 2rem 2.25rem 2.25rem; }
+.labri-text h3 { color: var(--warm-tan); font-size: 1.2rem; margin-bottom: 0.85rem; }
+.labri-text > p { color: var(--cream-mid); font-size: 0.93rem; line-height: 1.8; margin-bottom: 1.25rem; }
+
+.labri-principles { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+.labri-principles li { font-size: 0.88rem; color: var(--warm-tan); padding-left: 1.1rem; position: relative; line-height: 1.55; }
+.labri-principles li::before { content: "›"; position: absolute; left: 0; color: var(--gold-light); font-weight: bold; }
+
+.labri-quote-box {
+  background: rgba(0,0,0,0.2);
+  padding: 2.25rem 1.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-left: 1px solid rgba(255,255,255,0.1);
+}
+.labri-pull-quote { font-style: italic; color: var(--cream); font-size: 0.97rem; line-height: 1.8; margin-bottom: 0.85rem; }
+.labri-attribution { font-size: 0.78rem; letter-spacing: 0.06em; color: var(--gold-light); text-transform: uppercase; }
+
+.pull-quotes-section { margin-bottom: 3.5rem; }
+.pull-quotes-title { color: var(--warm-tan); font-size: 1rem; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 1.25rem; text-align: center; }
+
+.pull-quotes-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.25rem; }
+
+.pull-quote-card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.10);
+  border-radius: var(--radius);
+  padding: 1.5rem 1.6rem;
+  transition: background 0.2s;
+}
+.pull-quote-card:hover { background: rgba(255,255,255,0.08); }
+.pq-text { font-style: italic; color: var(--cream); font-size: 0.95rem; line-height: 1.8; margin-bottom: 0.75rem; }
+.pq-source { font-size: 0.75rem; letter-spacing: 0.07em; color: var(--gold-light); text-transform: uppercase; }
+
+.schaeffer-books { max-width: 760px; margin: 0 auto; }
+.books-title { color: var(--warm-tan); font-size: 1rem; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 1.25rem; text-align: center; }
+
+.books-grid { display: flex; flex-direction: column; gap: 1rem; }
+
+.book-card {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.10);
+  border-radius: var(--radius-sm);
+  padding: 1.25rem 1.5rem;
+}
+.book-year {
+  font-size: 0.78rem;
+  font-weight: bold;
+  letter-spacing: 0.06em;
+  color: var(--gold-light);
+  background: rgba(184,134,11,0.15);
+  border: 1px solid rgba(184,134,11,0.3);
+  border-radius: 4px;
+  padding: 0.25rem 0.6rem;
+  white-space: nowrap;
+  margin-top: 0.15rem;
+  flex-shrink: 0;
+}
+.book-info h4 { color: var(--cream); font-size: 0.98rem; font-style: italic; margin-bottom: 0.3rem; }
+.book-info p { color: var(--warm-tan); font-size: 0.88rem; line-height: 1.65; }
+
+@media (max-width: 768px) {
+  .schaeffer-theme-card { grid-template-columns: 1fr; gap: 0.75rem; }
+  .labri-inner { grid-template-columns: 1fr; }
+  .labri-quote-box { border-left: none; border-top: 1px solid rgba(255,255,255,0.1); }
+  .pull-quotes-grid { grid-template-columns: 1fr; }
+}
+
 /* ── PRINT STYLES ───────────────────────────────── */
 
 @media print {

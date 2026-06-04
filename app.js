@@ -20,6 +20,90 @@ const selections = {
   heartChecklist: []
 };
 
+// ── RENDER SCHAEFFER SECTION ─────────────────────────
+
+function renderSchaeffer() {
+  const s = i18n.t('schaeffer');
+  if (!s || typeof s !== 'object') return;
+
+  // Bio
+  const bioEl = document.getElementById('schaefferBio');
+  if (bioEl) {
+    bioEl.innerHTML = `
+      <div class="schaeffer-bio-inner">
+        <h3>${s.bioTitle}</h3>
+        <p>${s.bio}</p>
+      </div>`;
+  }
+
+  // Themes
+  const themesEl = document.getElementById('schaefferThemes');
+  if (themesEl && Array.isArray(s.themes)) {
+    themesEl.innerHTML = s.themes.map(t => `
+      <div class="schaeffer-theme-card">
+        <div class="st-icon">${t.icon}</div>
+        <div class="st-body">
+          <h3>${t.title}</h3>
+          <p>${t.body}</p>
+          <blockquote class="st-quote">
+            <p>${t.quote}</p>
+            <cite>— ${t.quoteSource}</cite>
+          </blockquote>
+        </div>
+      </div>`).join('');
+  }
+
+  // L'Abri box
+  const labriEl = document.getElementById('labriBox');
+  if (labriEl) {
+    const principles = Array.isArray(s.labriPrinciples)
+      ? s.labriPrinciples.map(p => `<li>${p}</li>`).join('') : '';
+    labriEl.innerHTML = `
+      <div class="labri-inner">
+        <div class="labri-text">
+          <h3>${s.labriTitle}</h3>
+          <p>${s.labriBody}</p>
+          <ul class="labri-principles">${principles}</ul>
+        </div>
+        <div class="labri-quote-box">
+          <p class="labri-pull-quote">${s.labriQuote}</p>
+          <p class="labri-attribution">${s.labriQuoteAuthor}</p>
+        </div>
+      </div>`;
+  }
+
+  // Pull quotes
+  const pqEl = document.getElementById('pullQuotes');
+  if (pqEl && Array.isArray(s.pullQuotes)) {
+    pqEl.innerHTML = `
+      <h3 class="pull-quotes-title">${s.pullQuotesTitle}</h3>
+      <div class="pull-quotes-grid">
+        ${s.pullQuotes.map(q => `
+          <div class="pull-quote-card">
+            <p class="pq-text">&ldquo;${q.quote}&rdquo;</p>
+            <p class="pq-source">— ${q.source}</p>
+          </div>`).join('')}
+      </div>`;
+  }
+
+  // Books
+  const booksEl = document.getElementById('schaefferBooks');
+  if (booksEl && Array.isArray(s.books)) {
+    booksEl.innerHTML = `
+      <h3 class="books-title">${s.booksTitle}</h3>
+      <div class="books-grid">
+        ${s.books.map(b => `
+          <div class="book-card">
+            <div class="book-year">${b.year}</div>
+            <div class="book-info">
+              <h4>${b.title}</h4>
+              <p>${b.desc}</p>
+            </div>
+          </div>`).join('')}
+      </div>`;
+  }
+}
+
 // ── RENDER COMPETENCY CARDS ───────────────────────────
 
 function renderCompetencies() {
@@ -378,6 +462,7 @@ window.renderAll = function () {
   renderHeroTitle();
   renderCompetencies();
   renderManifesto();
+  renderSchaeffer();
   renderProgress();
   renderChips();
   renderChecklists();
